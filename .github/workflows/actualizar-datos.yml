@@ -1,0 +1,51 @@
+name: Actualizar ofertas
+
+# Lee el sheet a través del Apps Script y actualiza data/ofertas.json.
+# Requiere una variable de repositorio llamada APPS_SCRIPT_URL
+# (Settings -> Secrets and variables -> Actions -> Variables -> New).
+
+on:
+  schedule:
+    # Cada 30 minutos. GitHub no garantiza el minuto exacto en repos
+    # con poca actividad, pero en la práctica va sobrado para un tablón.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:        # botón para lanzarlo a mano desde la pestaña Actions
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch_datos.py'
+      - '.github/workflows/actualizar-datos.yml'
+
+concurrency:
+  group: actualizar-ofertas
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Descargar ofertas del sheet
+        env:
+          APPS_SCRIPT_URL: ${{ vars.APPS_SCRIPT_URL }}
+        run: python3 scripts/fetch_datos.py
+
+      - name: Publicar cambios
+        run: |
+          if [ -z "$(git status --porcelain data/ofertas.json)" ]; then
+            echo "Sin cambios que commitear."
+            exit 0
+          fi
+          git config user.name  "WIB bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ofertas.json
+          git commit -m "Actualizar ofertas ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          git push

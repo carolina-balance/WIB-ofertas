@@ -1,0 +1,329 @@
+{
+  "generado": "2026-09-09T16:42:23+00:00",
+  "origen": "Ofertas",
+  "total": 18,
+  "ofertas": [
+    {
+      "id": "nhntj3",
+      "empresa": "Santander Graduate Program",
+      "puesto": "",
+      "descripcion": "Estudiantes de último curso y recién graduados que quieran iniciar su carrera profesional en Investment Banking.",
+      "tipo": [
+        "Programa"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.santander.com/es/trabaja-con-nosotros/-Que-impacto-quieres-tener-/santander-future-talent/summer-scib",
+      "alta": ""
+    },
+    {
+      "id": "1bjmczb",
+      "empresa": "Goldman",
+      "puesto": "Hay de todo",
+      "descripcion": "Os dejo el tracker de la empresa para que podáis mirar todas las ofertas que tienen que cierran dentro de nada y hay oportunidades que son una pasada",
+      "tipo": [
+        "Summer"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [],
+      "cierre": "",
+      "link": "https://higher.gs.com/campus?EXPERIENCE_LEVEL=Summer%20Analyst&LOCATION=London|Birmingham&page=1&sort=RELEVANCE",
+      "alta": ""
+    },
+    {
+      "id": "1fgnl0o",
+      "empresa": "Harris Williams",
+      "puesto": "Analista de Verano",
+      "descripcion": "Abrió hace 4 días.",
+      "tipo": [
+        "Summer"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres"
+      ],
+      "cierre": "",
+      "link": "https://pnc.wd5.myworkdayjobs.com/en-US/HarrisWilliams/job/XMLNAME-2027-Summer-Analyst--London_R233025?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
+      "alta": ""
+    },
+    {
+      "id": "rhoaru",
+      "empresa": "Harris Williams",
+      "puesto": "Analista de primer año (Verano)",
+      "descripcion": "Abrió hace 10 días.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres"
+      ],
+      "cierre": "",
+      "link": "",
+      "alta": ""
+    },
+    {
+      "id": "1guwyik",
+      "empresa": "JP Morgan",
+      "puesto": "",
+      "descripcion": "Martes 29 de Septiembre de 15:00 a 19:00 en Madrid. Solo para estudiantes que se gradúen en 2026/2027/2028",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://jpmc.recsolu.com/app/collect/event/9yAM-OrekN8R0A5dbh2ndA",
+      "alta": ""
+    },
+    {
+      "id": "1wyqg37",
+      "empresa": "Boston Scientific",
+      "puesto": "Product Manager Intern, EMEA",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://bostonscientific.eightfold.ai/careers/job/563602811946084?domain=bostonscientific.com",
+      "alta": ""
+    },
+    {
+      "id": "adhrre",
+      "empresa": "Boston Scientific",
+      "puesto": "Data & IA Engineer Intern",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://bostonscientific.eightfold.ai/careers/job/563602813430958?domain=bostonscientific.com",
+      "alta": ""
+    },
+    {
+      "id": "sbeuo2",
+      "empresa": "JP Morgan",
+      "puesto": "Hay de todo",
+      "descripcion": "Os dejo el tracker de la empresa para que podáis mirar todas las ofertas que tienen que cierran dentro de nada y hay oportunidades que son una pasada",
+      "tipo": [
+        "Summer"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [],
+      "cierre": "",
+      "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=summer&location=United+Kingdom&locationId=300000000289276&locationLevel=country&mode=location",
+      "alta": ""
+    },
+    {
+      "id": "r68lo5",
+      "empresa": "BCG",
+      "puesto": "Forward Deployed AI Engineer",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cierre": "",
+      "link": "https://careers.bcg.com/global/en/job/56464/Forward-Deployed-AI-Engineer-Internship-Spain-BCG-X",
+      "alta": ""
+    },
+    {
+      "id": "n8i464",
+      "empresa": "NTT DATA",
+      "puesto": "Consultor Junior",
+      "descripcion": "",
+      "tipo": [
+        "Empleo"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://careers.emeal.nttdata.com/s/offer/a1J2p000009dDyiEAE/consultor-junior?language=es",
+      "alta": ""
+    },
+    {
+      "id": "1upj18z",
+      "empresa": "McKinsey & Company",
+      "puesto": "Business Analyst - Private Capital",
+      "descripcion": "",
+      "tipo": [
+        "Empleo"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-privatecapital-63231",
+      "alta": ""
+    },
+    {
+      "id": "1jnjnfi",
+      "empresa": "PwC",
+      "puesto": "Auditoría Financiera",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría",
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.pwc.com/gx/en/careers/job-results/description.html?wdjobreqid=723886WD&wdcountry=ESP&jobtitle=Assurance+%7C+Becas+Auditor%C3%ADa+Financiera+Madrid+-+Enero+2027&wdjobsite=Global_Campus_Careers&wdjd=simple",
+      "alta": ""
+    },
+    {
+      "id": "swqmg4",
+      "empresa": "Cuatrecasas",
+      "puesto": "Marketing Specialist",
+      "descripcion": "",
+      "tipo": [
+        "Empleo"
+      ],
+      "sector": [
+        "Marketing & Comunicación"
+      ],
+      "ciudad": [
+        "Barcelona"
+      ],
+      "cierre": "",
+      "link": "https://cuatrecasas.csod.com/ux/ats/careersite/4/home/requisition/1718?c=cuatrecasas&country=es&state=barcelona_madrid",
+      "alta": ""
+    },
+    {
+      "id": "1k2euh7",
+      "empresa": "PwC",
+      "puesto": "Becas Auditoría Tecnológica Madrid",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.pwc.com/gx/en/careers/job-results/description.html?wdjobreqid=737799WD&wdcountry=ESP&jobtitle=Programa+de+becas+Auditoria+IT+Madrid++%28FY27%29&wdjobsite=Global_Campus_Careers&wdjd=simple",
+      "alta": ""
+    },
+    {
+      "id": "13xut8",
+      "empresa": "Cuatrecasas",
+      "puesto": "Prácticas IT: Innovación",
+      "descripcion": "",
+      "tipo": [
+        "Empleo"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Barcelona"
+      ],
+      "cierre": "",
+      "link": "https://cuatrecasas.csod.com/ux/ats/careersite/4/home/requisition/1675?c=cuatrecasas&country=es&state=barcelona_madrid",
+      "alta": ""
+    },
+    {
+      "id": "1ub8e3j",
+      "empresa": "Garrigues",
+      "puesto": "Consultor/a Senior",
+      "descripcion": "",
+      "tipo": [
+        "Empleo"
+      ],
+      "sector": [
+        "Consultoría",
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://garrigues.wd103.myworkdayjobs.com/es/Garrigues_Talento/details/Consultor-a-Senior---Energa-Elica_JR001110",
+      "alta": ""
+    },
+    {
+      "id": "lyfozo",
+      "empresa": "Balance Phone",
+      "puesto": "Junior o/y Intern. Departamento de Customer Care",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas",
+        "Empleo"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Barcelona"
+      ],
+      "cierre": "",
+      "link": "https://balancephone-careers.notion.site/Customer-Care-Intern-Junior-3ca029fe70d5806892fccdc85f55103c",
+      "alta": ""
+    },
+    {
+      "id": "1lz2mad",
+      "empresa": "McKinsey & Company",
+      "puesto": "McKinsey Forward",
+      "descripcion": "",
+      "tipo": [
+        "Programa"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [],
+      "cierre": "",
+      "link": "",
+      "alta": ""
+    }
+  ]
+}

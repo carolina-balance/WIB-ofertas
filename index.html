@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ofertas · Women in Business Spain</title>
+<meta name="description" content="Prácticas, summers, programas y primeros empleos curados por Women in Business Spain. Filtra por sector y ciudad, guarda tus favoritas y sigue tus candidaturas.">
+<meta name="theme-color" content="#0f1a3c">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ofertas · Women in Business Spain">
+<meta property="og:description" content="Prácticas, summers, programas y primeros empleos curados por Women in Business Spain.">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1a3c'/%3E%3Ctext x='32' y='43' font-family='Helvetica,Arial,sans-serif' font-size='27' font-weight='bold' fill='%23e4587a' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="saltar" href="#resultados">Saltar al listado de ofertas</a>
+
+<header class="cabecera">
+  <div class="wrap">
+    <a class="marca" href="./">
+      <span class="marca-sello">WIB</span>
+      <span class="marca-txt">
+        <b>Women in Business</b>
+        <span>Tablón de ofertas</span>
+      </span>
+    </a>
+    <div class="acciones-cab">
+      <button class="btn-cab icono" id="btnTema" type="button" aria-label="Cambiar entre modo claro y oscuro" title="Cambiar tema">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" id="iconoTema"></svg>
+      </button>
+      <a class="btn-cab" id="enlaceSugerir" href="#" target="_blank" rel="noopener">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        Enviar oferta
+      </a>
+      <a class="btn-cab acento" id="enlaceComunidad" href="#" target="_blank" rel="noopener">Únete a WIB</a>
+    </div>
+  </div>
+</header>
+
+<section class="portada">
+  <div class="wrap">
+    <p class="portada-eyebrow">Women in Business Spain</p>
+    <h1>Las oportunidades que <em>de verdad abren puertas</em></h1>
+    <p class="portada-sub">
+      Prácticas, summers, programas y primeros empleos, revisados uno a uno por la comunidad.
+      Filtra por sector y ciudad, guarda las que te interesen y sigue el estado de tus candidaturas.
+    </p>
+    <div class="cifras" id="cifras" aria-live="polite"></div>
+  </div>
+</section>
+
+<div class="wrap">
+  <section class="destacadas" id="destacadas" hidden>
+    <div class="seccion-cab">
+      <div>
+        <h2>Destacadas de hoy</h2>
+        <p class="pista">Una selección que rota cada día, para que no siempre se lleven los clics las mismas.</p>
+      </div>
+      <button class="btn-barajar" id="btnBarajar" type="button">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3h5v5"/><path d="M4 20 21 3"/><path d="M21 16v5h-5"/><path d="m15 15 6 6"/><path d="M4 4l5 5"/></svg>
+        Barajar
+      </button>
+    </div>
+    <div class="rejilla-destacadas" id="rejillaDestacadas"></div>
+  </section>
+</div>
+
+<div class="barra">
+  <div class="wrap barra-fila">
+    <div class="buscador">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label class="oculto-visual" for="busqueda">Buscar ofertas</label>
+      <input id="busqueda" type="search" placeholder="Buscar empresa, puesto o ciudad" autocomplete="off">
+    </div>
+
+    <details class="filtro" data-campo="tipo">
+      <summary>Tipo <span class="cuenta" hidden></span>
+        <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </summary>
+      <div class="panel"></div>
+    </details>
+
+    <details class="filtro" data-campo="sector">
+      <summary>Sector <span class="cuenta" hidden></span>
+        <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </summary>
+      <div class="panel"></div>
+    </details>
+
+    <details class="filtro" data-campo="ciudad">
+      <summary>Ciudad <span class="cuenta" hidden></span>
+        <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </summary>
+      <div class="panel"></div>
+    </details>
+
+    <label class="conmutador" id="conmFavoritas" data-activo="no">
+      <input type="checkbox" id="soloFavoritas">
+      Solo favoritas
+    </label>
+
+    <label class="oculto-visual" for="orden">Ordenar por</label>
+    <select class="selector-orden" id="orden">
+      <option value="recomendado">Recomendado</option>
+      <option value="nuevas">Más recientes</option>
+      <option value="cierre">Cierra antes</option>
+      <option value="empresa">Empresa (A-Z)</option>
+    </select>
+  </div>
+</div>
+
+<main class="wrap" id="resultados">
+  <div class="meta-resultados">
+    <span class="recuento" id="recuento">Cargando ofertas…</span>
+    <div class="pildoras-activas" id="pildorasActivas"></div>
+    <button class="btn-limpiar" id="btnLimpiar" hidden type="button">Quitar todos los filtros</button>
+  </div>
+
+  <div class="esqueleto" id="esqueleto">
+    <div class="esqueleto-fila"></div>
+    <div class="esqueleto-fila"></div>
+    <div class="esqueleto-fila"></div>
+  </div>
+
+  <ul class="lista" id="lista" hidden></ul>
+  <div id="zonaVacia"></div>
+</main>
+
+<footer class="pie">
+  <div class="wrap">
+    <div>
+      <b>Women in Business Spain</b>
+      Talento femenino que liderará el mañana.
+      <p class="frescura" id="frescura"></p>
+    </div>
+    <div class="pie-enlaces">
+      <a href="https://www.linkedin.com/company/women-in-business-spain/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/womaninbusiness_spain/" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" id="enlaceSugerirPie" target="_blank" rel="noopener">Enviar una oferta</a>
+    </div>
+  </div>
+</footer>
+
+<div class="brindis" id="brindis" role="status" aria-live="polite"></div>
+
+<script src="assets/config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
