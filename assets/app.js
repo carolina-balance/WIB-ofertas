@@ -874,16 +874,38 @@
     });
   }
 
+  /* Un enlace sin URL en config.js se retira de la página. Preferimos que
+     falte un botón antes que dejar uno que no lleva a ninguna parte. */
   function conectarEnlacesConfig() {
-    ['#enlaceSugerir', '#enlaceSugerirPie'].forEach(function (sel) {
-      var a = $(sel);
-      if (a && CFG.URL_SUGERIR) {
-        a.href = CFG.URL_SUGERIR;
-        if (CFG.URL_SUGERIR.indexOf('mailto:') === 0) a.removeAttribute('target');
+    var sugerir = $('#enlaceSugerir');
+    if (sugerir) {
+      if (CFG.URL_SUGERIR) {
+        sugerir.href = CFG.URL_SUGERIR;
+        if (CFG.URL_SUGERIR.indexOf('mailto:') === 0) sugerir.removeAttribute('target');
+      } else {
+        sugerir.hidden = true;
       }
-    });
-    var com = $('#enlaceComunidad');
-    if (com && CFG.URL_COMUNIDAD) com.href = CFG.URL_COMUNIDAD;
+    }
+
+    var comunidad = $('#enlaceComunidad');
+    if (comunidad) {
+      if (CFG.URL_COMUNIDAD) comunidad.href = CFG.URL_COMUNIDAD;
+      else comunidad.hidden = true;
+    }
+
+    var pie = $('#pieEnlaces');
+    if (pie) {
+      pie.innerHTML = [
+        ['LinkedIn', CFG.URL_LINKEDIN],
+        ['Instagram', CFG.URL_INSTAGRAM],
+        ['Enviar una oferta', CFG.URL_SUGERIR]
+      ].filter(function (par) {
+        return par[1];
+      }).map(function (par) {
+        var fuera = par[1].indexOf('mailto:') === 0 ? '' : ' target="_blank" rel="noopener"';
+        return '<a href="' + esc(par[1]) + '"' + fuera + '>' + esc(par[0]) + '</a>';
+      }).join('');
+    }
   }
 
   /* ---------- Arranque ---------- */

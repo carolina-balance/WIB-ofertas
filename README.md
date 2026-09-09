@@ -4,7 +4,7 @@ Web pública de oportunidades para la comunidad, alimentada desde un Google Shee
 Prácticas, summers, programas, becas y primeros empleos, filtrables por tipo,
 sector y ciudad.
 
-**URL (una vez desplegada):** `https://TU-USUARIO.github.io/wib-ofertas/`
+**URL (una vez desplegada):** `https://carolina-balance.github.io/wib-ofertas/`
 
 ---
 
@@ -79,14 +79,14 @@ URL_COMUNIDAD:   'https://...',             // dónde se apunta la gente a WIB
 
 ```bash
 cd ~/wib-ofertas
-git remote add origin https://github.com/TU-USUARIO/wib-ofertas.git
+git remote add origin https://github.com/carolina-balance/wib-ofertas.git
 git push -u origin main
 ```
 
 ### 4. Activar GitHub Pages
 
 **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**.
-En un minuto la web está en `https://TU-USUARIO.github.io/wib-ofertas/`.
+En un minuto la web está en `https://carolina-balance.github.io/wib-ofertas/`.
 
 ### 5. Activar la actualización automática
 

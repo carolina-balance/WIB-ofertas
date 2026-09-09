@@ -78,6 +78,11 @@
 
 * { box-sizing: border-box; }
 
+/* Varias clases de aquí abajo fijan display (grid, inline-flex...) y eso
+   pisaría la regla del navegador para [hidden]. Sin este !important el
+   esqueleto de carga no se ocultaría nunca. */
+[hidden] { display: none !important; }
+
 html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
