@@ -1,13 +1,13 @@
 {
-  "generado": "2026-09-10T15:12:44+00:00",
+  "generado": "2026-09-10T16:14:25+00:00",
   "origen": "Ofertas",
-  "total": 24,
+  "total": 31,
   "ofertas": [
     {
       "id": "nhntj3",
       "empresa": "Santander Graduate Program",
       "puesto": "",
-      "descripcion": "Estudiantes de último curso y recién graduados que quieran iniciar su carrera profesional en Investment Banking.",
+      "descripcion": "",
       "tipo": [
         "Programa"
       ],
@@ -25,7 +25,7 @@
       "id": "1bjmczb",
       "empresa": "Goldman",
       "puesto": "Hay de todo",
-      "descripcion": "Os dejo el tracker de la empresa para que podáis mirar todas las ofertas que tienen que cierran dentro de nada y hay oportunidades que son una pasada",
+      "descripcion": "",
       "tipo": [
         "Summer"
       ],
@@ -41,7 +41,7 @@
       "id": "1fgnl0o",
       "empresa": "Harris Williams",
       "puesto": "Analista de Verano",
-      "descripcion": "Abrió hace 4 días.",
+      "descripcion": "",
       "tipo": [
         "Summer"
       ],
@@ -59,7 +59,7 @@
       "id": "rhoaru",
       "empresa": "Harris Williams",
       "puesto": "Analista de primer año (Verano)",
-      "descripcion": "Abrió hace 10 días.",
+      "descripcion": "",
       "tipo": [
         "Prácticas"
       ],
@@ -77,7 +77,7 @@
       "id": "1guwyik",
       "empresa": "JP Morgan",
       "puesto": "",
-      "descripcion": "Martes 29 de Septiembre de 15:00 a 19:00 en Madrid. Solo para estudiantes que se graduen en 2026/2027/2028",
+      "descripcion": "",
       "tipo": [
         "Evento"
       ],
@@ -131,7 +131,7 @@
       "id": "sbeuo2",
       "empresa": "JP Morgan",
       "puesto": "Hay de todo",
-      "descripcion": "Os dejo el tracker de la empresa para que podáis mirar todas las ofertas que tienen que cierran dentro de nada y hay oportunidades que son una pasada",
+      "descripcion": "",
       "tipo": [
         "Summer"
       ],
@@ -341,7 +341,8 @@
         "Espana"
       ],
       "cierre": "",
-      "link": "https://www.seedrocket.com/eventos/36-campus-de-emprendedores/"
+      "link": "https://www.seedrocket.com/eventos/36-campus-de-emprendedores/",
+      "alta": "2026-09-10"
     },
     {
       "id": "viyb85",
@@ -431,6 +432,133 @@
       ],
       "cierre": "",
       "link": "https://www.deloitte.com/es/es/careers/explore-your-fit/students/proceso-analistas-monitor-deloitte.html",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1n0ls5q",
+      "empresa": "Google DeepMind",
+      "puesto": "Student Researcher, BS/MS - Fall 2026",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/132362676918461126-student-researcher-bsms-fall-2026",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "13gri4u",
+      "empresa": "IBM",
+      "puesto": "Software Developer Intern 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://careers.ibm.com/en_US/careers/JobDetail/Software-Developer-Intern-2027/128497",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "dnfq8o",
+      "empresa": "IBM",
+      "puesto": "Data Engineer Intern 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://careers.ibm.com/en_US/careers/JobDetail/Data-Engineer-Intern-2027/128639",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1c7m87r",
+      "empresa": "IBM",
+      "puesto": "AI Foundations - Software Engineer - Research Internship 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Software-Engineer-Research-Internship-2027/131307",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1297m8k",
+      "empresa": "IBM",
+      "puesto": "AI Foundations - Research Scientist - Research Internship 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Research-Scientist-Research-Internship-2027/131827",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1w94gtf",
+      "empresa": "IBM",
+      "puesto": "12-month Placement - Back-End Developer, starting July 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Reino Unido (Europa)"
+      ],
+      "cierre": "",
+      "link": "https://careers.ibm.com/en_US/careers/JobDetail/12-months-Placement-Back-End-Developer-Internship-starting-July-2027/126993",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1ym548e",
+      "empresa": "Microsoft",
+      "puesto": "Imagine Cup 2027 (Student Startup Competition)",
+      "descripcion": "",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Global",
+        "Online"
+      ],
+      "cierre": "",
+      "link": "https://imaginecup.microsoft.com/en-us/category/34",
       "alta": "2026-09-10"
     }
   ]
