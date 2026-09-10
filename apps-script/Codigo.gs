@@ -44,7 +44,7 @@ var TIPOS = [
   ['Summer',    ['summer', 'verano']],
   ['Prácticas', ['practica', 'internship', 'intern', 'trainee', 'becari']],
   ['Beca',      ['beca', 'scholarship']],
-  ['Programa',  ['programa', 'program', 'programme']],
+  ['Programa',  ['programa', 'program', 'programme', 'acelerac', 'scale-up', 'scaleup', 'incubad', 'mentoria']],
   ['Evento',    ['evento', 'event', 'networking', 'charla', 'webinar']],
   ['Empleo',    ['oferta', 'empleo', 'job', 'full time', 'fulltime', 'graduate', 'junior', 'contrato', 'vacante']]
 ];

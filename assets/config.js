@@ -14,7 +14,7 @@ window.WIB_CONFIG = {
         -> Aplicación web -> "Cualquier usuario". Termina en /exec
         Mientras esté vacío, la web funciona igual pero solo con los
         datos del último commit (data/ofertas.json). */
-  APPS_SCRIPT_URL: '',
+  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbzHPN1uSO_QVVXKFvzbC9_kx01_9mvn0thntN4Sf_-_lpwJCqqUg01jXygahvyfS87ZKQ/exec',
 
   /* 2. Dónde manda la gente una oferta nueva.
         Un Google Form es lo más cómodo; también vale 'mailto:...'.

@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-09T16:42:23+00:00",
+  "generado": "2026-09-10T15:12:44+00:00",
   "origen": "Ofertas",
-  "total": 18,
+  "total": 24,
   "ofertas": [
     {
       "id": "nhntj3",
@@ -77,7 +77,7 @@
       "id": "1guwyik",
       "empresa": "JP Morgan",
       "puesto": "",
-      "descripcion": "Martes 29 de Septiembre de 15:00 a 19:00 en Madrid. Solo para estudiantes que se gradúen en 2026/2027/2028",
+      "descripcion": "Martes 29 de Septiembre de 15:00 a 19:00 en Madrid. Solo para estudiantes que se graduen en 2026/2027/2028",
       "tipo": [
         "Evento"
       ],
@@ -272,7 +272,7 @@
       "alta": ""
     },
     {
-      "id": "1ub8e3j",
+      "id": "13ynsah",
       "empresa": "Garrigues",
       "puesto": "Consultor/a Senior",
       "descripcion": "",
@@ -287,7 +287,7 @@
         "Madrid"
       ],
       "cierre": "",
-      "link": "https://garrigues.wd103.myworkdayjobs.com/es/Garrigues_Talento/details/Consultor-a-Senior---Energa-Elica_JR001110",
+      "link": "https://garrigues.wd103.myworkdayjobs.com/es/Garrigues_Talento/details/Consultor-a-Senior---Energa-Elica_JR001110?jobCategory=1a461d975d4f1002e7af126a45fb0000&jobCategory=1a461d975d4f1002e7af14d0bee20000&jobCategory=1a461d975d4f1002e7af143725fa0000",
       "alta": ""
     },
     {
@@ -324,6 +324,115 @@
       "cierre": "",
       "link": "",
       "alta": ""
+    },
+    {
+      "id": "1e35smp",
+      "empresa": "SeedRocket",
+      "puesto": "36o Campus de Emprendedores",
+      "descripcion": "",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://www.seedrocket.com/eventos/36-campus-de-emprendedores/",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "viyb85",
+      "empresa": "Wayra / Telefonica",
+      "puesto": "Scaleup Spain Network - 7a edicion",
+      "descripcion": "",
+      "tipo": [
+        "Aceleracion"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://scaleupspain.es",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "i5js9s",
+      "empresa": "Endeavor",
+      "puesto": "Aplicacion a la red Endeavor Espana",
+      "descripcion": "",
+      "tipo": [
+        "Red de mentoria/scale-up"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://spain.endeavor.org/emprendedores/quiero-ser-emprendedor-endeavor/",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "jiuao5",
+      "empresa": "Accenture",
+      "puesto": "DIXCOVER - Programa de Practicas Universitarias",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://www.accenture.com/us-en/careers/jobdetails?id=R00283720_es",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1hfr805",
+      "empresa": "Deloitte",
+      "puesto": "Glow Up - Programa de Practicas",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://www.deloitte.com/es/es/careers/programa-de-practicas-glow-up.html",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1r3i5ks",
+      "empresa": "Deloitte",
+      "puesto": "Strategos - Monitor Deloitte (estrategia)",
+      "descripcion": "",
+      "tipo": [
+        "Programa"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.deloitte.com/es/es/careers/explore-your-fit/students/proceso-analistas-monitor-deloitte.html",
+      "alta": "2026-09-10"
     }
   ]
 }
