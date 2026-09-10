@@ -489,17 +489,35 @@
       if (esUrgente(o)) marcas.push('<span class="etq etq-urgente">Cierra en ' + diasParaCierre(o) + ' d</span>');
       var lugar = (o.ciudad || []).join(' · ') || 'Sin ubicación fija';
       return '<a class="destacada" href="' + esc(o.link) + '" target="_blank" rel="noopener" data-destacada="' + esc(o.id) + '">' +
-        '<span class="d-empresa">' + esc(o.empresa) + '</span>' +
+        '<span class="d-empresa">' +
+          ((o.tipo || []).length ? '<b>' + esc((o.tipo || []).join(' / ')) + '</b> ' : '') +
+          esc(o.empresa) + '</span>' +
         '<span class="d-puesto">' + esc(titulo(o)) + '</span>' +
         '<span class="d-meta">' + marcas.join('') + '<span>' + esc(lugar) + '</span></span>' +
         '</a>';
     }).join('');
   }
 
+  /**
+   * Titular de la tarjeta. Si el Sheet no trae Puesto, tiramos de la
+   * descripción: "Martes 29 de Septiembre de 15:00 a 19:00 en Madrid"
+   * informa mucho más que un "Evento de la empresa" genérico.
+   */
   function titulo(oferta) {
     if (oferta.puesto) return oferta.puesto;
-    if ((oferta.tipo || []).indexOf('Evento') >= 0) return 'Evento de la empresa';
+    if (oferta.descripcion) {
+      var texto = oferta.descripcion.trim();
+      if (texto.length <= 78) return texto;
+      var corte = texto.slice(0, 78);
+      var espacio = corte.lastIndexOf(' ');
+      return (espacio > 40 ? corte.slice(0, espacio) : corte).replace(/[.,;:]$/, '') + '…';
+    }
     return 'Varias posiciones abiertas';
+  }
+
+  /** Si la descripción ya se usó de titular, no la repetimos debajo. */
+  function descripcionAparte(oferta) {
+    return oferta.puesto ? oferta.descripcion : '';
   }
 
   function pintarPildoras() {
@@ -553,6 +571,19 @@
     elLista.innerHTML = visibles.map(tarjeta).join('');
   }
 
+  /**
+   * Línea superior de la tarjeta: "PRÁCTICAS / SANTANDER".
+   * El tipo va primero y en color: es lo que se escanea de un vistazo
+   * cuando bajas por el tablón buscando un evento o unas prácticas.
+   */
+  function kicker(o) {
+    var tipos = (o.tipo || []).join(' / ');
+    return '<p class="tarjeta-kicker">' +
+      (tipos ? '<span class="k-tipo">' + esc(tipos) + '</span>' : '') +
+      '<span class="k-empresa">' + esc(o.empresa || 'Sin empresa') + '</span>' +
+      '</p>';
+  }
+
   function tarjeta(o) {
     var esFav = favoritas.has(o.id);
     var estadoSeg = seguimiento[o.id] || '';
@@ -567,9 +598,6 @@
     } else if (estaCerrada(o)) {
       marcas.push('<span class="etq etq-tipo">Cerrada</span>');
     }
-    (o.tipo || []).forEach(function (t) {
-      marcas.push('<span class="etq etq-tipo">' + esc(t) + '</span>');
-    });
     (o.sector || []).forEach(function (s) {
       marcas.push('<span class="etq etq-sector">' + esc(s) + '</span>');
     });
@@ -591,9 +619,9 @@
         (mono.length > 2 ? ';font-size:12px' : '') + '" aria-hidden="true">' + esc(mono) + '</span>' +
 
       '<div class="tarjeta-cuerpo">' +
-        '<p class="tarjeta-empresa">' + esc(o.empresa || 'Sin empresa') + '</p>' +
+        kicker(o) +
         '<h3 class="tarjeta-puesto">' + esc(titulo(o)) + '</h3>' +
-        (o.descripcion ? '<p class="tarjeta-desc">' + esc(o.descripcion) + '</p>' : '') +
+        (descripcionAparte(o) ? '<p class="tarjeta-desc">' + esc(descripcionAparte(o)) + '</p>' : '') +
         '<div class="etiquetas">' + marcas.join('') + '</div>' +
       '</div>' +
 

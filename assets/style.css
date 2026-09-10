@@ -46,7 +46,16 @@
   --anillo: 0 0 0 3px rgba(228, 88, 122, .35);
 
   --ancho: 1180px;
-  --fuente: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Tipografía. Instrument Sans para interfaz, Instrument Serif para los
+     titulares: el serif da el aire institucional y evita el look de
+     "plantilla" que arrastra Inter por estar en todas partes.
+     Para cambiarlas, toca estas dos líneas y el <link> de index.html.
+     Alternativas que funcionan con este azul y este rosa:
+       · Fraunces (display) + Public Sans (interfaz)  -> más cálido
+       · Source Serif 4 + IBM Plex Sans               -> más consultoría */
+  --fuente: 'Instrument Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --fuente-display: 'Instrument Serif', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
 }
 
 :root[data-tema="oscuro"] {
@@ -174,7 +183,14 @@ button { cursor: pointer; }
   color: var(--pink-400); font-size: 11.5px; font-weight: 700;
   letter-spacing: .14em; text-transform: uppercase; margin-bottom: 14px;
 }
-.portada h1 { font-size: clamp(28px, 5vw, 46px); max-width: 17ch; font-weight: 800; }
+.portada h1 {
+  font-family: var(--fuente-display);
+  font-weight: 400;                 /* Instrument Serif no tiene negrita */
+  font-size: clamp(31px, 5.4vw, 54px);
+  max-width: 21ch;
+  line-height: 1.06;
+  letter-spacing: -.005em;
+}
 .portada h1 em { font-style: normal; color: var(--pink-400); }
 .portada-sub {
   margin-top: 14px; max-width: 56ch;
@@ -199,7 +215,7 @@ button { cursor: pointer; }
   display: flex; align-items: baseline; justify-content: space-between;
   gap: 14px; flex-wrap: wrap; margin-bottom: 15px;
 }
-.seccion-cab h2 { font-size: 18px; }
+.seccion-cab h2 { font-family: var(--fuente-display); font-weight: 400; font-size: 24px; letter-spacing: 0; }
 .seccion-cab .pista { color: var(--ink-3); font-size: 13px; margin-top: 3px; }
 
 .btn-barajar {
@@ -230,8 +246,10 @@ button { cursor: pointer; }
   background: linear-gradient(180deg, var(--pink-500), var(--pink-400));
 }
 .destacada:hover { transform: translateY(-3px); box-shadow: var(--sombra-alta); border-color: var(--pink-100); }
-.destacada .d-empresa { font-size: 12px; font-weight: 700; color: var(--pink-600); text-transform: uppercase; letter-spacing: .06em; }
-.destacada .d-puesto { font-size: 16.5px; font-weight: 700; color: var(--ink); letter-spacing: -.015em; }
+.destacada .d-empresa { font-size: 11.5px; font-weight: 700; color: var(--ink-3); text-transform: uppercase; letter-spacing: .07em; }
+.destacada .d-empresa b { color: var(--pink-600); font-weight: 700; }
+.destacada .d-empresa b::after { content: ' /'; color: var(--line-fuerte); }
+.destacada .d-puesto { font-size: 19px; font-weight: 400; font-family: var(--fuente-display); color: var(--ink); line-height: 1.22; }
 .destacada .d-meta { font-size: 13px; color: var(--ink-3); margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 
 /* ---------- 6. Barra de filtros ---------- */
@@ -367,10 +385,15 @@ button { cursor: pointer; }
 
 .tarjeta-cuerpo { min-width: 0; }
 
-.tarjeta-empresa {
-  font-size: 12px; font-weight: 700; color: var(--ink-3);
-  text-transform: uppercase; letter-spacing: .06em;
+/* "PRÁCTICAS / SANTANDER": el tipo delante y en color, que es lo que
+   se escanea al bajar por el tablón. */
+.tarjeta-kicker {
+  font-size: 11.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .07em;
 }
+.k-tipo { color: var(--pink-600); }
+.k-tipo::after { content: ' / '; color: var(--line-fuerte); font-weight: 600; }
+.k-empresa { color: var(--ink-3); }
 .tarjeta-puesto {
   font-size: 16.5px; font-weight: 700; color: var(--ink);
   letter-spacing: -.015em; margin-top: 2px;
