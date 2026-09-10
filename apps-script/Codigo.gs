@@ -286,9 +286,39 @@ function hash(texto) {
   return (h >>> 0).toString(36);
 }
 
-/** Ejecuta esto una vez desde el editor para comprobar que lee bien. */
+/**
+ * Ejecuta esto una vez desde el editor para comprobar que lee bien.
+ * Antes de darle a Ejecutar, comprueba que el desplegable de arriba
+ * dice "probar" y no "doGet": doGet se ejecuta en silencio y parece
+ * que no ha pasado nada.
+ *
+ * Usa console.log en vez de Logger.log porque es el que sale siempre
+ * en el Registro de ejecución del editor nuevo.
+ */
 function probar() {
   var datos = leerHoja();
-  Logger.log('Ofertas leídas: ' + datos.total);
-  Logger.log(JSON.stringify(datos.ofertas.slice(0, 3), null, 2));
+
+  console.log('===================================');
+  console.log('PESTAÑA LEÍDA:  ' + datos.hoja);
+  console.log('OFERTAS LEÍDAS: ' + datos.total);
+  console.log('===================================');
+
+  datos.ofertas.slice(0, 5).forEach(function (o, i) {
+    console.log(
+      (i + 1) + '. ' + o.empresa + ' — ' + (o.puesto || '(sin puesto)') +
+      '\n     tipo: [' + o.tipo.join(', ') + ']  sector: [' + o.sector.join(', ') + ']' +
+      '\n     ciudad: [' + o.ciudad.join(', ') + ']  enlace: ' + (o.link ? 'sí' : 'NO')
+    );
+  });
+
+  // Si no hay ofertas, mejor un error rojo bien visible que un log vacío
+  // que se puede confundir con "ha ido bien".
+  if (!datos.total) {
+    throw new Error(
+      'He leído la pestaña "' + datos.hoja + '" pero no he encontrado ninguna oferta. ' +
+      'Revisa que la constante HOJA apunte a la pestaña correcta y que haya una fila ' +
+      'de cabeceras que contenga "Empresa" y "Puesto".'
+    );
+  }
+  return datos.total;
 }
