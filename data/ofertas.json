@@ -1,15 +1,15 @@
 {
-  "generado": "2026-09-10T16:14:25+00:00",
+  "generado": "2026-09-11T10:14:25+00:00",
   "origen": "Ofertas",
-  "total": 31,
+  "total": 75,
   "ofertas": [
     {
-      "id": "nhntj3",
-      "empresa": "Santander Graduate Program",
+      "id": "1gme477",
+      "empresa": "Engel&Völkers",
       "puesto": "",
       "descripcion": "",
       "tipo": [
-        "Programa"
+        "Evento"
       ],
       "sector": [
         "Finanzas"
@@ -18,42 +18,8 @@
         "Madrid"
       ],
       "cierre": "",
-      "link": "https://www.santander.com/es/trabaja-con-nosotros/-Que-impacto-quieres-tener-/santander-future-talent/summer-scib",
-      "alta": ""
-    },
-    {
-      "id": "1bjmczb",
-      "empresa": "Goldman",
-      "puesto": "Hay de todo",
-      "descripcion": "",
-      "tipo": [
-        "Summer"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [],
-      "cierre": "",
-      "link": "https://higher.gs.com/campus?EXPERIENCE_LEVEL=Summer%20Analyst&LOCATION=London|Birmingham&page=1&sort=RELEVANCE",
-      "alta": ""
-    },
-    {
-      "id": "1fgnl0o",
-      "empresa": "Harris Williams",
-      "puesto": "Analista de Verano",
-      "descripcion": "",
-      "tipo": [
-        "Summer"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Londres"
-      ],
-      "cierre": "",
-      "link": "https://pnc.wd5.myworkdayjobs.com/en-US/HarrisWilliams/job/XMLNAME-2027-Summer-Analyst--London_R233025?utm_source=Trackr&utm_medium=tracker&utm_campaign=UK_Finance_2027&source=Trackr",
-      "alta": ""
+      "link": "https://sites.leadconnectorhq.com/preview/Y8jK1WKYEhJ0TlmkgOWS?notrack=true&fbclid=PAdGRleAUQr25wZG9mAmZkaWQWUOOWJ9HmQNfRa_0KVvX5-V4Yn_NXuGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1Ns3SHU4GDVsCBhiV5dFHqGUfHnhar9I6_TI06lgRSFykXuaPR4yDtXOC0m_aem_pA34hyHH7V4ZGPyEW3U4GA",
+      "alta": "2026-09-11"
     },
     {
       "id": "rhoaru",
@@ -125,22 +91,6 @@
       ],
       "cierre": "",
       "link": "https://bostonscientific.eightfold.ai/careers/job/563602813430958?domain=bostonscientific.com",
-      "alta": ""
-    },
-    {
-      "id": "sbeuo2",
-      "empresa": "JP Morgan",
-      "puesto": "Hay de todo",
-      "descripcion": "",
-      "tipo": [
-        "Summer"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [],
-      "cierre": "",
-      "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=summer&location=United+Kingdom&locationId=300000000289276&locationLevel=country&mode=location",
       "alta": ""
     },
     {
@@ -326,6 +276,976 @@
       "alta": ""
     },
     {
+      "id": "1lv4l5o",
+      "empresa": "Bank of America",
+      "puesto": "Investment Banking 2027 Off-Cycle Analyst - Madrid",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "2026-10-11",
+      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14663/investment-banking-2027-off-cycle-analyst-madrid-madrid-spain",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "9gpj0f",
+      "empresa": "Bank of America",
+      "puesto": "Strategy & Management Summer Analyst Program 2027",
+      "descripcion": "",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Charlotte",
+        "Boston",
+        "NY (referencia global)"
+      ],
+      "cierre": "2026-09-30",
+      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14443/strategy-and-management-summer-analyst-program-2027-multiple-locations",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1gfhf2g",
+      "empresa": "Barclays",
+      "puesto": "Banking Off Cycle Internship Programme 2027 - Madrid",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://search.jobs.barclays/job/madrid/banking-off-cycle-internship-programme-2027-madrid/13015/99719474864",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "2zju0b",
+      "empresa": "BlackRock",
+      "puesto": "2027 Summer Internship Program - EMEA",
+      "descripcion": "",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Amsterdam",
+        "Frankfurt",
+        "Paris",
+        "Zurich",
+        "Milan",
+        "Estocolmo",
+        "Bruselas",
+        "Belgrado",
+        "Budapest",
+        "Riad",
+        "Edimburgo",
+        "Copenhague (no Madrid)"
+      ],
+      "cierre": "",
+      "link": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "bx0se8",
+      "empresa": "BlackRock",
+      "puesto": "2027 Off-Cycle Internship Program - EMEA",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Paris",
+        "Munich",
+        "Frankfurt",
+        "Zurich",
+        "Londres (no Madrid)"
+      ],
+      "cierre": "",
+      "link": "https://careers.blackrock.com/job/london/2027-off-cycle-internship-program-emea/45831/97104654800",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "toue8r",
+      "empresa": "Citi",
+      "puesto": "Banking, Investment Banking, Summer Analyst 2027 (Londres)",
+      "descripcion": "",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres"
+      ],
+      "cierre": "",
+      "link": "https://jobs.citi.com/job/london/banking-investment-banking-summer-analyst-london-united-kingdom-2027/287/100315643136",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "l280d",
+      "empresa": "Goldman Sachs",
+      "puesto": "2027 Summer Analyst Programme (EMEA)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Otras 14 ciudades EMEA"
+      ],
+      "cierre": "",
+      "link": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "xb65xh",
+      "empresa": "Goldman Sachs",
+      "puesto": "2027 EMEA Madrid - Investment Banking, Classic (Seasonal/Off-Cycle)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://higher.gs.com/roles/170833",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1rar3ap",
+      "empresa": "Santander",
+      "puesto": "Becas Santander Complemento a las Practicas 2026 - II Edicion",
+      "descripcion": "",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Espana (universidades adscritas)"
+      ],
+      "cierre": "2026-10-02",
+      "link": "https://www.upsa.es/becas-y-ayudas-al-estudio/becas-santander-complemento-a-las-practicas",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "8pbhga",
+      "empresa": "Santander",
+      "puesto": "Santander CIB Summer Internship Program 2027",
+      "descripcion": "",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Espana",
+        "Francia",
+        "Italia",
+        "Alemania",
+        "Reino Unido",
+        "China",
+        "Singapur",
+        "Hong Kong",
+        "Mexico"
+      ],
+      "cierre": "",
+      "link": "https://www.santandercib.com/about-us/careers/graduates-young-talent",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1e25pls",
+      "empresa": "Hermes",
+      "puesto": "Generation H - Employee Engagement Intern (2026 Semester 2)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Paris",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://talents.hermes.com/en/job/21092",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1t5fq8x",
+      "empresa": "L'Oreal Groupe",
+      "puesto": "L'Oreal Brandstorm 2026 (L'Oreal Luxe / fragancias)",
+      "descripcion": "",
+      "tipo": [
+        "Business Game"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Global (finales en Paris)"
+      ],
+      "cierre": "",
+      "link": "https://brandstorm2026.loreal.com/en",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1ryjsat",
+      "empresa": "LVMH",
+      "puesto": "Inside LVMH - Student Experiences (ferias de empleo)",
+      "descripcion": "",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Suiza",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://www.insidelvmh.com/join-student-experiences",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "9ge1wj",
+      "empresa": "Amazon",
+      "puesto": "Amazon Future Engineer - Women in Innovation",
+      "descripcion": "",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://www.amazonfutureengineer.es/Womenininnovation",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "s9bjvl",
+      "empresa": "Amazon",
+      "puesto": "Software Development Engineer Intern - May 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "EE.UU. (no Espana)"
+      ],
+      "cierre": "",
+      "link": "https://www.amazon.jobs/en/jobs/10513277/software-development-engineer-intern-may-2027-2-month-amazon-university-talent-acquisition",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "12w0h4l",
+      "empresa": "Amazon / AWS",
+      "puesto": "Amazon Future Engineer - Internship para estudiantes",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://www.amazonfutureengineer.es/internship-para-estudiantes",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1c5ijb4",
+      "empresa": "Apple",
+      "puesto": "Applied Data Solutions Program - Summer 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Austin",
+        "Cupertino"
+      ],
+      "cierre": "",
+      "link": "https://jobs.apple.com/en-us/details/200673612-0157/applied-data-solutions-program-internships-summer-2027",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "say1sf",
+      "empresa": "Google",
+      "puesto": "Software Engineering Intern, BS - Summer 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Varias (listado activo)"
+      ],
+      "cierre": "",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382-software-engineering-intern-bs-summer-2027",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "7ubyxm",
+      "empresa": "Google",
+      "puesto": "Software Engineering Intern, PhD - Summer 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Varias"
+      ],
+      "cierre": "",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/104551723757904582-software-engineering-intern",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "14h0xsq",
+      "empresa": "Google DeepMind",
+      "puesto": "Student Researcher Program (BS/MS/PhD)",
+      "descripcion": "",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Oficinas de Google (incl. Londres",
+        "Europa)"
+      ],
+      "cierre": "",
+      "link": "https://deepmind.google/student-researcher-program/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "b48eyz",
+      "empresa": "Google DeepMind",
+      "puesto": "Research Intern, PhD - Summer 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/104496653687235270-research-intern-phd-summer-2027",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1n0ls5q",
+      "empresa": "Google DeepMind",
+      "puesto": "Student Researcher, BS/MS - Fall 2026",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/132362676918461126-student-researcher-bsms-fall-2026",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "13gri4u",
+      "empresa": "IBM",
+      "puesto": "Software Developer Intern 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://careers.ibm.com/en_US/careers/JobDetail/Software-Developer-Intern-2027/128497",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "1ym548e",
+      "empresa": "Microsoft",
+      "puesto": "Imagine Cup 2027 (Student Startup Competition)",
+      "descripcion": "",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Global",
+        "Online"
+      ],
+      "cierre": "",
+      "link": "https://imaginecup.microsoft.com/en-us/category/34",
+      "alta": "2026-09-10"
+    },
+    {
+      "id": "11rlp2o",
+      "empresa": "Google DeepMind",
+      "puesto": "Google DeepMind AI Master's Scholarship (via GATE Institute, Sofia University)",
+      "descripcion": "",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Bulgaria (abierta a europeos)"
+      ],
+      "cierre": "",
+      "link": "https://www.gate-ai.eu/en/news/gate-institute-opens-applications-for-two-google-deepmind-ai-masters-scholarships/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "b6083d",
+      "empresa": "Microsoft",
+      "puesto": "Discovery Program (4 semanas, rising freshmen)",
+      "descripcion": "",
+      "tipo": [
+        "Programa"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Redmond WA",
+        "Atlanta GA"
+      ],
+      "cierre": "",
+      "link": "https://careers.microsoft.com/v2/global/en/discoveryprogram",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "l7c465",
+      "empresa": "Palantir",
+      "puesto": "Launch - Spring Insight Program",
+      "descripcion": "",
+      "tipo": [
+        "Summer"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado"
+      ],
+      "cierre": "",
+      "link": "https://www.palantir.com/careers/students/launch/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "367h58",
+      "empresa": "Baker McKenzie",
+      "puesto": "Academic Year Internship 26/27 | Grado",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://careers.bakermckenzie.com/en_US/opportunities/JobDetail/Academic-Year-Internship-26-27-Grado/2695",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "12c48uo",
+      "empresa": "Baker McKenzie",
+      "puesto": "Summer Internship 2027 | Grado",
+      "descripcion": "",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://careers.bakermckenzie.com/en_US/opportunities/JobDetail/Summer-Internship-2027-Grado/3145",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "fm6a8o",
+      "empresa": "Cuatrecasas",
+      "puesto": "Undergraduate Internship / Master's Degree Internship",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Espana (varias oficinas)"
+      ],
+      "cierre": "",
+      "link": "https://www.cuatrecasas.com/en/global/join-up/internship-programs",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "9q7wb1",
+      "empresa": "Freshfields",
+      "puesto": "Internship program - Spain (Madrid)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.freshfields.com/en/your-career/spain/legal-services/internship",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "k2i4z9",
+      "empresa": "Freshfields",
+      "puesto": "Summer Vacation Scheme 2027",
+      "descripcion": "",
+      "tipo": [
+        "Vacation scheme"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Londres (global)"
+      ],
+      "cierre": "2026-10-30",
+      "link": "https://apply.candidats.io/1b28b319-98a5-4f92-9544-1a4540dbe493",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "148iyk",
+      "empresa": "Garrigues",
+      "puesto": "Job Shadowing / Practicas curso y verano / Practicas Master de Acceso",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Espana (varias sedes)"
+      ],
+      "cierre": "",
+      "link": "https://www.garrigues.com/en_GB/trabaja-con-nosotros/programa-practicas",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1gxb6ie",
+      "empresa": "Latham & Watkins",
+      "puesto": "Summer Clerks / Law Clerks - Madrid",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.lwcareers.com/en/beginning-your-legal-career/spain/our-programs",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1pduem2",
+      "empresa": "Linklaters",
+      "puesto": "Practicas Master de Acceso a la Abogacia 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://linklaters.wd3.myworkdayjobs.com/es/Linklaters/job/Prcticas-Mster-de-Acceso-a-la-Abogaca-2027_R00014705",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1n9bybx",
+      "empresa": "OECD / OCDE",
+      "puesto": "OECD Internship Programme",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Paris",
+        "Francia"
+      ],
+      "cierre": "2026-12-31",
+      "link": "https://jobs.smartrecruiters.com/OECD/744000101644285-internship-programme",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1cuil5f",
+      "empresa": "OSCE",
+      "puesto": "Internship - Cross-Dimensional Work Areas (Secretariado)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Viena",
+        "Austria",
+        "Praga"
+      ],
+      "cierre": "2026-12-31",
+      "link": "https://vacancies.osce.org/jobs/internship-%E2%80%93-cross-dimensional-work-areas-4823",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "whlxft",
+      "empresa": "United Nations (ONU)",
+      "puesto": "UN Internship Programme (Secretariado)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Nueva York",
+        "Varias sedes"
+      ],
+      "cierre": "",
+      "link": "https://www.un.org/en/academic-impact/page/internships",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "q0znuu",
+      "empresa": "World Bank Group",
+      "puesto": "WBG Pioneers - Treasury Intern (verano 2027)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Washington D.C.",
+        "EE.UU."
+      ],
+      "cierre": "2026-09-30",
+      "link": "https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37551?c=worldbankgroup",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "gfj7ry",
+      "empresa": "World Bank Group",
+      "puesto": "WBG Pioneers - Korea Green Growth Trust Fund",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Seul",
+        "Corea del Sur"
+      ],
+      "cierre": "",
+      "link": "https://worldbankgroup.csod.com/ux/ats/careersite/1/home/requisition/37705?c=worldbankgroup",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "z51mr8",
+      "empresa": "GSK",
+      "puesto": "Register Your Interest - Graduate Programmes Spain 2026",
+      "descripcion": "",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Burgos",
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://jobs.gsk.com/en-gb/jobs/413900?lang=en-us",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1sa7fo0",
+      "empresa": "MSD (Merck & Co.)",
+      "puesto": "MSD Internship Program (Programa de becas MSD)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://jobs.msd.com/es/es/internships-es",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "179tb57",
+      "empresa": "Sanofi",
+      "puesto": "Sanofi Graduate Programme Spain 2026/2027 - Quality & Compliance Path",
+      "descripcion": "",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://jobs.sanofi.com/en/job/madrid/quality-and-compliance-path-spain-graduate-programme-2026-2027/2649/37056806336",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "ugq6y1",
+      "empresa": "Grifols",
+      "puesto": "EMEA Customer Marketing Trainee",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Sant Cugat del Valles"
+      ],
+      "cierre": "",
+      "link": "https://jobsearch.grifols.com/job/Sant-Cugat-del-Valles-EMEA-Customer-Marketing-Trainee/1418912933/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "ph495g",
+      "empresa": "Grifols",
+      "puesto": "STEM Trainee Program IT QA",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Parets del Valles"
+      ],
+      "cierre": "",
+      "link": "https://jobsearch.grifols.com/job/Parets-del-Valles-STEM-Trainee-Program-IT-QA/1385276133/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "bozd0m",
+      "empresa": "Roche",
+      "puesto": "START-TECH Graduate Program Spain",
+      "descripcion": "",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Barcelona"
+      ],
+      "cierre": "",
+      "link": "https://careers.roche.com/global/en/start-tech-program-spain",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "w9u4f",
+      "empresa": "AWS Startups",
+      "puesto": "AWS Activate",
+      "descripcion": "",
+      "tipo": [
+        "Programa"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Global (accesible Espana)"
+      ],
+      "cierre": "",
+      "link": "https://startups.aws.com/lp/aws-activate-credits",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "g1ry21",
+      "empresa": "EIT",
+      "puesto": "Financial Support to Startups - Open Call (EIT Urban Mobility)",
+      "descripcion": "",
+      "tipo": [
+        "Financiacion a startups"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "UE",
+        "Paises asociados Horizon Europe"
+      ],
+      "cierre": "2026-11-16",
+      "link": "https://www.eiturbanmobility.eu/call-for-proposals/financial-support-to-startups-open-call-3/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "1q1i50i",
+      "empresa": "EIT",
+      "puesto": "European Prize for Women Innovators 2027 (incl. categoria EIT Women Leadership)",
+      "descripcion": "",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "UE",
+        "Paises asociados Horizon Europe"
+      ],
+      "cierre": "2026-12-01",
+      "link": "https://eic.ec.europa.eu/news/2027-european-prize-women-innovators-apply-now-2026-09-02_en",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "fn3uw0",
+      "empresa": "Lanzadera",
+      "puesto": "Convocatoria Lanzadera (proxima cohorte, inicio marzo)",
+      "descripcion": "",
+      "tipo": [
+        "Aceleracion"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Valencia",
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://lanzadera.es/inscripcion/",
+      "alta": "2026-09-11"
+    },
+    {
+      "id": "jca3qx",
+      "empresa": "Microsoft for Startups",
+      "puesto": "Microsoft for Startups Founders Hub",
+      "descripcion": "",
+      "tipo": [
+        "Programa"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Global (accesible Espana)"
+      ],
+      "cierre": "",
+      "link": "https://www.microsoft.com/es-es/startups/",
+      "alta": "2026-09-11"
+    },
+    {
       "id": "1e35smp",
       "empresa": "SeedRocket",
       "puesto": "36o Campus de Emprendedores",
@@ -340,7 +1260,7 @@
         "Madrid",
         "Espana"
       ],
-      "cierre": "",
+      "cierre": "2026-09-21",
       "link": "https://www.seedrocket.com/eventos/36-campus-de-emprendedores/",
       "alta": "2026-09-10"
     },
@@ -435,131 +1355,58 @@
       "alta": "2026-09-10"
     },
     {
-      "id": "1n0ls5q",
-      "empresa": "Google DeepMind",
-      "puesto": "Student Researcher, BS/MS - Fall 2026",
+      "id": "1vevg0c",
+      "empresa": "McKinsey & Company",
+      "puesto": "Business Analyst Intern",
       "descripcion": "",
       "tipo": [
         "Prácticas"
       ],
       "sector": [
-        "Tech & IA"
+        "Consultoría"
       ],
       "ciudad": [
-        "No especificado"
+        "Espana"
       ],
       "cierre": "",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/132362676918461126-student-researcher-bsms-fall-2026",
-      "alta": "2026-09-10"
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+      "alta": "2026-09-11"
     },
     {
-      "id": "13gri4u",
-      "empresa": "IBM",
-      "puesto": "Software Developer Intern 2027",
+      "id": "16odh3r",
+      "empresa": "McKinsey & Company",
+      "puesto": "Associate Intern",
       "descripcion": "",
       "tipo": [
         "Prácticas"
       ],
       "sector": [
-        "Tech & IA"
+        "Consultoría"
       ],
       "ciudad": [
-        "No especificado"
+        "Espana"
       ],
       "cierre": "",
-      "link": "https://careers.ibm.com/en_US/careers/JobDetail/Software-Developer-Intern-2027/128497",
-      "alta": "2026-09-10"
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/associateintern-14918",
+      "alta": "2026-09-11"
     },
     {
-      "id": "dnfq8o",
-      "empresa": "IBM",
-      "puesto": "Data Engineer Intern 2027",
+      "id": "1x1jknq",
+      "empresa": "Roland Berger",
+      "puesto": "Consulting Internship - September Intake",
       "descripcion": "",
       "tipo": [
         "Prácticas"
       ],
       "sector": [
-        "Tech & IA"
+        "Consultoría"
       ],
       "ciudad": [
-        "No especificado"
+        "Madrid"
       ],
       "cierre": "",
-      "link": "https://careers.ibm.com/en_US/careers/JobDetail/Data-Engineer-Intern-2027/128639",
-      "alta": "2026-09-10"
-    },
-    {
-      "id": "1c7m87r",
-      "empresa": "IBM",
-      "puesto": "AI Foundations - Software Engineer - Research Internship 2027",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "No especificado"
-      ],
-      "cierre": "",
-      "link": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Software-Engineer-Research-Internship-2027/131307",
-      "alta": "2026-09-10"
-    },
-    {
-      "id": "1297m8k",
-      "empresa": "IBM",
-      "puesto": "AI Foundations - Research Scientist - Research Internship 2027",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "No especificado"
-      ],
-      "cierre": "",
-      "link": "https://careers.ibm.com/en_US/careers/JobDetail/AI-Foundations-Research-Scientist-Research-Internship-2027/131827",
-      "alta": "2026-09-10"
-    },
-    {
-      "id": "1w94gtf",
-      "empresa": "IBM",
-      "puesto": "12-month Placement - Back-End Developer, starting July 2027",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "Reino Unido (Europa)"
-      ],
-      "cierre": "",
-      "link": "https://careers.ibm.com/en_US/careers/JobDetail/12-months-Placement-Back-End-Developer-Internship-starting-July-2027/126993",
-      "alta": "2026-09-10"
-    },
-    {
-      "id": "1ym548e",
-      "empresa": "Microsoft",
-      "puesto": "Imagine Cup 2027 (Student Startup Competition)",
-      "descripcion": "",
-      "tipo": [
-        "Evento"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "Global",
-        "Online"
-      ],
-      "cierre": "",
-      "link": "https://imaginecup.microsoft.com/en-us/category/34",
-      "alta": "2026-09-10"
+      "link": "https://www.rolandberger.com/en/Join/All-Jobs/Consulting-Internship-REF2469Z.html",
+      "alta": "2026-09-11"
     }
   ]
 }
