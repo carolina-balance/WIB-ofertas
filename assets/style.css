@@ -185,9 +185,9 @@ button { cursor: pointer; }
 .portada {
   position: relative; overflow: hidden;
   background:
-    radial-gradient(820px 500px at 84% -20%, rgba(228, 88, 122, .38), transparent 60%),
-    radial-gradient(620px 440px at 12% 118%, rgba(124, 69, 214, .34), transparent 62%),
-    radial-gradient(520px 380px at 50% 50%, rgba(13, 143, 115, .14), transparent 70%),
+    radial-gradient(820px 500px at 84% -20%, rgba(228, 88, 122, .34), transparent 60%),
+    radial-gradient(640px 460px at 10% 116%, rgba(138, 90, 216, .32), transparent 62%),
+    radial-gradient(560px 400px at 46% 40%, rgba(86, 129, 216, .16), transparent 70%),
     var(--navy-800);
   color: #fff;
   padding: 66px 0 54px;
@@ -197,9 +197,8 @@ button { cursor: pointer; }
 .espectro {
   height: 6px;
   background: linear-gradient(90deg,
-    #4c5ed6 0 10%, #0d8f73 10% 20%, #7c45d6 20% 30%, #d9761b 30% 40%,
-    #e0577a 40% 50%, #3a6ea5 50% 60%, #0e86ad 60% 70%, #c03bb0 70% 80%,
-    #4f9130 80% 90%, #d64f3e 90% 100%);
+    #31408c, #3f5fc0, #5681d8, #6f9ae0, #6d4fd0,
+    #8a5ad8, #a86ede, #c25bc0, #d94f8f, #e0577a);
 }
 .portada-eyebrow {
   color: var(--pink-400); font-size: 11.5px; font-weight: 700;
@@ -226,10 +225,10 @@ button { cursor: pointer; }
   font-family: var(--fuente-display); font-variation-settings: var(--display-ejes);
   color: var(--pink-400); letter-spacing: -.01em; line-height: 1;
 }
-.cifra:nth-child(2) b { color: #7fd8c4; }
-.cifra:nth-child(3) b { color: #a9b4f5; }
-.cifra:nth-child(4) b { color: #f2b07a; }
-.cifra:nth-child(5) b { color: #b79cf0; }
+.cifra:nth-child(2) b { color: #a9b8f7; }
+.cifra:nth-child(3) b { color: #c3a4f0; }
+.cifra:nth-child(4) b { color: #8fb3ea; }
+.cifra:nth-child(5) b { color: #eda2c0; }
 .cifra span {
   font-size: 12px; color: rgba(255, 255, 255, .6);
   text-transform: uppercase; letter-spacing: .07em; font-weight: 600;
@@ -267,8 +266,8 @@ button { cursor: pointer; }
   background: var(--surface);
   background:
     linear-gradient(160deg,
-      color-mix(in srgb, var(--acento) 15%, var(--surface)) 0%,
-      var(--surface) 62%);
+      color-mix(in srgb, var(--acento) 11%, var(--surface)) 0%,
+      var(--surface) 66%);
   border: 1px solid var(--line);
   border: 1px solid color-mix(in srgb, var(--acento) 24%, var(--line));
   border-radius: var(--r-lg); padding: 22px 20px 19px;
@@ -279,11 +278,11 @@ button { cursor: pointer; }
 .destacada::after {
   content: ''; position: absolute; top: -58px; right: -58px;
   width: 140px; height: 140px; border-radius: 50%;
-  background: var(--acento); opacity: .13; pointer-events: none;
+  background: var(--acento); opacity: .1; pointer-events: none;
 }
 .destacada:hover {
   transform: translateY(-5px);
-  box-shadow: 0 18px 40px color-mix(in srgb, var(--acento) 28%, transparent);
+  box-shadow: 0 16px 36px color-mix(in srgb, var(--acento) 20%, transparent);
 }
 .destacada .d-empresa { position: relative; font-size: 11.5px; font-weight: 700; color: var(--ink-2); text-transform: uppercase; letter-spacing: .07em; }
 .destacada .d-empresa b { color: color-mix(in srgb, var(--acento) 82%, var(--ink)); font-weight: 700; }
@@ -419,15 +418,15 @@ button { cursor: pointer; }
 }
 /* Franja del color del sector: es lo que hace la rejilla escaneable. */
 .tarjeta::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: var(--acento);
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: var(--acento); opacity: .85;
 }
 .tarjeta:hover {
   transform: translateY(-4px);
   border-color: var(--line-fuerte);
   border-color: color-mix(in srgb, var(--acento) 45%, var(--line));
   box-shadow: var(--sombra-alta);
-  box-shadow: 0 14px 34px color-mix(in srgb, var(--acento) 22%, transparent);
+  box-shadow: 0 12px 30px color-mix(in srgb, var(--acento) 16%, transparent);
 }
 
 .tarjeta-cabeza { display: flex; align-items: center; gap: 11px; min-width: 0; }
@@ -437,12 +436,21 @@ button { cursor: pointer; }
   box-shadow: 0 0 0 3px var(--pink-050), var(--sombra-alta);
 }
 
+/* Pastel con texto oscuro en vez de color plano con texto blanco: diez
+   cuadrados saturados en pantalla cansan; en pastel el tablón respira.
+   El 55% del texto está calculado para que los diez colores superen 4.5:1. */
 .sello {
   width: 40px; height: 40px; flex: none; border-radius: 12px;
   display: grid; place-items: center;
-  font-weight: 800; font-size: 14px; letter-spacing: -.02em;
-  background: var(--acento); color: #fff;
-  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .16);
+  font-weight: 800; font-size: 13.5px; letter-spacing: -.02em;
+  background: var(--pink-050);
+  color: var(--navy-800);
+  background: color-mix(in srgb, var(--acento) 16%, var(--surface));
+  color: color-mix(in srgb, var(--acento) 55%, var(--ink));
+}
+:root[data-tema="oscuro"] .sello {
+  background: color-mix(in srgb, var(--acento) 26%, var(--surface));
+  color: color-mix(in srgb, var(--acento) 45%, #fff);
 }
 
 .tarjeta-cuerpo { min-width: 0; flex: 1; }

@@ -22,24 +22,27 @@
   /**
    * Un color por sector. No es decoración: con 60+ ofertas en pantalla,
    * el color es lo que te deja localizar "lo de tech" sin leer una palabra.
-   * Todos comparten saturación y luminosidad parecidas para que la rejilla
-   * se lea como un conjunto y no como un muestrario.
+   *
+   * Todos viven en la misma familia de marca y recorren el arco azul
+   * marino → azul → violeta → lila → magenta → rosa. Nada de verdes ni
+   * naranjas: se distinguen igual y el tablón entero se lee como un solo
+   * degradado en vez de como un muestrario.
    */
   var COLORES_SECTOR = {
-    'Consultoría':               '#4c5ed6',
-    'Finanzas':                  '#0d8f73',
-    'Tech & IA':                 '#7c45d6',
-    'Emprendimiento & Business': '#d9761b',
-    'Marketing & Comunicación':  '#e0577a',
-    'Derecho & Política':        '#3a6ea5',
-    'Ciencia & Salud':           '#0e86ad',
-    'Moda & Retail':             '#c03bb0',
-    'RRHH':                      '#4f9130',
-    'Arte & Cultura':            '#d64f3e'
+    'Consultoría':               '#31408c',
+    'Finanzas':                  '#3f5fc0',
+    'Derecho & Política':        '#5681d8',
+    'Ciencia & Salud':           '#6f9ae0',
+    'Tech & IA':                 '#6d4fd0',
+    'Emprendimiento & Business': '#8a5ad8',
+    'Arte & Cultura':            '#a86ede',
+    'Moda & Retail':             '#c25bc0',
+    'Marketing & Comunicación':  '#d94f8f',
+    'RRHH':                      '#e0577a'
   };
 
-  var PALETA = ['#4c5ed6', '#0d8f73', '#7c45d6', '#d9761b', '#e0577a',
-                '#3a6ea5', '#0e86ad', '#c03bb0', '#4f9130', '#d64f3e'];
+  var PALETA = ['#31408c', '#3f5fc0', '#5681d8', '#6f9ae0', '#6d4fd0',
+                '#8a5ad8', '#a86ede', '#c25bc0', '#d94f8f', '#e0577a'];
 
   /** Sectores que aún no son canónicos también reciben color, por hash. */
   function colorSector(nombre) {
