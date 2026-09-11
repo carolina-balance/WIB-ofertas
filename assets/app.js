@@ -19,6 +19,38 @@
 
   var CAMPOS = ['tipo', 'sector', 'ciudad'];
 
+  /**
+   * Un color por sector. No es decoración: con 60+ ofertas en pantalla,
+   * el color es lo que te deja localizar "lo de tech" sin leer una palabra.
+   * Todos comparten saturación y luminosidad parecidas para que la rejilla
+   * se lea como un conjunto y no como un muestrario.
+   */
+  var COLORES_SECTOR = {
+    'Consultoría':               '#4c5ed6',
+    'Finanzas':                  '#0d8f73',
+    'Tech & IA':                 '#7c45d6',
+    'Emprendimiento & Business': '#d9761b',
+    'Marketing & Comunicación':  '#e0577a',
+    'Derecho & Política':        '#3a6ea5',
+    'Ciencia & Salud':           '#0e86ad',
+    'Moda & Retail':             '#c03bb0',
+    'RRHH':                      '#4f9130',
+    'Arte & Cultura':            '#d64f3e'
+  };
+
+  var PALETA = ['#4c5ed6', '#0d8f73', '#7c45d6', '#d9761b', '#e0577a',
+                '#3a6ea5', '#0e86ad', '#c03bb0', '#4f9130', '#d64f3e'];
+
+  /** Sectores que aún no son canónicos también reciben color, por hash. */
+  function colorSector(nombre) {
+    if (!nombre) return '#5a6480';
+    return COLORES_SECTOR[nombre] || PALETA[hashTexto(plano(nombre)) % PALETA.length];
+  }
+
+  function colorDe(oferta) {
+    return colorSector((oferta.sector || [])[0]);
+  }
+
   var ETIQUETAS_ESTADO = [
     ['',           'Sin seguimiento'],
     ['aplicada',   'Aplicada'],
@@ -488,7 +520,8 @@
       if (esNueva(o)) marcas.push('<span class="etq etq-nueva">NUEVO</span>');
       if (esUrgente(o)) marcas.push('<span class="etq etq-urgente">Cierra en ' + diasParaCierre(o) + ' d</span>');
       var lugar = (o.ciudad || []).join(' · ') || 'Sin ubicación fija';
-      return '<a class="destacada" href="' + esc(o.link) + '" target="_blank" rel="noopener" data-destacada="' + esc(o.id) + '">' +
+      return '<a class="destacada" href="' + esc(o.link) + '" target="_blank" rel="noopener"' +
+        ' data-destacada="' + esc(o.id) + '" style="--acento:' + colorDe(o) + '">' +
         '<span class="d-empresa">' +
           ((o.tipo || []).length ? '<b>' + esc((o.tipo || []).join(' / ')) + '</b> ' : '') +
           esc(o.empresa) + '</span>' +
@@ -599,14 +632,12 @@
       marcas.push('<span class="etq etq-tipo">Cerrada</span>');
     }
     (o.sector || []).forEach(function (s) {
-      marcas.push('<span class="etq etq-sector">' + esc(s) + '</span>');
+      marcas.push('<span class="etq etq-sector" style="--c:' + colorSector(s) + '">' + esc(s) + '</span>');
     });
     (o.ciudad || []).forEach(function (c) {
       marcas.push('<span class="etq etq-ciudad">' + esc(c) + '</span>');
     });
 
-    var tinte = hashTexto(plano(o.empresa)) % 4;
-    var fondos = ['var(--navy-800)', 'var(--navy-700)', 'var(--navy-600)', 'var(--pink-600)'];
     var mono = iniciales(o.empresa);
 
     var botonVer = o.link
@@ -614,10 +645,11 @@
         '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>'
       : '<span class="btn-ver mudo" title="Esta oferta no trae enlace en el sheet">Sin enlace</span>';
 
-    return '<li class="tarjeta" id="of-' + esc(o.id) + '" data-id="' + esc(o.id) + '">' +
+    return '<li class="tarjeta" id="of-' + esc(o.id) + '" data-id="' + esc(o.id) + '"' +
+      ' style="--acento:' + colorDe(o) + '">' +
       '<div class="tarjeta-cabeza">' +
-        '<span class="sello" style="background:' + fondos[tinte] + '' +
-          (mono.length > 2 ? ';font-size:11px' : '') + '" aria-hidden="true">' + esc(mono) + '</span>' +
+        '<span class="sello"' + (mono.length > 2 ? ' style="font-size:11px"' : '') +
+          ' aria-hidden="true">' + esc(mono) + '</span>' +
         kicker(o) +
       '</div>' +
 

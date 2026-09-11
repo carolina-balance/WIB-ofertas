@@ -37,10 +37,15 @@
   --ok: #1c6b4d;
   --ok-bg: #e6f4ed;
 
+  /* Cada tarjeta sobrescribe --acento con el color de su sector.
+     Todo lo demás se deriva de ahí con color-mix, para que el modo
+     oscuro funcione solo sin recalcular nada en JavaScript. */
+  --acento: #4c5ed6;
+
   /* Forma */
-  --r-sm: 8px;
-  --r-md: 12px;
-  --r-lg: 18px;
+  --r-sm: 9px;
+  --r-md: 14px;
+  --r-lg: 22px;
   --sombra: 0 1px 2px rgba(15, 26, 60, .05), 0 4px 16px rgba(15, 26, 60, .05);
   --sombra-alta: 0 2px 6px rgba(15, 26, 60, .08), 0 16px 40px rgba(15, 26, 60, .12);
   --anillo: 0 0 0 3px rgba(228, 88, 122, .35);
@@ -178,12 +183,23 @@ button { cursor: pointer; }
 /* ---------- 4. Portada ---------- */
 
 .portada {
+  position: relative; overflow: hidden;
   background:
-    radial-gradient(1100px 420px at 88% -30%, rgba(228, 88, 122, .30), transparent 62%),
-    radial-gradient(700px 340px at 6% 120%, rgba(34, 49, 99, .85), transparent 60%),
+    radial-gradient(820px 500px at 84% -20%, rgba(228, 88, 122, .38), transparent 60%),
+    radial-gradient(620px 440px at 12% 118%, rgba(124, 69, 214, .34), transparent 62%),
+    radial-gradient(520px 380px at 50% 50%, rgba(13, 143, 115, .14), transparent 70%),
     var(--navy-800);
   color: #fff;
-  padding: 52px 0 40px;
+  padding: 66px 0 54px;
+}
+
+/* Los 10 sectores, como firma visual de la comunidad. */
+.espectro {
+  height: 6px;
+  background: linear-gradient(90deg,
+    #4c5ed6 0 10%, #0d8f73 10% 20%, #7c45d6 20% 30%, #d9761b 30% 40%,
+    #e0577a 40% 50%, #3a6ea5 50% 60%, #0e86ad 60% 70%, #c03bb0 70% 80%,
+    #4f9130 80% 90%, #d64f3e 90% 100%);
 }
 .portada-eyebrow {
   color: var(--pink-400); font-size: 11.5px; font-weight: 700;
@@ -206,9 +222,14 @@ button { cursor: pointer; }
 
 .cifras { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 30px; }
 .cifra b {
-  display: block; font-size: 27px; font-weight: 800;
-  color: #fff; letter-spacing: -.02em; line-height: 1.1;
+  display: block; font-size: 34px; font-weight: 600;
+  font-family: var(--fuente-display); font-variation-settings: var(--display-ejes);
+  color: var(--pink-400); letter-spacing: -.01em; line-height: 1;
 }
+.cifra:nth-child(2) b { color: #7fd8c4; }
+.cifra:nth-child(3) b { color: #a9b4f5; }
+.cifra:nth-child(4) b { color: #f2b07a; }
+.cifra:nth-child(5) b { color: #b79cf0; }
 .cifra span {
   font-size: 12px; color: rgba(255, 255, 255, .6);
   text-transform: uppercase; letter-spacing: .07em; font-weight: 600;
@@ -242,21 +263,33 @@ button { cursor: pointer; }
 }
 
 .destacada {
-  position: relative; display: flex; flex-direction: column; gap: 10px;
-  background: var(--surface); border: 1px solid var(--line);
-  border-radius: var(--r-lg); padding: 20px 20px 18px;
+  position: relative; display: flex; flex-direction: column; gap: 11px;
+  background: var(--surface);
+  background:
+    linear-gradient(160deg,
+      color-mix(in srgb, var(--acento) 15%, var(--surface)) 0%,
+      var(--surface) 62%);
+  border: 1px solid var(--line);
+  border: 1px solid color-mix(in srgb, var(--acento) 24%, var(--line));
+  border-radius: var(--r-lg); padding: 22px 20px 19px;
   overflow: hidden; text-decoration: none;
-  transition: transform .18s, box-shadow .18s, border-color .18s;
+  transition: transform .2s, box-shadow .2s;
 }
-.destacada::before {
-  content: ''; position: absolute; inset: 0 auto 0 0; width: 4px;
-  background: linear-gradient(180deg, var(--pink-500), var(--pink-400));
+/* Círculo del color del sector asomando por la esquina. */
+.destacada::after {
+  content: ''; position: absolute; top: -58px; right: -58px;
+  width: 140px; height: 140px; border-radius: 50%;
+  background: var(--acento); opacity: .13; pointer-events: none;
 }
-.destacada:hover { transform: translateY(-3px); box-shadow: var(--sombra-alta); border-color: var(--pink-100); }
-.destacada .d-empresa { font-size: 11.5px; font-weight: 700; color: var(--ink-3); text-transform: uppercase; letter-spacing: .07em; }
-.destacada .d-empresa b { color: var(--pink-600); font-weight: 700; }
+.destacada:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--acento) 28%, transparent);
+}
+.destacada .d-empresa { position: relative; font-size: 11.5px; font-weight: 700; color: var(--ink-2); text-transform: uppercase; letter-spacing: .07em; }
+.destacada .d-empresa b { color: color-mix(in srgb, var(--acento) 82%, var(--ink)); font-weight: 700; }
 .destacada .d-empresa b::after { content: ' /'; color: var(--line-fuerte); }
-.destacada .d-puesto { font-size: 19px; font-weight: 600; font-family: var(--fuente-display); font-variation-settings: var(--display-ejes); color: var(--ink); line-height: 1.24; }
+.destacada .d-puesto { position: relative; font-size: 21px; font-weight: 600; font-family: var(--fuente-display); font-variation-settings: var(--display-ejes); color: var(--ink); line-height: 1.2; }
+.destacada .d-meta { position: relative; }
 .destacada .d-meta { font-size: 13px; color: var(--ink-3); margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 
 /* ---------- 6. Barra de filtros ---------- */
@@ -378,12 +411,24 @@ button { cursor: pointer; }
 /* ---------- 8. Tarjeta de oferta ---------- */
 
 .tarjeta {
+  position: relative; overflow: hidden;
   background: var(--surface); border: 1px solid var(--line);
-  border-radius: var(--r-lg); padding: 19px 20px 17px;
+  border-radius: var(--r-lg); padding: 22px 20px 17px;
   display: flex; flex-direction: column; gap: 12px;
-  transition: border-color .16s, box-shadow .16s, transform .16s;
+  transition: border-color .18s, box-shadow .18s, transform .18s;
 }
-.tarjeta:hover { transform: translateY(-2px); }
+/* Franja del color del sector: es lo que hace la rejilla escaneable. */
+.tarjeta::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: var(--acento);
+}
+.tarjeta:hover {
+  transform: translateY(-4px);
+  border-color: var(--line-fuerte);
+  border-color: color-mix(in srgb, var(--acento) 45%, var(--line));
+  box-shadow: var(--sombra-alta);
+  box-shadow: 0 14px 34px color-mix(in srgb, var(--acento) 22%, transparent);
+}
 
 .tarjeta-cabeza { display: flex; align-items: center; gap: 11px; min-width: 0; }
 .tarjeta:hover { border-color: var(--line-fuerte); box-shadow: var(--sombra); }
@@ -393,10 +438,11 @@ button { cursor: pointer; }
 }
 
 .sello {
-  width: 38px; height: 38px; flex: none; border-radius: 10px;
+  width: 40px; height: 40px; flex: none; border-radius: 12px;
   display: grid; place-items: center;
   font-weight: 800; font-size: 14px; letter-spacing: -.02em;
-  background: var(--navy-800); color: #fff;
+  background: var(--acento); color: #fff;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .16);
 }
 
 .tarjeta-cuerpo { min-width: 0; flex: 1; }
@@ -426,10 +472,26 @@ button { cursor: pointer; }
   border-radius: 999px; padding: 3px 10px;
   font-size: 11.5px; font-weight: 700; letter-spacing: .02em; white-space: nowrap;
 }
-.etq-nueva { background: var(--pink-500); color: #fff; }
+.etq-nueva {
+  background: var(--pink-500); color: #fff;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--pink-500) 45%, transparent);
+}
 .etq-urgente { background: var(--urgente-bg); color: var(--urgente); }
 .etq-tipo { background: transparent; color: var(--ink-2); border: 1px solid var(--line-fuerte); }
-.etq-sector { background: var(--pink-050); color: var(--pink-700); }
+.etq-sector {
+  /* Respaldo primero: si el navegador no entiende color-mix ignora las
+     líneas de abajo y el chip sigue siendo legible en vez de invisible. */
+  background: var(--pink-050);
+  color: var(--pink-700);
+  border: 1px solid var(--pink-100);
+  background: color-mix(in srgb, var(--c, var(--acento)) 13%, var(--surface));
+  color: color-mix(in srgb, var(--c, var(--acento)) 78%, var(--ink));
+  border: 1px solid color-mix(in srgb, var(--c, var(--acento)) 26%, transparent);
+}
+:root[data-tema="oscuro"] .etq-sector {
+  background: color-mix(in srgb, var(--c, var(--acento)) 22%, var(--surface));
+  color: color-mix(in srgb, var(--c, var(--acento)) 40%, #fff);
+}
 .etq-ciudad { background: var(--surface-2); color: var(--ink-3); border: 1px solid var(--line); }
 
 .tarjeta-lado {
@@ -446,7 +508,7 @@ button { cursor: pointer; }
   text-decoration: none; display: inline-flex; align-items: center; gap: 7px;
   white-space: nowrap; transition: background .15s, transform .15s;
 }
-.btn-ver:hover { background: var(--pink-500); border-color: var(--pink-500); }
+.btn-ver:hover { background: var(--acento); border-color: var(--acento); }
 .btn-ver:active { transform: scale(.97); }
 .btn-ver.mudo {
   background: transparent; color: var(--ink-3); border-color: var(--line-fuerte); cursor: default;
