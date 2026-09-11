@@ -23,10 +23,10 @@ window.WIB_CONFIG = {
 
   /* 3. Enlace para unirse a la comunidad.
         Vacío = no se muestra el botón "Únete a WIB". */
-  URL_COMUNIDAD: '',
+  URL_COMUNIDAD: 'https://chat.whatsapp.com/DKQhwFAOM6QCBurPMRQuWm?mode=wwc',
 
   /* 4. Redes que aparecen en el pie. Vacío = no aparece. */
-  URL_LINKEDIN: '',
+  URL_LINKEDIN: 'https://www.linkedin.com/company/womeninbusinesspain/',
   URL_INSTAGRAM: 'https://www.instagram.com/womaninbusiness_spain/',
 
   /* 5. Días que una oferta luce la etiqueta NUEVO desde que entra. */

@@ -219,7 +219,39 @@ button { cursor: pointer; }
   color: rgba(255, 255, 255, .74); font-size: 15.5px;
 }
 
-.cifras { display: flex; flex-wrap: wrap; gap: 32px; margin-top: 30px; }
+/* Llamada a la comunidad. En rosa de marca y no en el verde de WhatsApp:
+   el icono ya identifica el canal, y el verde rompería la paleta. */
+.btn-comunidad {
+  display: inline-flex; align-items: center; gap: 9px;
+  background: var(--pink-500); color: #fff;
+  border: 0; border-radius: 999px;
+  padding: 13px 24px; font-size: 15px; font-weight: 600;
+  text-decoration: none; white-space: nowrap;
+  box-shadow: 0 6px 20px rgba(228, 88, 122, .34);
+  transition: background .16s, transform .16s, box-shadow .16s;
+}
+.btn-comunidad:hover {
+  background: var(--pink-600);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(228, 88, 122, .44);
+}
+.btn-comunidad:active { transform: translateY(0); }
+.btn-comunidad.grande { padding: 15px 30px; font-size: 16px; }
+
+.portada-cta {
+  display: flex; align-items: center; gap: 18px;
+  flex-wrap: wrap; margin-top: 26px;
+}
+.portada-cta-nota {
+  max-width: 40ch; font-size: 14px; line-height: 1.5;
+  color: rgba(255, 255, 255, .72);
+}
+
+.cifras {
+  display: flex; flex-wrap: wrap; gap: 32px;
+  margin-top: 32px; padding-top: 28px;
+  border-top: 1px solid rgba(255, 255, 255, .12);
+}
 .cifra b {
   display: block; font-size: 34px; font-weight: 600;
   font-family: var(--fuente-display); font-variation-settings: var(--display-ejes);
@@ -576,15 +608,55 @@ button { cursor: pointer; }
 
 /* ---------- 10. Pie ---------- */
 
+/* Banda de cierre: el último empujón antes del pie. */
+.llamada {
+  margin-top: 64px; padding: 46px 0;
+  background:
+    radial-gradient(620px 300px at 82% 120%, rgba(228, 88, 122, .30), transparent 62%),
+    radial-gradient(520px 280px at 12% -20%, rgba(138, 90, 216, .26), transparent 62%),
+    var(--navy-700);
+  color: #fff;
+}
+.llamada .wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 30px; flex-wrap: wrap;
+}
+.llamada-texto { flex: 1 1 420px; }
+.llamada h2 {
+  font-family: var(--fuente-display); font-variation-settings: var(--display-ejes);
+  font-weight: 600; font-size: clamp(23px, 3.1vw, 31px); line-height: 1.14;
+}
+.llamada p {
+  margin-top: 11px; max-width: 54ch;
+  color: rgba(255, 255, 255, .74); font-size: 15px;
+}
+
 .pie {
-  margin-top: 56px; padding: 38px 0 44px;
+  margin-top: 0; padding: 38px 0 44px;
   background: var(--navy-800); color: rgba(255, 255, 255, .62); font-size: 13.5px;
 }
 .pie .wrap { display: flex; gap: 26px; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; }
 .pie b { color: #fff; display: block; margin-bottom: 5px; font-size: 14.5px; }
 .pie a { color: var(--pink-400); text-decoration: none; }
 .pie a:hover { text-decoration: underline; }
-.pie-enlaces { display: flex; gap: 20px; flex-wrap: wrap; }
+.pie-enlaces { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.pie-enlaces .red {
+  width: 40px; height: 40px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .14);
+  color: #fff; text-decoration: none;
+  transition: background .16s, border-color .16s, transform .16s;
+}
+.pie-enlaces .red:hover {
+  background: var(--pink-500); border-color: var(--pink-500);
+  transform: translateY(-2px);
+}
+.pie-enlaces .red-texto {
+  margin-left: 6px; color: var(--pink-400);
+  font-size: 13.5px; text-decoration: none;
+}
+.pie-enlaces .red-texto:hover { text-decoration: underline; }
 .frescura { font-size: 12.5px; color: rgba(255, 255, 255, .45); margin-top: 9px; }
 
 /* ---------- 11. Móvil ---------- */
@@ -602,6 +674,10 @@ button { cursor: pointer; }
   .tarjeta { padding: 17px 18px 15px; }
 
   .pie .wrap { flex-direction: column; gap: 20px; }
+  .llamada { padding: 36px 0; margin-top: 48px; }
+  .llamada .wrap { flex-direction: column; align-items: flex-start; gap: 22px; }
+  .btn-comunidad, .btn-comunidad.grande { width: 100%; justify-content: center; }
+  .portada-cta { gap: 14px; }
 }
 
 @media (max-width: 420px) {
@@ -610,6 +686,6 @@ button { cursor: pointer; }
 }
 
 @media print {
-  .cabecera, .barra, .destacadas, .tarjeta-lado, .pie { display: none; }
+  .cabecera, .barra, .destacadas, .tarjeta-lado, .pie, .llamada, .portada-cta { display: none; }
   .tarjeta { break-inside: avoid; border-color: #ccc; }
 }

@@ -771,6 +771,19 @@
       ? 'oscuro' : 'claro';
   }
 
+  /* ---------- Redes y llamadas a la acción ---------- */
+
+  var ICONOS = {
+    whatsapp: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="17" height="17">' +
+      '<path d="M12 2a9.9 9.9 0 0 0-8.4 15.2L2 22.3l5.3-1.5A9.9 9.9 0 1 0 12 2zm0 18.1c-1.6 0-3.2-.5-4.6-1.3l-.3-.2-3.1.9.9-3-.2-.3A8.1 8.1 0 1 1 12 20.1z"/>' +
+      '<path d="M16.9 14.3c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1l-.8 1c-.2.2-.3.2-.5.1a6.6 6.6 0 0 1-3.6-3.2c-.1-.3 0-.4.1-.6l.4-.5.3-.5v-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.6c-.2 0-.5.1-.8.4a3 3 0 0 0-.9 2.3c0 1.4 1 2.7 1.2 2.9.1.2 2 3.1 4.9 4.3 2.4 1 2.9.8 3.4.7.5 0 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3l-.6-.4z"/></svg>',
+    linkedin: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="17" height="17">' +
+      '<path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3.2 9h3.6v12H3.2zM9.2 9h3.4v1.6h.05c.5-.9 1.7-1.9 3.6-1.9 3.8 0 4.5 2.4 4.5 5.5V21h-3.6v-5.4c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9.2z"/></svg>',
+    instagram: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="17" height="17">' +
+      '<rect x="3" y="3" width="18" height="18" rx="5.2"/><circle cx="12" cy="12" r="3.8"/>' +
+      '<circle cx="17.3" cy="6.7" r="1.3" fill="currentColor" stroke="none"/></svg>'
+  };
+
   /* ---------- Enlaces compartibles ---------- */
 
   function leerHash() {
@@ -958,18 +971,40 @@
       else comunidad.hidden = true;
     }
 
+    // Las dos llamadas a la comunidad: la de la portada y la del final.
+    // Si no hay enlace configurado, los bloques enteros no se muestran.
+    var etiqueta = ICONOS.whatsapp + '<span>Únete ya a la comunidad</span>';
+    [['#ctaPortada', '#portadaCta'], ['#ctaFinal', '#llamada']].forEach(function (par) {
+      var boton = $(par[0]);
+      var bloque = $(par[1]);
+      if (!boton || !bloque) return;
+      if (CFG.URL_COMUNIDAD) {
+        boton.href = CFG.URL_COMUNIDAD;
+        boton.innerHTML = etiqueta;
+        bloque.hidden = false;
+      } else {
+        bloque.hidden = true;
+      }
+    });
+
     var pie = $('#pieEnlaces');
     if (pie) {
       pie.innerHTML = [
-        ['LinkedIn', CFG.URL_LINKEDIN],
-        ['Instagram', CFG.URL_INSTAGRAM],
-        ['Enviar una oferta', CFG.URL_SUGERIR]
-      ].filter(function (par) {
-        return par[1];
-      }).map(function (par) {
-        var fuera = par[1].indexOf('mailto:') === 0 ? '' : ' target="_blank" rel="noopener"';
-        return '<a href="' + esc(par[1]) + '"' + fuera + '>' + esc(par[0]) + '</a>';
+        ['WhatsApp', CFG.URL_COMUNIDAD, ICONOS.whatsapp],
+        ['LinkedIn', CFG.URL_LINKEDIN, ICONOS.linkedin],
+        ['Instagram', CFG.URL_INSTAGRAM, ICONOS.instagram]
+      ].filter(function (r) {
+        return r[1];
+      }).map(function (r) {
+        return '<a class="red" href="' + esc(r[1]) + '" target="_blank" rel="noopener" ' +
+          'aria-label="' + esc(r[0]) + '" title="' + esc(r[0]) + '">' + r[2] + '</a>';
       }).join('');
+
+      if (CFG.URL_SUGERIR) {
+        var fuera = CFG.URL_SUGERIR.indexOf('mailto:') === 0 ? '' : ' target="_blank" rel="noopener"';
+        pie.innerHTML += '<a class="red-texto" href="' + esc(CFG.URL_SUGERIR) + '"' + fuera +
+          '>Enviar una oferta</a>';
+      }
     }
   }
 
