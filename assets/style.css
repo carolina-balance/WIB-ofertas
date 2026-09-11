@@ -55,7 +55,13 @@
        · Fraunces (display) + Public Sans (interfaz)  -> más cálido
        · Source Serif 4 + IBM Plex Sans               -> más consultoría */
   --fuente: 'Instrument Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --fuente-display: 'Instrument Serif', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
+  --fuente-display: 'Fraunces', 'Cooper Lt BT', Cooper, 'Georgia', serif;
+
+  /* Fraunces es la alternativa libre más cercana a Cooper: sus ejes SOFT
+     (redondea los terminales) y WONK (cursivas de la vieja escuela) son
+     justo lo que da ese aire cálido. Cooper de verdad es de pago; si
+     algún día la compráis, entra sola por el fallback de arriba. */
+  --display-ejes: 'SOFT' 80, 'WONK' 1;
 }
 
 :root[data-tema="oscuro"] {
@@ -185,11 +191,12 @@ button { cursor: pointer; }
 }
 .portada h1 {
   font-family: var(--fuente-display);
-  font-weight: 400;                 /* Instrument Serif no tiene negrita */
-  font-size: clamp(31px, 5.4vw, 54px);
+  font-variation-settings: var(--display-ejes);
+  font-weight: 600;
+  font-size: clamp(30px, 5.1vw, 50px);
   max-width: 21ch;
-  line-height: 1.06;
-  letter-spacing: -.005em;
+  line-height: 1.08;
+  letter-spacing: -.01em;
 }
 .portada h1 em { font-style: normal; color: var(--pink-400); }
 .portada-sub {
@@ -215,7 +222,7 @@ button { cursor: pointer; }
   display: flex; align-items: baseline; justify-content: space-between;
   gap: 14px; flex-wrap: wrap; margin-bottom: 15px;
 }
-.seccion-cab h2 { font-family: var(--fuente-display); font-weight: 400; font-size: 24px; letter-spacing: 0; }
+.seccion-cab h2 { font-family: var(--fuente-display); font-variation-settings: var(--display-ejes); font-weight: 600; font-size: 23px; letter-spacing: 0; }
 .seccion-cab .pista { color: var(--ink-3); font-size: 13px; margin-top: 3px; }
 
 .btn-barajar {
@@ -249,7 +256,7 @@ button { cursor: pointer; }
 .destacada .d-empresa { font-size: 11.5px; font-weight: 700; color: var(--ink-3); text-transform: uppercase; letter-spacing: .07em; }
 .destacada .d-empresa b { color: var(--pink-600); font-weight: 700; }
 .destacada .d-empresa b::after { content: ' /'; color: var(--line-fuerte); }
-.destacada .d-puesto { font-size: 19px; font-weight: 400; font-family: var(--fuente-display); color: var(--ink); line-height: 1.22; }
+.destacada .d-puesto { font-size: 19px; font-weight: 600; font-family: var(--fuente-display); font-variation-settings: var(--display-ejes); color: var(--ink); line-height: 1.24; }
 .destacada .d-meta { font-size: 13px; color: var(--ink-3); margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 
 /* ---------- 6. Barra de filtros ---------- */
@@ -359,17 +366,26 @@ button { cursor: pointer; }
   text-decoration: underline; text-underline-offset: 3px;
 }
 
-.lista { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+/* Rejilla de tarjetas verticales: se alargan hacia abajo y se reparten en
+   columnas según el ancho. En móvil cae sola a una sola columna. */
+.lista {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(292px, 1fr));
+  align-items: stretch;
+}
 
 /* ---------- 8. Tarjeta de oferta ---------- */
 
 .tarjeta {
   background: var(--surface); border: 1px solid var(--line);
-  border-radius: var(--r-lg); padding: 18px 20px;
-  display: grid; grid-template-columns: 44px 1fr auto; gap: 0 15px;
-  align-items: start;
+  border-radius: var(--r-lg); padding: 19px 20px 17px;
+  display: flex; flex-direction: column; gap: 12px;
   transition: border-color .16s, box-shadow .16s, transform .16s;
 }
+.tarjeta:hover { transform: translateY(-2px); }
+
+.tarjeta-cabeza { display: flex; align-items: center; gap: 11px; min-width: 0; }
 .tarjeta:hover { border-color: var(--line-fuerte); box-shadow: var(--sombra); }
 .tarjeta.resaltada {
   border-color: var(--pink-500);
@@ -377,13 +393,13 @@ button { cursor: pointer; }
 }
 
 .sello {
-  width: 44px; height: 44px; border-radius: 11px;
+  width: 38px; height: 38px; flex: none; border-radius: 10px;
   display: grid; place-items: center;
   font-weight: 800; font-size: 14px; letter-spacing: -.02em;
   background: var(--navy-800); color: #fff;
 }
 
-.tarjeta-cuerpo { min-width: 0; }
+.tarjeta-cuerpo { min-width: 0; flex: 1; }
 
 /* "PRÁCTICAS / SANTANDER": el tipo delante y en color, que es lo que
    se escanea al bajar por el tablón. */
@@ -395,12 +411,12 @@ button { cursor: pointer; }
 .k-tipo::after { content: ' / '; color: var(--line-fuerte); font-weight: 600; }
 .k-empresa { color: var(--ink-3); }
 .tarjeta-puesto {
-  font-size: 16.5px; font-weight: 700; color: var(--ink);
-  letter-spacing: -.015em; margin-top: 2px;
+  font-size: 17px; font-weight: 700; color: var(--ink);
+  letter-spacing: -.015em; line-height: 1.3;
 }
 .tarjeta-desc {
   margin-top: 7px; font-size: 13.5px; color: var(--ink-2); max-width: 74ch;
-  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
 }
 
 .etiquetas { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 11px; align-items: center; }
@@ -416,8 +432,13 @@ button { cursor: pointer; }
 .etq-sector { background: var(--pink-050); color: var(--pink-700); }
 .etq-ciudad { background: var(--surface-2); color: var(--ink-3); border: 1px solid var(--line); }
 
-.tarjeta-lado { display: flex; flex-direction: column; align-items: flex-end; gap: 9px; }
+.tarjeta-lado {
+  display: flex; flex-direction: column; gap: 9px;
+  padding-top: 14px; border-top: 1px solid var(--line);
+}
 .tarjeta-botones { display: flex; align-items: center; gap: 7px; }
+.tarjeta-botones .btn-ver { flex: 1; justify-content: center; }
+.tarjeta-lado .selector-estado { width: 100%; }
 
 .btn-ver {
   background: var(--navy-800); color: #fff; border: 1px solid var(--navy-800);
@@ -507,15 +528,8 @@ button { cursor: pointer; }
   .barra-fila { gap: 8px; }
   .filtro > summary, .selector-orden, .conmutador { padding: 8px 13px; font-size: 13px; }
 
-  .tarjeta {
-    grid-template-columns: 38px 1fr;
-    grid-template-areas: "sello cuerpo" "lado lado";
-    row-gap: 14px;
-  }
-  .sello { grid-area: sello; width: 38px; height: 38px; font-size: 12.5px; border-radius: 10px; }
-  .tarjeta-cuerpo { grid-area: cuerpo; }
-  .tarjeta-lado { grid-area: lado; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; }
-  .btn-ver { flex: 1; justify-content: center; }
+  .lista { grid-template-columns: 1fr; gap: 12px; }
+  .tarjeta { padding: 17px 18px 15px; }
 
   .pie .wrap { flex-direction: column; gap: 20px; }
 }

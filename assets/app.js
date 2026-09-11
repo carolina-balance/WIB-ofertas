@@ -615,11 +615,13 @@
       : '<span class="btn-ver mudo" title="Esta oferta no trae enlace en el sheet">Sin enlace</span>';
 
     return '<li class="tarjeta" id="of-' + esc(o.id) + '" data-id="' + esc(o.id) + '">' +
-      '<span class="sello" style="background:' + fondos[tinte] + '' +
-        (mono.length > 2 ? ';font-size:12px' : '') + '" aria-hidden="true">' + esc(mono) + '</span>' +
+      '<div class="tarjeta-cabeza">' +
+        '<span class="sello" style="background:' + fondos[tinte] + '' +
+          (mono.length > 2 ? ';font-size:11px' : '') + '" aria-hidden="true">' + esc(mono) + '</span>' +
+        kicker(o) +
+      '</div>' +
 
       '<div class="tarjeta-cuerpo">' +
-        kicker(o) +
         '<h3 class="tarjeta-puesto">' + esc(titulo(o)) + '</h3>' +
         (descripcionAparte(o) ? '<p class="tarjeta-desc">' + esc(descripcionAparte(o)) + '</p>' : '') +
         '<div class="etiquetas">' + marcas.join('') + '</div>' +
@@ -627,6 +629,7 @@
 
       '<div class="tarjeta-lado">' +
         '<div class="tarjeta-botones">' +
+          botonVer +
           '<button class="btn-icono" type="button" data-fav="' + esc(o.id) + '" aria-pressed="' + esFav + '" ' +
             'aria-label="' + (esFav ? 'Quitar de favoritas' : 'Guardar en favoritas') + '" title="Favorita">' +
             '<svg width="16" height="16" viewBox="0 0 24 24" fill="' + (esFav ? 'currentColor' : 'none') +
@@ -635,7 +638,6 @@
           '<button class="btn-icono" type="button" data-copiar="' + esc(o.id) + '" aria-label="Copiar para compartir" title="Copiar para compartir">' +
             '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>' +
           '</button>' +
-          botonVer +
         '</div>' +
         '<select class="selector-estado" data-estado-de="' + esc(o.id) + '" data-estado="' + esc(estadoSeg) + '" ' +
           'aria-label="Estado de tu candidatura">' +

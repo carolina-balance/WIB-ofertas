@@ -41,12 +41,16 @@ var SECTORES = [
 ];
 
 var TIPOS = [
-  ['Summer',    ['summer', 'verano']],
-  ['Prácticas', ['practica', 'internship', 'intern', 'trainee', 'becari']],
-  ['Beca',      ['beca', 'scholarship']],
-  ['Programa',  ['programa', 'program', 'programme', 'acelerac', 'scale-up', 'scaleup', 'incubad', 'mentoria']],
-  ['Evento',    ['evento', 'event', 'networking', 'charla', 'webinar']],
-  ['Empleo',    ['oferta', 'empleo', 'job', 'full time', 'fulltime', 'graduate', 'junior', 'contrato', 'vacante']]
+  ['Summer',       ['summer', 'verano']],
+  ['Prácticas',    ['practica', 'internship', 'intern', 'trainee', 'becari', 'vacation scheme', 'placement']],
+  ['Beca',         ['beca', 'scholarship']],
+  ['Programa',     ['programa', 'program', 'programme', 'acelerac', 'scale-up', 'scaleup',
+                    'incubad', 'mentoria', 'financiac', 'funding']],
+  ['Convocatoria', ['convocatoria', 'business game', 'hackathon', 'competic', 'challenge',
+                    'concurso', 'premio', 'case competition']],
+  ['Evento',       ['evento', 'event', 'networking', 'charla', 'webinar']],
+  ['Empleo',       ['oferta', 'empleo', 'job', 'full time', 'fulltime', 'graduate',
+                    'junior', 'contrato', 'vacante']]
 ];
 
 // Sinónimos de cabecera -> clave interna.
