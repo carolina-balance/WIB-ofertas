@@ -20,6 +20,7 @@ Uso:
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import date, datetime, timezone
@@ -28,7 +29,12 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 DESTINO = RAIZ / "data" / "ofertas.json"
 
-INTENTOS = 3
+# Apps Script devuelve 404 o 500 de forma esporádica, sobre todo cuando
+# Google está redesplegando por detrás. Son fallos de segundos, así que
+# reintentar sin esperar (como hacíamos antes) no servía de nada: los tres
+# intentos caían dentro del mismo parpadeo. Con estas esperas cubrimos
+# algo más de un minuto y medio antes de darnos por vencidas.
+ESPERAS = [5, 15, 30, 45]
 TIMEOUT = 45
 
 
@@ -37,9 +43,11 @@ def log(mensaje):
 
 
 def descargar(url):
-    """Pide el JSON al Apps Script, reintentando ante fallos de red."""
+    """Pide el JSON al Apps Script, reintentando con esperas crecientes."""
+    total = len(ESPERAS) + 1
     ultimo_error = None
-    for intento in range(1, INTENTOS + 1):
+
+    for intento in range(1, total + 1):
         try:
             peticion = urllib.request.Request(
                 url,
@@ -47,11 +55,21 @@ def descargar(url):
             )
             with urllib.request.urlopen(peticion, timeout=TIMEOUT) as respuesta:
                 crudo = respuesta.read().decode("utf-8")
+            if intento > 1:
+                log(f"recuperado en el intento {intento}")
             return json.loads(crudo)
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as error:
             ultimo_error = error
-            log(f"intento {intento}/{INTENTOS} falló: {error}")
-    raise SystemExit(f"No se pudo leer el Apps Script: {ultimo_error}")
+            log(f"intento {intento}/{total} falló: {error}")
+            if intento <= len(ESPERAS):
+                espera = ESPERAS[intento - 1]
+                log(f"reintento en {espera}s")
+                time.sleep(espera)
+
+    raise SystemExit(
+        f"No se pudo leer el Apps Script tras {total} intentos: {ultimo_error}. "
+        "La web sigue sirviendo los últimos datos buenos; no se ha tocado nada."
+    )
 
 
 def cargar_previo():
