@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-16T09:15:09+00:00",
+  "generado": "2026-09-16T16:42:10+00:00",
   "origen": "Ofertas",
-  "total": 97,
+  "total": 95,
   "ofertas": [
     {
       "id": "1gme477",
@@ -20,24 +20,6 @@
       "cierre": "",
       "link": "https://sites.leadconnectorhq.com/preview/Y8jK1WKYEhJ0TlmkgOWS?notrack=true&fbclid=PAdGRleAUQr25wZG9mAmZkaWQWUOOWJ9HmQNfRa_0KVvX5-V4Yn_NXuGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp1Ns3SHU4GDVsCBhiV5dFHqGUfHnhar9I6_TI06lgRSFykXuaPR4yDtXOC0m_aem_pA34hyHH7V4ZGPyEW3U4GA",
       "alta": "2026-09-11"
-    },
-    {
-      "id": "rhoaru",
-      "empresa": "Harris Williams",
-      "puesto": "Analista de primer año (Verano)",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Londres"
-      ],
-      "cierre": "",
-      "link": "",
-      "alta": ""
     },
     {
       "id": "1guwyik",
@@ -257,22 +239,6 @@
       ],
       "cierre": "",
       "link": "https://balancephone-careers.notion.site/Customer-Care-Intern-Junior-3ca029fe70d5806892fccdc85f55103c",
-      "alta": ""
-    },
-    {
-      "id": "1lz2mad",
-      "empresa": "McKinsey & Company",
-      "puesto": "McKinsey Forward",
-      "descripcion": "",
-      "tipo": [
-        "Programa"
-      ],
-      "sector": [
-        "Consultoría"
-      ],
-      "ciudad": [],
-      "cierre": "",
-      "link": "",
       "alta": ""
     },
     {
@@ -1165,7 +1131,7 @@
       "alta": "2026-09-11"
     },
     {
-      "id": "13wguzo",
+      "id": "e9r17e",
       "empresa": "Bank of America",
       "puesto": "Finance Management Summer Analyst Program (FMAP) - 2027",
       "descripcion": "Internship de 10 semanas dentro del CFO Group, 'focusing on financial and management accounting, corporate and strategic finance, and internal treasury functions'.",
@@ -1180,11 +1146,11 @@
         "Nueva York (NY) (con más ubicaciones disponibles)"
       ],
       "cierre": "2026-09-30",
-      "link": "",
+      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14422/finance-management-summer-analyst-program-2027-multiple-locations",
       "alta": "2026-09-16"
     },
     {
-      "id": "snna8t",
+      "id": "qp9bhc",
       "empresa": "Barclays",
       "puesto": "Banking Summer Internship Programme 2027 London",
       "descripcion": "Internship de 10 semanas para estudiantes en penúltimo o último año; los interns trabajan con los equipos de Coverage y M&A en 'financial analysis and modelling, valuation, industry research, client due diligence' y en la elaboración de offering memoranda y presentaciones para nuevos negocios.",
@@ -1199,11 +1165,11 @@
         "Reino Unido"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Canary-Wharf-1-Churchill-Place/Banking-Summer-Internship-Programme-2027-London_JR-0000123942-1/apply",
       "alta": "2026-09-16"
     },
     {
-      "id": "1aswvc7",
+      "id": "cdos3h",
       "empresa": "BlackRock",
       "puesto": "2027 Summer Internship Program - AMERS",
       "descripcion": "Internship de nueve semanas (junio-agosto) que 'replicates, as closely as possible, the experience of being a full-time BlackRock Analyst', dirigido a estudiantes que se gradúan entre septiembre 2027 y julio 2028; incluye orientación, formación on-the-job, speaker series, mentoring y networking.",
@@ -1228,11 +1194,11 @@
         "Toronto"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.blackrock.com/job/new-york/2027-summer-internship-program-amers/45831/90628276544",
       "alta": "2026-09-16"
     },
     {
-      "id": "zdhpqw",
+      "id": "r5ggtu",
       "empresa": "Citi",
       "puesto": "Investment Banking - Summer Internship Program, Tokyo - Japan, 2027",
       "descripcion": "Internship de 8 semanas entre mediados de junio y principios de agosto de 2027 en la división de banca de inversión de Citigroup Japan, dirigido a estudiantes que se gradúan entre octubre 2027 y septiembre 2028; incluye trabajo en 'M&A transactions, equity offerings, and financing solutions'.",
@@ -1248,11 +1214,11 @@
         "Japón"
       ],
       "cierre": "2026-10-15",
-      "link": "",
+      "link": "https://jobs.citi.com/job/chiyoda/investment-banking-summer-internship-program-tokyo-japan-2027/287/98511087696",
       "alta": "2026-09-16"
     },
     {
-      "id": "mkn8s5",
+      "id": "199zyrg",
       "empresa": "Deutsche Bank",
       "puesto": "Internship Programme",
       "descripcion": "'The Deutsche Bank Internship Programme is designed to help you develop your skills through formal training and continuous support'; dirigido a estudiantes en penúltimo año de estudios con máximo 12 meses de experiencia laboral a tiempo completo.",
@@ -1272,11 +1238,11 @@
         "Infraestructura"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.db.com/students-graduates/internship-programme/",
       "alta": "2026-09-16"
     },
     {
-      "id": "79mvzi",
+      "id": "125zynn",
       "empresa": "Deutsche Bank",
       "puesto": "Spring into Banking",
       "descripcion": "Programa de insight de cuatro días para estudiantes de primer o segundo año; ofrece 'an overview of Deutsche Bank and the different divisions' e incluye work shadowing, y los seleccionados obtienen 'early access to the interview process for the Summer Internship Programme'.",
@@ -1290,11 +1256,11 @@
         "Reino Unido e Irlanda"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.db.com/students-graduates/insight-programmes/uk-and-ireland/spring-into-banking?language_id=1",
       "alta": "2026-09-16"
     },
     {
-      "id": "1cznpm",
+      "id": "hpgfar",
       "empresa": "Morgan Stanley",
       "puesto": "2027 Wealth Management Virtual Engagement Associate (VEA) Program",
       "descripcion": "Programa estructurado de dos años y tres meses que ofrece 'firsthand experience working with the top Financial Advisors (FAs) in the industry'; incluye licencias Series 7 y 63, formación y desarrollo profesional, con inicio previsto a lo largo de 2027.",
@@ -1313,11 +1279,11 @@
         "Tempe (AZ)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/XMLNAME-2027-Wealth-Management-Virtual-Engagement-Associate--VEA--Program---New-York_JR042826",
       "alta": "2026-09-16"
     },
     {
-      "id": "12bisxz",
+      "id": "v8yif2",
       "empresa": "Santander",
       "puesto": "Beca Santander Ayuda Económica 2026-27",
       "descripcion": "Beca gestionada a través de Santander Open Academy para 'complementar el importe de la beca general del Ministerio de Educación'; ofrece 300 becas de 1.000€ para estudiantes de grado y máster que hayan recibido beca del Ministerio o ayuda de equidad AGAUR en 2025-26.",
@@ -1334,11 +1300,11 @@
         "UCM)"
       ],
       "cierre": "2026-10-07",
-      "link": "",
+      "link": "https://app.santanderopenacademy.com/es/program/ayuda-economica-2026",
       "alta": "2026-09-16"
     },
     {
-      "id": "o9nb2t",
+      "id": "yw8fhk",
       "empresa": "UBS",
       "puesto": "Summer Internship Program",
       "descripcion": "Internships de verano con distintas fechas de inicio según región: 'Our internships start in June in the UK and in Jersey' y 'Our internships start in June' en EE.UU.; en Suiza el programa tiene fechas fijas de inicio en febrero, julio y septiembre.",
@@ -1356,11 +1322,11 @@
         "EE.UU."
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=searchResults&SearchType=linkquery&LinkID=15974",
       "alta": "2026-09-16"
     },
     {
-      "id": "s19yn2",
+      "id": "1evuwdi",
       "empresa": "Deutsche Bank",
       "puesto": "Graduate Programme",
       "descripcion": "Programa de un año que exige 'Complete your studies between 1st January 2026 and 31st July 2027' con inicio de empleo a tiempo completo en julio 2027 y máximo 12 meses de experiencia laboral previa.",
@@ -1382,11 +1348,11 @@
         "DB Direkt)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.db.com/students-graduates/graduate-programme/index",
       "alta": "2026-09-16"
     },
     {
-      "id": "crydoi",
+      "id": "t781pp",
       "empresa": "Goldman Sachs",
       "puesto": "2027 Summer Associate Program",
       "descripcion": "Internship de 9-10 semanas para estudiantes de posgrado (MBA, PhD, JD, MD o LLM); los participantes 'work on real responsibilities alongside fellow interns and our people' tras una orientación sobre la cultura y beneficios de la firma.",
@@ -1405,11 +1371,11 @@
         "Varias ciudades)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/summer-associate-program",
       "alta": "2026-09-16"
     },
     {
-      "id": "1ci3a67",
+      "id": "cjkzrl",
       "empresa": "L'Oréal Groupe",
       "puesto": "SeedZ Management Trainee Programme – General Management Track",
       "descripcion": "Programa rotacional de un año con 6 meses en cada una de dos funciones clave dentro de Marketing & Commerce, con enfoque en 'Business-Ownership', liderazgo independiente de proyectos y análisis de mercado desde el primer día, con mentoría y traspaso a un puesto permanente al finalizar.",
@@ -1425,11 +1391,11 @@
         "Alemania"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.loreal.com/en_US/jobs/JobDetail/SeedZ-Management-Trainee-Programm-m-w-d-Track-GENERAL-MANAGEMENT-April-2027/252080",
       "alta": "2026-09-16"
     },
     {
-      "id": "1caq24x",
+      "id": "zl594a",
       "empresa": "Prada Group",
       "puesto": "PRADA E-Merchandising Intern",
       "descripcion": "Asiste al equipo de E-Merchandising en la planificación y ejecución de la estrategia de surtido digital omnicanal a nivel mundial, gestionando el catálogo estacional de Prada.com y coordinando contenidos digitales de producto.",
@@ -1444,11 +1410,11 @@
         "Italia"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.pradagroup.com/job/Milano-PRADA-E-Merchandising-Intern/1434567133/",
       "alta": "2026-09-16"
     },
     {
-      "id": "htzow1",
+      "id": "mpldds",
       "empresa": "Prada Group",
       "puesto": "Miu Miu Visual Merchandising Intern",
       "descripcion": "Apoya al equipo de Visual Merchandising de la sede de Miu Miu en la traducción creativa de la visión de marca en las tiendas: organización del archivo VM, gestión de props e informes fotográficos tras la instalación de escaparates.",
@@ -1463,11 +1429,11 @@
         "Italia"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.pradagroup.com/job/Milano-Miu-Miu-Visual-Merchandising-Intern/1390238133/",
       "alta": "2026-09-16"
     },
     {
-      "id": "1mh9nnh",
+      "id": "1pish5o",
       "empresa": "Puig",
       "puesto": "Fashion Multi Brand CHNY, RB, NR, JPG Graduate",
       "descripcion": "Support the planning and execution of PR initiatives, including fashion shows, collection launches, events, press materials; gestiona showroom, muestras e investigación de influencers para varias marcas de moda del grupo (Carolina Herrera, Rabanne, Nina Ricci, Jean Paul Gaultier).",
@@ -1483,11 +1449,11 @@
         "España"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.puig.com/job/Madrid-Fashion-Multi-Brand-CHNY%2C-RB%2C-NR%2C-JPG-Graduate/1434529133/",
       "alta": "2026-09-16"
     },
     {
-      "id": "1g16saa",
+      "id": "rkbxa5",
       "empresa": "Puig",
       "puesto": "Creative Operations Intern",
       "descripcion": "Rol de apoyo a las operaciones del estudio creativo de una compañía de lujo/belleza y moda: coordinación de actividades del estudio, plazos de proyecto, producciones de imagen y gestión de activos creativos; requiere que las prácticas sean obligatorias en el plan de estudios.",
@@ -1502,11 +1468,11 @@
         "Suecia"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.puig.com/job/Stockholm-Creative-Operations-Intern/1414924333/",
       "alta": "2026-09-16"
     },
     {
-      "id": "577tsp",
+      "id": "l6boxy",
       "empresa": "Richemont",
       "puesto": "CRM Intern (Vacheron Constantin)",
       "descripcion": "Apoya las iniciativas de CRM de Vacheron Constantin: gestión de plataformas CRM (Salesforce), preparación de informes de cliente y coordinación de eventos y hospitality, trabajando junto al Regional CRM Manager y las boutiques.",
@@ -1520,11 +1486,11 @@
         "Singapur"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.richemont.com/en/jobs/jr133741/crm-intern-jan-jun-2027/",
       "alta": "2026-09-16"
     },
     {
-      "id": "74n1ru",
+      "id": "ixdk58",
       "empresa": "Richemont",
       "puesto": "Accounting Intern",
       "descripcion": "Apoya al equipo de Finanzas en la documentación integral de procesos contables (cuentas por cobrar, cuentas por pagar, libro mayor, fiscalidad e informes financieros) y en la creación de materiales formativos para el sistema de gastos Concur.",
@@ -1538,11 +1504,11 @@
         "Singapur"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://careers.richemont.com/en/jobs/jr133718/accounting-intern/",
       "alta": "2026-09-16"
     },
     {
-      "id": "1iu4z7u",
+      "id": "1wx5dly",
       "empresa": "Amazon/AWS",
       "puesto": "Software Development Engineer Intern – Jan 2027 (6 month), Amazon University Talent Acquisition",
       "descripcion": "Internship de 22-24 semanas centrado en sistemas escalables y servicios cloud; los becarios 'own the entire lifecycle of your code — from design through deployment and ongoing operations'.",
@@ -1558,11 +1524,11 @@
         "India (ADCI - Karnataka)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://www.amazon.jobs/en/jobs/10499554/software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition",
       "alta": "2026-09-16"
     },
     {
-      "id": "51nsce",
+      "id": "pb9inr",
       "empresa": "NVIDIA",
       "puesto": "NVIDIA 2027 Internships: Software Engineering",
       "descripcion": "Internship de 12 semanas con equipos de software de NVIDIA en áreas como development tools, cloud infrastructure, machine learning operations y back-end analytics; buscan 'strategic, ambitious, hard-working, and creative individuals' para 'projects that have a measurable impact on our business'.",
@@ -1576,11 +1542,11 @@
         "Múltiples sedes de NVIDIA (EE. UU.)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.nvidia.com/careers/job/893397026205",
       "alta": "2026-09-16"
     },
     {
-      "id": "h3opup",
+      "id": "3hc7b9",
       "empresa": "NVIDIA",
       "puesto": "NVIDIA 2027 Internships: Hardware Engineering",
       "descripcion": "Internship de 12 semanas con equipos de hardware de NVIDIA en áreas como system validation, hardware design, mechanical engineering y silicon solutions, trabajando en productos como HGX/DGX.",
@@ -1594,11 +1560,11 @@
         "Múltiples sedes de NVIDIA (EE. UU.)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://jobs.nvidia.com/careers/job/893397027188",
       "alta": "2026-09-16"
     },
     {
-      "id": "vwb17o",
+      "id": "is4ctf",
       "empresa": "OECD/OCDE",
       "puesto": "OECD Internship Programme",
       "descripcion": "Cita literal de la página oficial: 'The OECD welcomes interns on an on-going basis. Join the OECD internship programme to gain unique experience and help the OECD build better policies for better lives.'",
@@ -1613,11 +1579,11 @@
         "Francia (sede de la OCDE)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://www.oecd.org/en/about/careers/internships.html",
       "alta": "2026-09-16"
     },
     {
-      "id": "197p5kf",
+      "id": "1lcsezw",
       "empresa": "OSCE",
       "puesto": "Internship – Human Dimension (SEC, Vienna)",
       "descripcion": "Programa de 2 a 6 meses centrado en la 'Human Dimension' (derechos humanos y democracia): los becarios apoyan trabajo en democratización, elecciones, libertad de prensa, derechos de minorías y estado de derecho, incluyendo 'Drafting research papers, policy reports, concept papers'.",
@@ -1633,11 +1599,11 @@
         "Austria"
       ],
       "cierre": "2026-12-31",
-      "link": "",
+      "link": "https://vacancies.osce.org/jobs/internship-%E2%80%93-human-dimension-4825",
       "alta": "2026-09-16"
     },
     {
-      "id": "1g8bfbj",
+      "id": "1h5h7as",
       "empresa": "AstraZeneca",
       "puesto": "12 Month University Industrial Placement Student: Clinical Pharmacology & Safety Sciences",
       "descripcion": "Placement de laboratorio en el que el estudiante ayuda a evaluate the safety of new medicines across all stages of drug development y puede develop bioanalytical assays, perform biomarker analyses, culture cells, apply bioinformatics and AI tools.",
@@ -1653,11 +1619,11 @@
         "Reino Unido"
       ],
       "cierre": "2026-10-02",
-      "link": "",
+      "link": "https://careers.astrazeneca.com/job/cambridge/12-month-university-industrial-placement-student-clinical-pharmacology-and-safety-sciences/7684/100146604288",
       "alta": "2026-09-16"
     },
     {
-      "id": "64b55e",
+      "id": "619iia",
       "empresa": "AstraZeneca",
       "puesto": "12 Month University Industrial Placement Student: Biosciences",
       "descripcion": "Placement de 12 meses dentro de Oncology Bioscience centrado en investigación de descubrimiento de fármacos, con tareas de designing and running experiments, generating and analysing data, maintaining accurate experimental records, and presenting your findings to the team.",
@@ -1673,11 +1639,11 @@
         "Reino Unido"
       ],
       "cierre": "2026-10-02",
-      "link": "",
+      "link": "https://careers.astrazeneca.com/job/cambridge/12-month-university-industrial-placement-student-biosciences/7684/100146604272",
       "alta": "2026-09-16"
     },
     {
-      "id": "1do47pu",
+      "id": "u3612b",
       "empresa": "Johnson & Johnson",
       "puesto": "Quality Control Biotech Intern",
       "descripcion": "Internship de laboratorio en control de calidad de terapias CAR-T; incluye performing analytical testing per GMP regulations, interpreting data, maintaining lab safety standards, con duración de 8 a 16 semanas entre febrero y mayo.",
@@ -1692,11 +1658,11 @@
         "Bélgica"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://www.careers.jnj.com/en/jobs/r-094829/quality-control-biotech-intern/",
       "alta": "2026-09-16"
     },
     {
-      "id": "1slmugc",
+      "id": "1lr5yyt",
       "empresa": "Johnson & Johnson",
       "puesto": "HFE Intern Raritan Spring 2027",
       "descripcion": "Internship de Human Factors Engineering para dispositivos médicos: Support the planning, conduct, and reporting of various user research activities, including ethnography, focus groups, formative usability tests, de enero a mayo de 2027.",
@@ -1712,11 +1678,11 @@
         "Estados Unidos"
       ],
       "cierre": "2026-10-16",
-      "link": "",
+      "link": "https://www.careers.jnj.com/en/jobs/r-095577/hfe-intern-raritan-spring-2027/",
       "alta": "2026-09-16"
     },
     {
-      "id": "1sca9m4",
+      "id": "15tu8xv",
       "empresa": "Sanofi",
       "puesto": "2027 Summer Intern - Commercial Graduate Program Associate, Vaccines",
       "descripcion": "Internship de verano de 10 semanas para estudiantes de MBA en el área de Vacunas, con tareas como Lead or support development of brand strategy y Conduct market research and competitive intelligence projects.",
@@ -1732,11 +1698,11 @@
         "Estados Unidos"
       ],
       "cierre": "2026-11-27",
-      "link": "",
+      "link": "https://jobs.sanofi.com/en/job/morristown/2027-summer-intern-commercial-graduate-program-associate-vaccines-morristown-nj/2649/44714331200",
       "alta": "2026-09-16"
     },
     {
-      "id": "dx30ks",
+      "id": "1cnxkac",
       "empresa": "EIT",
       "puesto": "2027 European Prize for Women Innovators",
       "descripcion": "Premio conjunto del EIT y el Consejo Europeo de Innovación que celebra a mujeres detrás de innovaciones revolucionarias y negocios exitosos en Europa, con tres categorías: Mujeres Innovadoras (fundadoras/cofundadoras), Innovadoras Emergentes (menores de 35) e Innovadoras de Liderazgo EIT; premios de entre 20.000€ y 100.000€.",
@@ -1751,11 +1717,11 @@
         "Países asociados a Horizon Europe"
       ],
       "cierre": "2026-12-01",
-      "link": "",
+      "link": "https://www.eit.europa.eu/our-activities/opportunities/2027-european-prize-women-innovators-apply-now",
       "alta": "2026-09-16"
     },
     {
-      "id": "1ugoazv",
+      "id": "z1cvvs",
       "empresa": "EIT",
       "puesto": "VC Academy 2026 (Cohorte 7)",
       "descripcion": "An online bootcamp for early-stage women VC investors across Europe to strengthen their skills, expand their networks, and accelerate their careers in venture capital. Formato online en directo, ~5h/semana, del 7 de octubre al 25 de noviembre de 2026, con certificado oficial de EIT.",
@@ -1769,11 +1735,11 @@
         "Online (Europa)"
       ],
       "cierre": "2026-09-20",
-      "link": "",
+      "link": "https://supernovas.eitcommunity.eu/vc-academy/",
       "alta": "2026-09-16"
     },
     {
-      "id": "10dog42",
+      "id": "1bpbmyz",
       "empresa": "Endeavor",
       "puesto": "Quiero ser Emprendedor Endeavor",
       "descripcion": "Busca empresas con modelos de negocio únicos, escalables, innovadores y potencialmente disruptivos, validadas en mercado, con facturación mínima de 3M€ anuales y crecimiento del 100%+, y con sede o la mayor parte del equipo en España.",
@@ -1787,11 +1753,11 @@
         "España"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://docs.google.com/forms/d/e/1FAIpQLScNxK6fchjQ8f4q52ffP3dSLeDIn6UsowIlHs8XLKT8f78BzQ/viewform",
       "alta": "2026-09-16"
     },
     {
-      "id": "umcsg1",
+      "id": "mzy8sq",
       "empresa": "Microsoft for Startups",
       "puesto": "Microsoft for Startups Founders Hub",
       "descripcion": "Access up to $150K in Startup credits to build, test, and scale on Azure with AI-ready cloud infrastructure. Abierto a todos, sin necesidad de financiación previa.",
@@ -1805,11 +1771,11 @@
         "No especificado (programa global)"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://www.microsoft.com/en-us/startups/apply",
       "alta": "2026-09-16"
     },
     {
-      "id": "ddmj0o",
+      "id": "cyk59x",
       "empresa": "South Summit",
       "puesto": "South Summit Madrid — Startup Competition 2027",
       "descripcion": "Se seleccionan 100 startups finalistas que presentan un pitch de 3 minutos ante un jurado de inversores y corporates líderes, con matchmaking de inversores, formación en pitching/fundraising y stand de demo con descuento; sin equity ni premio en metálico.",
@@ -1824,11 +1790,11 @@
         "España"
       ],
       "cierre": "2027-01-31",
-      "link": "",
+      "link": "https://www.competition.southsummit.io/calls/south_summit__madrid_2027",
       "alta": "2026-09-16"
     },
     {
-      "id": "6zh6qa",
+      "id": "vk2elt",
       "empresa": "Wayra",
       "puesto": "Submit your startup (Wayra Investment)",
       "descripcion": "We invest in seed and growth-stage startups with the potential to generate business with Telefónica, and with pre-money valuations of up to €250M.",
@@ -1842,11 +1808,11 @@
         "No especificado"
       ],
       "cierre": "",
-      "link": "",
+      "link": "https://wayra.com/investment",
       "alta": "2026-09-16"
     },
     {
-      "id": "11w79sg",
+      "id": "1y8sjo0",
       "empresa": "Kearney",
       "puesto": "Kearney Summer Business Analyst Intern 2027",
       "descripcion": "you will work alongside a dedicated and diverse set of people for 2 to 6 months and contribute to consulting project teams as we offer honest advice and practical guidance to our clients. Requiere estar cursando los últimos años de carrera en Administración, Ingeniería, Economía o Finanzas, español C2 e inglés C1 mínimo.",
@@ -1861,7 +1827,7 @@
         "España"
       ],
       "cierre": "2026-11-30",
-      "link": "",
+      "link": "https://kearney.recsolu.com/jobs/BPk2c5x2LAG6T28r2kAJqw",
       "alta": "2026-09-16"
     }
   ]
