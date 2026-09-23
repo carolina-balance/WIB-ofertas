@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-16T16:42:10+00:00",
+  "generado": "2026-09-23T12:46:12+00:00",
   "origen": "Ofertas",
-  "total": 95,
+  "total": 120,
   "ofertas": [
     {
       "id": "1gme477",
@@ -299,59 +299,6 @@
       "alta": "2026-09-11"
     },
     {
-      "id": "2zju0b",
-      "empresa": "BlackRock",
-      "puesto": "2027 Summer Internship Program - EMEA",
-      "descripcion": "",
-      "tipo": [
-        "Summer",
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Londres",
-        "Amsterdam",
-        "Frankfurt",
-        "Paris",
-        "Zurich",
-        "Milan",
-        "Estocolmo",
-        "Bruselas",
-        "Belgrado",
-        "Budapest",
-        "Riad",
-        "Edimburgo",
-        "Copenhague (no Madrid)"
-      ],
-      "cierre": "",
-      "link": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
-      "alta": "2026-09-11"
-    },
-    {
-      "id": "bx0se8",
-      "empresa": "BlackRock",
-      "puesto": "2027 Off-Cycle Internship Program - EMEA",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Paris",
-        "Munich",
-        "Frankfurt",
-        "Zurich",
-        "Londres (no Madrid)"
-      ],
-      "cierre": "",
-      "link": "https://careers.blackrock.com/job/london/2027-off-cycle-internship-program-emea/45831/97104654800",
-      "alta": "2026-09-11"
-    },
-    {
       "id": "toue8r",
       "empresa": "Citi",
       "puesto": "Banking, Investment Banking, Summer Analyst 2027 (Londres)",
@@ -599,25 +546,6 @@
       "alta": "2026-09-11"
     },
     {
-      "id": "14h0xsq",
-      "empresa": "Google DeepMind",
-      "puesto": "Student Researcher Program (BS/MS/PhD)",
-      "descripcion": "",
-      "tipo": [
-        "Beca"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "Oficinas de Google (incl. Londres",
-        "Europa)"
-      ],
-      "cierre": "",
-      "link": "https://deepmind.google/student-researcher-program/",
-      "alta": "2026-09-11"
-    },
-    {
       "id": "b48eyz",
       "empresa": "Google DeepMind",
       "puesto": "Research Intern, PhD - Summer 2027",
@@ -691,24 +619,6 @@
       "alta": "2026-09-10"
     },
     {
-      "id": "l7c465",
-      "empresa": "Palantir",
-      "puesto": "Launch - Spring Insight Program",
-      "descripcion": "",
-      "tipo": [
-        "Summer"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "No especificado"
-      ],
-      "cierre": "",
-      "link": "https://www.palantir.com/careers/students/launch/",
-      "alta": "2026-09-11"
-    },
-    {
       "id": "367h58",
       "empresa": "Baker McKenzie",
       "puesto": "Academic Year Internship 26/27 | Grado",
@@ -743,24 +653,6 @@
       ],
       "cierre": "",
       "link": "https://careers.bakermckenzie.com/en_US/opportunities/JobDetail/Summer-Internship-2027-Grado/3145",
-      "alta": "2026-09-11"
-    },
-    {
-      "id": "9q7wb1",
-      "empresa": "Freshfields",
-      "puesto": "Internship program - Spain (Madrid)",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Derecho & Política"
-      ],
-      "ciudad": [
-        "Madrid"
-      ],
-      "cierre": "",
-      "link": "https://www.freshfields.com/en/your-career/spain/legal-services/internship",
       "alta": "2026-09-11"
     },
     {
@@ -1829,6 +1721,593 @@
       "cierre": "2026-11-30",
       "link": "https://kearney.recsolu.com/jobs/BPk2c5x2LAG6T28r2kAJqw",
       "alta": "2026-09-16"
+    },
+    {
+      "id": "mijdzq",
+      "empresa": "Bank of America",
+      "puesto": "Global Investment Banking 2027 Summer Analyst - London",
+      "descripcion": "Prácticas de verano dentro de la división de Investment Banking, trabajando en equipos de cobertura de sector, país y producto en proyectos con clientes relacionados con fusiones y adquisiciones, finanzas corporativas y mercados de capitales. Requiere graduación prevista entre junio 2027 y julio 2028.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "2026-10-11",
+      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "wdshbh",
+      "empresa": "Barclays",
+      "puesto": "Banking Summer Internship Programme 2027 London",
+      "descripcion": "Prácticas de 10 semanas en los equipos de Coverage y M&A de la división de Investment Banking, trabajando en operaciones reales, análisis financiero, valoración e investigación sectorial. Dirigido a estudiantes de penúltimo o último año de cualquier disciplina.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres (Canary Wharf)",
+        "Reino Unido"
+      ],
+      "cierre": "",
+      "link": "https://search.jobs.barclays/job/london/banking-summer-internship-programme-2027-london/13015/99528488160",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1icjxa3",
+      "empresa": "Citi",
+      "puesto": "Services - Summer Analyst Program, New York City - US, 2027",
+      "descripcion": "Programa de 10 semanas para estudiantes de últimos cursos, con experiencia práctica en análisis financiero, desarrollo de negocio y relación con clientes, incluyendo investigación de mercado y uso de analítica avanzada e IA en la prestación de servicios.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Nueva York",
+        "Estados Unidos"
+      ],
+      "cierre": "",
+      "link": "https://jobs.citi.com/job/new-york/services-summer-analyst-program-new-york-city-us-2027/287/93724104768",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "192dgsm",
+      "empresa": "J.P. Morgan",
+      "puesto": "Markets Summer Analyst Program (Jun 2027)",
+      "descripcion": "Programa que ofrece experiencia práctica en Global Markets, dando soporte a las áreas de Research, Sales, Trading, Structuring & Origination o Digital Markets. Inicio previsto en junio de 2027.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "New York",
+        "Chicago",
+        "Dallas",
+        "Los Angeles (Estados Unidos)"
+      ],
+      "cierre": "2026-10-01",
+      "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325/?keyword=intern&location=United+States&locationId=300000000289738&locationLevel=country&mode=location",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1nf7ka4",
+      "empresa": "Inditex",
+      "puesto": "The Creatives Graduate Program",
+      "descripcion": "Programa de un año con contrato remunerado para estudiantes de último curso en Diseño de Moda, Styling, Diseño Gráfico, Patronaje y disciplinas creativas afines, con formación intensiva y mentoring; el 80% de los participantes continúa carrera en equipos de Inditex.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "No especificado (programa global Inditex)"
+      ],
+      "cierre": "",
+      "link": "https://talent.inditexpeople.com/en/creatives/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "kercdm",
+      "empresa": "L'Oréal Groupe",
+      "puesto": "6-Month Internship – Digital, E-commerce & Innovation",
+      "descripcion": "Prácticas de 6 meses a partir de enero de 2027, con foco en optimización de e-commerce, gestión de marca online, analítica de datos o gestión de proyectos digitales, retribuidas con 1.700€/mes.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://careers.loreal.com/en_US/jobs/JobDetail/6-MONTH-INTERNSHIP-Starting-January-2027-Digital-E-commerce-Innovation-Master-s-1700-month/251918",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "d347tv",
+      "empresa": "L'Oréal Groupe",
+      "puesto": "6-Month Internship – Research & Innovation – Scientific Valorization",
+      "descripcion": "Prácticas de 6 meses a partir de enero de 2027 en el departamento de Research & Innovation, centradas en comunicación científica: síntesis de documentos técnicos y creación de materiales de divulgación científica.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://careers.loreal.com/en_US/jobs/JobDetail/6-MONTH-INTERNSHIP-Starting-January-2027-Research-Innovation-Scientific-Valorization-Master-s-1700-month/253560",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "ktbwtt",
+      "empresa": "Puig",
+      "puesto": "Brand Marketing and Retail Intern (Puig Suisse)",
+      "descripcion": "Prácticas de 6 a 12 meses en marketing y retail de Puig Suisse, con inicio a mediados de octubre de 2026, dando soporte a planificación de marketing, e-tailing, relaciones de prensa y eventos de formación de marca.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Eysins",
+        "Vaud",
+        "Suiza"
+      ],
+      "cierre": "",
+      "link": "https://jobs.puig.com/job/Eysins-Marketing-Intern-VD/1426613533/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "fl0c2r",
+      "empresa": "Richemont (Grupo, CIO Office)",
+      "puesto": "Strategic Projects Intern",
+      "descripcion": "Prácticas de 6 meses en la oficina del CIO de Richemont, dando soporte a la coordinación de proyectos estratégicos, reporting financiero y gestión de riesgos, con inicio en septiembre de 2026.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Meyrin",
+        "Suiza"
+      ],
+      "cierre": "",
+      "link": "https://careers.richemont.com/en/jobs/jr131449/strategic-projects-intern/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "18fsi8m",
+      "empresa": "Amazon/AWS",
+      "puesto": "Software Development Engineer Intern - Summer 2027 (USA)",
+      "descripcion": "Internship de 12 semanas (principalmente mayo-agosto 2027) donde los becarios trabajan en sistemas escalables y servicios cloud, con responsabilidad real desde el primer día, diseñando y desplegando su propio proyecto.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Múltiples ciudades de EE.UU."
+      ],
+      "cierre": "",
+      "link": "https://www.amazon.jobs/en/jobs/10552937/software-development-engineer-intern-summer-2027-usa",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "15c6j1j",
+      "empresa": "Amazon/AWS",
+      "puesto": "2027 Applied Science Intern (Computer Vision), Amazon International Machine Learning",
+      "descripcion": "Internship de ciencias aplicadas (6 meses, inicio enero-marzo 2027) para estudiantes de doctorado en Computer Vision/Machine Learning; incluye acceso a hardware GPU de Amazon y posibilidad de publicar en conferencias tier-1 como CVPR e ICCV.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Melbourne",
+        "Victoria",
+        "Australia"
+      ],
+      "cierre": "",
+      "link": "https://www.amazon.jobs/en/jobs/10459543/2027-applied-science-intern-computer-vision-amazon-international-machine-learning",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "t6b01k",
+      "empresa": "Google DeepMind",
+      "puesto": "Student Researcher, PhD, Winter-Summer 2027",
+      "descripcion": "Programa que coloca a estudiantes de doctorado en proyectos de investigación de Google; la propia oferta indica que se considerará a los candidatos para posiciones de Student Researcher en todos los equipos de investigación de Google, incluyendo DeepMind, Google Research y Google Cloud.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Waterloo",
+        "ON",
+        "Canadá; Toronto",
+        "ON",
+        "Canadá"
+      ],
+      "cierre": "2027-07-16",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/75043041429070534-student-researcher-phd-wintersummer-2027?employment_type=INTERN",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "hg86np",
+      "empresa": "NVIDIA",
+      "puesto": "NVIDIA 2027 Internships: Software Engineering",
+      "descripcion": "Internship de 12 semanas a tiempo completo; NVIDIA busca estudiantes de B.S./M.S./Ph.D. en Ingeniería Eléctrica, Informática o afines para trabajar en Development Tools, Cloud Infrastructure, ML Operations, entre otras áreas técnicas.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "No especificado en detalle (EE.UU.",
+        "Posiciones múltiples)"
+      ],
+      "cierre": "",
+      "link": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "mjty4q",
+      "empresa": "Palantir",
+      "puesto": "Software Engineer, Internship",
+      "descripcion": "Los becarios contribuyen código a productos como Palantir Gotham, Foundry o Apollo, trabajando en equipos pequeños con mentoría dedicada durante todo el ciclo de vida del producto; requiere elegibilidad para autorización de seguridad de EE.UU.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Palo Alto",
+        "CA (presencial)"
+      ],
+      "cierre": "",
+      "link": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "kyxzx7",
+      "empresa": "Salesforce",
+      "puesto": "Summer 2027 Intern - Software Engineer",
+      "descripcion": "Internship de verano donde los becarios trabajan en soluciones que incluyen tecnologías agentic, con mentoría de ingenieros y programas de desarrollo profesional.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Norteamérica (requiere estar matriculado en universidad de Norteamérica)"
+      ],
+      "cierre": "",
+      "link": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/Summer-2027-Intern---Software-Engineer_JR340771-1",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "rxyj57",
+      "empresa": "A&O Shearman",
+      "puesto": "Summer Vacation Scheme 2027",
+      "descripcion": "Programa de dos semanas (5-16 julio 2027) para estudiantes de penúltimo año de cualquier carrera; posibilidad de Training Contract según desempeño.",
+      "tipo": [
+        "Summer"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "2026-11-09",
+      "link": "https://careers.aoshearman.com/en/job/london/summer-vacation-scheme-2027/3392/44630125376",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "jf24mv",
+      "empresa": "Linklaters",
+      "puesto": "Prácticas Máster de Acceso a la Abogacía 2027",
+      "descripcion": "Prácticas remuneradas y tuteladas para estudiantes de último año de Grado en Derecho que cursen el Máster de Acceso a la Abogacía; incluye rotación el primer año y formación técnica, de habilidades e inglés, con posible incorporación como abogado junior.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://linklaters.wd3.myworkdayjobs.com/linklaters/job/madrid/prcticas-mster-de-acceso-a-la-abogaca-2027_r00014705",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "i28tqp",
+      "empresa": "OSCE",
+      "puesto": "Internship – Core Operational Functions (OSCE Secretariat)",
+      "descripcion": "Internship de 2 a 6 meses centrado en trabajo administrativo y programático dentro de la Secretaría de la OSCE; sin remuneración fija, aunque puede haber contribución al coste de vida.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Viena",
+        "Austria",
+        "Praga",
+        "República Checa"
+      ],
+      "cierre": "2026-12-31",
+      "link": "https://vacancies.osce.org/jobs/internship-%E2%80%93-core-operational-functions-4822",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "ye1tof",
+      "empresa": "AstraZeneca",
+      "puesto": "Summer 2027 Internships (Mt. Vernon, IN – Undergraduates)",
+      "descripcion": "Prácticas remuneradas de 10 semanas (17 mayo - 23 julio 2027) en la planta de fabricación biofarmacéutica de AstraZeneca en Mount Vernon, con posiciones en Project Management, Supply Chain, Quality Control, Engineering e IT.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Mount Vernon",
+        "Indiana",
+        "Estados Unidos"
+      ],
+      "cierre": "2026-10-01",
+      "link": "https://careers.astrazeneca.com/job/mount-vernon/summer-2027-internships-in-mt-vernon-in-undergraduates/7684/100049460400",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1hz8pa6",
+      "empresa": "Bayer",
+      "puesto": "Quality Assurance Internship (m/f/d)",
+      "descripcion": "Prácticas en el área de Calidad (Quality Assurance) dentro de la división Farmacéutica de Bayer.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Garbagnate Milanese",
+        "Lombardía",
+        "Italia"
+      ],
+      "cierre": "",
+      "link": "https://talent.bayer.com/careers/job/562949978488243",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "ypvjia",
+      "empresa": "Johnson & Johnson",
+      "puesto": "Clinical Pharmacology and Pharmacometrics Intern - Summer 2027",
+      "descripcion": "Prácticas en la división de Farmacología Clínica y Farmacometría de J&J: PK/PD, modelado traslacional y desarrollo de fármacos guiado por modelos, en áreas como oncología y neurociencia.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Spring House (PA)",
+        "La Jolla (CA)",
+        "Cambridge (MA)",
+        "Raritan (NJ)",
+        "Titusville (NJ)",
+        "Estados Unidos"
+      ],
+      "cierre": "2026-11-20",
+      "link": "https://www.careers.jnj.com/en/jobs/r-098266/clinical-pharmacology-and-pharmacometrics-intern-summer-2027/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "9bise7",
+      "empresa": "Sanofi",
+      "puesto": "2027 Summer Intern Opportunities",
+      "descripcion": "Programa de prácticas de verano (10-12 semanas, desde junio 2027) para estudiantes de farmacia (PharmD), ciencias de la vida, ingeniería y analítica; roles en Market Access, Farmacología Cuantitativa y Desarrollo de Producto Farmacéutico.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Morristown",
+        "New Jersey",
+        "Estados Unidos"
+      ],
+      "cierre": "2026-12-11",
+      "link": "https://jobs.sanofi.com/en/job/morristown/2027-summer-intern-opportunities-morristown-nj/2649/44498172160",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "e5ondb",
+      "empresa": "Sanofi",
+      "puesto": "2027 Spring Co-Op Opportunities",
+      "descripcion": "Programa co-op de 6 meses (desde enero 2027) en áreas como HSE, desarrollo de cultivo celular, planificación de cadena de suministro y desarrollo de producto farmacéutico.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Framingham",
+        "Massachusetts",
+        "Estados Unidos"
+      ],
+      "cierre": "2026-11-14",
+      "link": "https://jobs.sanofi.com/en/job/framingham/2027-spring-co-op-opportunities-framingham-ma/2649/41259847040",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "he86r4",
+      "empresa": "AWS Startups",
+      "puesto": "AWS Activate Credits",
+      "descripcion": "Créditos AWS para startups: hasta 5.000 USD para founders autofinanciados y hasta 200.000 USD para startups pre-Serie B, con créditos adicionales para startups de IA. Respuesta en 5-10 días laborables tras aplicar.",
+      "tipo": [
+        "Otro"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Global (online)"
+      ],
+      "cierre": "",
+      "link": "https://aws.amazon.com/startups/credits/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1eiu1i3",
+      "empresa": "EIT",
+      "puesto": "AI Entrepreneurs Lab",
+      "descripcion": "Bootcamp intensivo de 5 días para estudiantes/graduados de máster y doctorado con ideas de IA o robótica (solos o en equipos de hasta 2), con mentoría de founders, validación de mercado y hasta cinco premios de 10.000 euros en el Demo Day.",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Bootcamp presencial en tres ciudades europeas",
+        "Demo Day"
+      ],
+      "cierre": "2026-10-21",
+      "link": "https://www.eit.europa.eu/our-activities/opportunities/ai-entrepreneurs-lab",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1vnf82y",
+      "empresa": "EIT",
+      "puesto": "Student Entrepreneur Grant Scheme (SEGS)",
+      "descripcion": "Becas de hasta 6.000 euros por proyecto para estudiantes actualmente matriculados o recién graduados de programas con sello EIT de EIT Urban Mobility que quieran desarrollar una idea emprendedora.",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Programas EIT Urban Mobility (varias universidades europeas)"
+      ],
+      "cierre": "2026-10-12",
+      "link": "https://www.eit.europa.eu/our-activities/opportunities/student-entrepreneur-grant-scheme-segs-open-call",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "sn0vxn",
+      "empresa": "Endeavor",
+      "puesto": "Endeavor Entrepreneur Experience - Apply to become an Endeavor Entrepreneur",
+      "descripcion": "Selección de fundadoras/es de alto crecimiento (500K-10M USD de ingresos anuales, >100% crecimiento medio en 3 años, con sede u operaciones en un mercado Endeavor) para unirse a la red global de mentoría y capital de Endeavor.",
+      "tipo": [
+        "Otro"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Global (mercados donde opera Endeavor",
+        "Incl. España)"
+      ],
+      "cierre": "",
+      "link": "https://endeavor.org/entrepreneur-experience/apply/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1016w97",
+      "empresa": "EY-Parthenon",
+      "puesto": "Intern - EY-Parthenon - M&A Lead Advisory (graduate)",
+      "descripcion": "Internship en el departamento de Transactions Corporate Finance enfocado en asesoría de M&A, trabajando en transacciones de compra/venta de alto perfil: preparación de documentos de transacción y valoraciones de empresas (múltiplos de mercado y DCF). Requiere grado en administración de empresas, finanzas o economía.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Zúrich",
+        "Suiza"
+      ],
+      "cierre": "",
+      "link": "https://careers.ey.com/ey/job/Zurich-Intern-EY-Parthenon-M&A-Lead-Advisory-(graduate)-8005/1428624933/",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1eal2f2",
+      "empresa": "Kearney",
+      "puesto": "Summer Business Analyst Intern 2026",
+      "descripcion": "Internship de 4 a 8 semanas trabajando en equipos de proyectos de consultoría, incluyendo análisis de datos, evaluación de competidores y apoyo a recomendaciones para clientes. Requiere estar en 3er año de BSc o 1er año de MSc y hablar portugués e inglés fluido.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Lisboa",
+        "Portugal"
+      ],
+      "cierre": "",
+      "link": "https://kearney.recsolu.com/jobs/QQYKdUGs5xD0Zsf66oAJag?job_board_id=EPd41qlA4_03IncZMnWyRQ",
+      "alta": "2026-09-23"
+    },
+    {
+      "id": "1yk2p68",
+      "empresa": "Roland Berger",
+      "puesto": "Consulting Intern AI & Data (all genders)",
+      "descripcion": "Práctica de 4-6 meses en el equipo de AI & Data, combinando insights de negocio con métodos cuantitativos para resolver problemas de clientes basados en datos. Requiere estar matriculado en un grado analítico, experiencia en machine learning/visualización de datos, programación (preferible Python) e inglés y alemán fluidos.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Múnich",
+        "Düsseldorf",
+        "Fráncfort",
+        "Hamburgo",
+        "Berlín o Stuttgart",
+        "Alemania"
+      ],
+      "cierre": "",
+      "link": "https://jobs.smartrecruiters.com/RolandBerger/744000023786885-internship-analytics-consulting-m-f-d-",
+      "alta": "2026-09-23"
     }
   ]
 }
