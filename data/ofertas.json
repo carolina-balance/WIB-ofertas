@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-23T12:46:12+00:00",
+  "generado": "2026-10-03T10:16:17+00:00",
   "origen": "Ofertas",
-  "total": 120,
+  "total": 122,
   "ofertas": [
     {
       "id": "1gme477",
@@ -2308,6 +2308,44 @@
       "cierre": "",
       "link": "https://jobs.smartrecruiters.com/RolandBerger/744000023786885-internship-analytics-consulting-m-f-d-",
       "alta": "2026-09-23"
+    },
+    {
+      "id": "clkyhx",
+      "empresa": "Bain&Company",
+      "puesto": "Associate Consultant Internship",
+      "descripcion": "Languages required: Fluency in Spanish or Portuguese Fluency in English, with C1 level in Speaking and Writing. No visa sponsorship available",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/?jobid=10403",
+      "alta": "2026-10-03"
+    },
+    {
+      "id": "1fbccyb",
+      "empresa": "Bain&Company",
+      "puesto": "Summer Associate",
+      "descripcion": "We invite MBA candidates to join us in one of our offices for a summer-long paid internship to understand the exciting life of a strategy consultant. The details vary by office, but all programs will offer you an opportunity to be staffed on a case team doing real client work that allows you to have an impact and hone your skills.",
+      "tipo": [
+        "Summer",
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Disponibilidad en muchas ciudades (Madrid)"
+      ],
+      "cierre": "",
+      "link": "https://www.bain.com/careers/work-with-us/internships-programs/summer-associate/#",
+      "alta": "2026-10-03"
     }
   ]
 }
