@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-03T10:16:17+00:00",
+  "generado": "2026-10-06T21:09:17+00:00",
   "origen": "Ofertas",
-  "total": 122,
+  "total": 128,
   "ofertas": [
     {
       "id": "1gme477",
@@ -260,27 +260,6 @@
       "alta": "2026-09-11"
     },
     {
-      "id": "9gpj0f",
-      "empresa": "Bank of America",
-      "puesto": "Strategy & Management Summer Analyst Program 2027",
-      "descripcion": "",
-      "tipo": [
-        "Summer",
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Charlotte",
-        "Boston",
-        "NY (referencia global)"
-      ],
-      "cierre": "2026-09-30",
-      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14443/strategy-and-management-summer-analyst-program-2027-multiple-locations",
-      "alta": "2026-09-11"
-    },
-    {
       "id": "1gfhf2g",
       "empresa": "Barclays",
       "puesto": "Banking Off Cycle Internship Programme 2027 - Madrid",
@@ -352,24 +331,6 @@
       ],
       "cierre": "",
       "link": "https://higher.gs.com/roles/170833",
-      "alta": "2026-09-11"
-    },
-    {
-      "id": "1rar3ap",
-      "empresa": "Santander",
-      "puesto": "Becas Santander Complemento a las Practicas 2026 - II Edicion",
-      "descripcion": "",
-      "tipo": [
-        "Beca"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Espana (universidades adscritas)"
-      ],
-      "cierre": "2026-10-02",
-      "link": "https://www.upsa.es/becas-y-ayudas-al-estudio/becas-santander-complemento-a-las-practicas",
       "alta": "2026-09-11"
     },
     {
@@ -896,43 +857,6 @@
       "alta": "2026-09-11"
     },
     {
-      "id": "1e35smp",
-      "empresa": "SeedRocket",
-      "puesto": "36o Campus de Emprendedores",
-      "descripcion": "",
-      "tipo": [
-        "Evento"
-      ],
-      "sector": [
-        "Emprendimiento & Business"
-      ],
-      "ciudad": [
-        "Madrid",
-        "Espana"
-      ],
-      "cierre": "2026-09-21",
-      "link": "https://www.seedrocket.com/eventos/36-campus-de-emprendedores/",
-      "alta": "2026-09-10"
-    },
-    {
-      "id": "i5js9s",
-      "empresa": "Endeavor",
-      "puesto": "Aplicacion a la red Endeavor Espana",
-      "descripcion": "",
-      "tipo": [
-        "Red de mentoria/scale-up"
-      ],
-      "sector": [
-        "Emprendimiento & Business"
-      ],
-      "ciudad": [
-        "Espana"
-      ],
-      "cierre": "",
-      "link": "https://spain.endeavor.org/emprendedores/quiero-ser-emprendedor-endeavor/",
-      "alta": "2026-09-10"
-    },
-    {
       "id": "jiuao5",
       "empresa": "Accenture",
       "puesto": "DIXCOVER - Programa de Practicas Universitarias",
@@ -1021,25 +945,6 @@
       "cierre": "",
       "link": "https://www.mckinsey.com/careers/search-jobs/jobs/associateintern-14918",
       "alta": "2026-09-11"
-    },
-    {
-      "id": "e9r17e",
-      "empresa": "Bank of America",
-      "puesto": "Finance Management Summer Analyst Program (FMAP) - 2027",
-      "descripcion": "Internship de 10 semanas dentro del CFO Group, 'focusing on financial and management accounting, corporate and strategic finance, and internal treasury functions'.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Charlotte (NC)",
-        "Nueva York (NY) (con más ubicaciones disponibles)"
-      ],
-      "cierre": "2026-09-30",
-      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14422/finance-management-summer-analyst-program-2027-multiple-locations",
-      "alta": "2026-09-16"
     },
     {
       "id": "qp9bhc",
@@ -1172,27 +1077,6 @@
       ],
       "cierre": "",
       "link": "https://ms.wd5.myworkdayjobs.com/en-US/External/job/XMLNAME-2027-Wealth-Management-Virtual-Engagement-Associate--VEA--Program---New-York_JR042826",
-      "alta": "2026-09-16"
-    },
-    {
-      "id": "v8yif2",
-      "empresa": "Santander",
-      "puesto": "Beca Santander Ayuda Económica 2026-27",
-      "descripcion": "Beca gestionada a través de Santander Open Academy para 'complementar el importe de la beca general del Ministerio de Educación'; ofrece 300 becas de 1.000€ para estudiantes de grado y máster que hayan recibido beca del Ministerio o ayuda de equidad AGAUR en 2025-26.",
-      "tipo": [
-        "Beca"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "España (universidades adscritas",
-        "P.ej. UPC",
-        "UGR",
-        "UCM)"
-      ],
-      "cierre": "2026-10-07",
-      "link": "https://app.santanderopenacademy.com/es/program/ayuda-economica-2026",
       "alta": "2026-09-16"
     },
     {
@@ -1495,46 +1379,6 @@
       "alta": "2026-09-16"
     },
     {
-      "id": "1h5h7as",
-      "empresa": "AstraZeneca",
-      "puesto": "12 Month University Industrial Placement Student: Clinical Pharmacology & Safety Sciences",
-      "descripcion": "Placement de laboratorio en el que el estudiante ayuda a evaluate the safety of new medicines across all stages of drug development y puede develop bioanalytical assays, perform biomarker analyses, culture cells, apply bioinformatics and AI tools.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Ciencia & Salud"
-      ],
-      "ciudad": [
-        "Cambridge",
-        "Inglaterra",
-        "Reino Unido"
-      ],
-      "cierre": "2026-10-02",
-      "link": "https://careers.astrazeneca.com/job/cambridge/12-month-university-industrial-placement-student-clinical-pharmacology-and-safety-sciences/7684/100146604288",
-      "alta": "2026-09-16"
-    },
-    {
-      "id": "619iia",
-      "empresa": "AstraZeneca",
-      "puesto": "12 Month University Industrial Placement Student: Biosciences",
-      "descripcion": "Placement de 12 meses dentro de Oncology Bioscience centrado en investigación de descubrimiento de fármacos, con tareas de designing and running experiments, generating and analysing data, maintaining accurate experimental records, and presenting your findings to the team.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Ciencia & Salud"
-      ],
-      "ciudad": [
-        "Cambridge",
-        "Inglaterra",
-        "Reino Unido"
-      ],
-      "cierre": "2026-10-02",
-      "link": "https://careers.astrazeneca.com/job/cambridge/12-month-university-industrial-placement-student-biosciences/7684/100146604272",
-      "alta": "2026-09-16"
-    },
-    {
       "id": "u3612b",
       "empresa": "Johnson & Johnson",
       "puesto": "Quality Control Biotech Intern",
@@ -1610,24 +1454,6 @@
       ],
       "cierre": "2026-12-01",
       "link": "https://www.eit.europa.eu/our-activities/opportunities/2027-european-prize-women-innovators-apply-now",
-      "alta": "2026-09-16"
-    },
-    {
-      "id": "z1cvvs",
-      "empresa": "EIT",
-      "puesto": "VC Academy 2026 (Cohorte 7)",
-      "descripcion": "An online bootcamp for early-stage women VC investors across Europe to strengthen their skills, expand their networks, and accelerate their careers in venture capital. Formato online en directo, ~5h/semana, del 7 de octubre al 25 de noviembre de 2026, con certificado oficial de EIT.",
-      "tipo": [
-        "Otro"
-      ],
-      "sector": [
-        "Emprendimiento & Business"
-      ],
-      "ciudad": [
-        "Online (Europa)"
-      ],
-      "cierre": "2026-09-20",
-      "link": "https://supernovas.eitcommunity.eu/vc-academy/",
       "alta": "2026-09-16"
     },
     {
@@ -1780,27 +1606,6 @@
       "alta": "2026-09-23"
     },
     {
-      "id": "192dgsm",
-      "empresa": "J.P. Morgan",
-      "puesto": "Markets Summer Analyst Program (Jun 2027)",
-      "descripcion": "Programa que ofrece experiencia práctica en Global Markets, dando soporte a las áreas de Research, Sales, Trading, Structuring & Origination o Digital Markets. Inicio previsto en junio de 2027.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "New York",
-        "Chicago",
-        "Dallas",
-        "Los Angeles (Estados Unidos)"
-      ],
-      "cierre": "2026-10-01",
-      "link": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325/?keyword=intern&location=United+States&locationId=300000000289738&locationLevel=country&mode=location",
-      "alta": "2026-09-23"
-    },
-    {
       "id": "1nf7ka4",
       "empresa": "Inditex",
       "puesto": "The Creatives Graduate Program",
@@ -1932,28 +1737,6 @@
       ],
       "cierre": "",
       "link": "https://www.amazon.jobs/en/jobs/10459543/2027-applied-science-intern-computer-vision-amazon-international-machine-learning",
-      "alta": "2026-09-23"
-    },
-    {
-      "id": "t6b01k",
-      "empresa": "Google DeepMind",
-      "puesto": "Student Researcher, PhD, Winter-Summer 2027",
-      "descripcion": "Programa que coloca a estudiantes de doctorado en proyectos de investigación de Google; la propia oferta indica que se considerará a los candidatos para posiciones de Student Researcher en todos los equipos de investigación de Google, incluyendo DeepMind, Google Research y Google Cloud.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Tech & IA"
-      ],
-      "ciudad": [
-        "Waterloo",
-        "ON",
-        "Canadá; Toronto",
-        "ON",
-        "Canadá"
-      ],
-      "cierre": "2027-07-16",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/75043041429070534-student-researcher-phd-wintersummer-2027?employment_type=INTERN",
       "alta": "2026-09-23"
     },
     {
@@ -2346,6 +2129,342 @@
       "cierre": "",
       "link": "https://www.bain.com/careers/work-with-us/internships-programs/summer-associate/#",
       "alta": "2026-10-03"
+    },
+    {
+      "id": "85ve3c",
+      "empresa": "Bank of America",
+      "puesto": "Global Markets (Sales & Trading Private Side) Rotational Programme 2027, Summer Analyst – London",
+      "descripcion": "Prácticas centradas en soluciones de financiación garantizada dentro del Global Markets Securitised Products Group.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "2026-10-11",
+      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14719/global-markets-sales-trading-private-side-rotational-programme-2027-summer-analyst-london-london-united-kingdom",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "ydgqj1",
+      "empresa": "Barclays",
+      "puesto": "2027 Human Resources Industrial Placement Programme – London",
+      "descripcion": "Placement de 9-11 meses como Early Careers Recruitment Specialist, gestionando reclutamiento de prácticas/graduados/aprendices.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres (Canary Wharf)",
+        "Reino Unido"
+      ],
+      "cierre": "2026-10-31",
+      "link": "https://search.jobs.barclays/en/job/london/2027-human-resources-industrial-placement-programme-london/13015/100411085408",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "25bolv",
+      "empresa": "BlackRock",
+      "puesto": "2027 Summer Internship Program – EMEA",
+      "descripcion": "Prácticas de verano de 8 semanas que replica el trabajo de un analista a tiempo completo.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres (sede principal)",
+        "Ámsterdam",
+        "Fráncfort",
+        "Zúrich",
+        "Milán",
+        "París",
+        "Edimburgo"
+      ],
+      "cierre": "",
+      "link": "https://careers.blackrock.com/en/job/london/2027-summer-internship-program-emea/45831/97150826672",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "1gnr1fb",
+      "empresa": "Citi",
+      "puesto": "Citi Global Wealth, Summer Analyst, London – United Kingdom, 2027",
+      "descripcion": "Programa de 10 semanas con formación en fundamentos de wealth management; trabajo en relación con clientes y análisis financiero.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "",
+      "link": "https://jobs.citi.com/job/london/citi-global-wealth-summer-analyst-london-united-kingdom-2027/287/101076875920",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "ok6mtk",
+      "empresa": "Goldman Sachs",
+      "puesto": "2027 | EMEA | London | Compliance | Summer Analyst",
+      "descripcion": "Prácticas de verano (9-10 semanas) dentro del área de Global Compliance, que supervisa riesgos regulatorios y de cumplimiento de la firma.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "",
+      "link": "https://higher.gs.com/roles/170152",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "zjwgfe",
+      "empresa": "Chanel",
+      "puesto": "Stage Assistant(e) Manager des Ventes – Boutique Mode, 19 Rue Cambon",
+      "descripcion": "Apoyo a gerentes de ventas en la boutique insignia (organización de equipo, atención al cliente en horas pico).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://www.jobteaser.com/en/job-offers/a351c40e-56e6-4e8c-b1ae-30974f79dda4-chanel-stage-assistant-e-manager-des-ventes-boutique-mode-19-rue-cambon-juillet-2026",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "ucrnpf",
+      "empresa": "LVMH",
+      "puesto": "Internship – Global Leadership Learning & Development (F/H) – 2027",
+      "descripcion": "Prácticas de 6 meses en HR/L&D, requiere máster en RRHH/psicología organizacional, inglés fluido.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París 8º",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://www.lvmh.com/en/join-us/our-job-offers/LVMH03179",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "s26aw4",
+      "empresa": "Prada Group",
+      "puesto": "Talent Acquisition Intern (h/f) – Prada Retail France",
+      "descripcion": "Soporte en reclutamiento y relaciones con campus; requiere posgrado en RRHH, inglés profesional.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://jobs.pradagroup.com/job/Paris-Talent-Acquisition-Intern-(hf)-Paris/1402311733/",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "19y7puh",
+      "empresa": "Puig",
+      "puesto": "Global Media & Creativity JPG – Graduate Program (Jean Paul Gaultier)",
+      "descripcion": "Rotación en equipos de Media global y Creative Acceleration; requiere inglés y español fluidos, perfil de marketing/negocio/comunicación.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Barcelona",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://careers.puig.com/opportunity/31402",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "ltl5qh",
+      "empresa": "Google",
+      "puesto": "Student Researcher, PhD, Fall 2026",
+      "descripcion": "Programa remunerado para colaborar con equipos de Google DeepMind/Google Research en proyectos de ML, NLP, visión por computadora.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Mountain View",
+        "CA",
+        "Otras ~19 ciudades de EE.UU."
+      ],
+      "cierre": "2026-11-27",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/83535564552184518",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "3l649i",
+      "empresa": "Google DeepMind",
+      "puesto": "Student Researcher, 2027",
+      "descripcion": "Vacante del equipo de Google Research con colaboración directa con DeepMind; proyectos en ML, visión por computadora y NLP.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Zúrich",
+        "Berlín",
+        "Múnich",
+        "Grenoble",
+        "París",
+        "Ámsterdam",
+        "Estocolmo",
+        "Londres",
+        "Accra"
+      ],
+      "cierre": "2026-12-13",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/86733690079453894",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "t8cp8k",
+      "empresa": "Freshfields",
+      "puesto": "Trainee Associate Programme",
+      "descripcion": "Se puede aplicar directamente al Trainee Associate Programme sin pasar antes por un vacation scheme.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Reino Unido"
+      ],
+      "cierre": "2026-11-13",
+      "link": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/trainee-associate-program",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "1i23bte",
+      "empresa": "European Parliament",
+      "puesto": "Robert Schuman Traineeship (March–July 2027 session)",
+      "descripcion": "Traineeship remunerada; aplicar vía portal oficial (registro, CV Europass + carta de motivación, máx 3 ofertas por campaña).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Bruselas",
+        "Luxemburgo"
+      ],
+      "cierre": "2026-10-31",
+      "link": "https://ep-stages.gestmax.eu/website/application-informations",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "uxr7l9",
+      "empresa": "Grifols",
+      "puesto": "Albúmina Trainee",
+      "descripcion": "Prácticas de mínimo 8 meses en el área de Producción (Instituto de Validaciones); requiere grado en Ingeniería Industrial/Química, Farmacia o Biotecnología.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Parets del Vallès",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://jobsearch.grifols.com/job/Parets-del-Valles-Alb%C3%BAmina-Trainee/1444712533/",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "188icu6",
+      "empresa": "Johnson & Johnson",
+      "puesto": "Summer 2027 Finance Internship",
+      "descripcion": "Programa de 10 semanas a tiempo completo; posible vía de acceso al Finance Leadership Development Program.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Varias sedes en EE. UU."
+      ],
+      "cierre": "2026-10-31",
+      "link": "https://www.careers.jnj.com/en/jobs/r-079030/summer-2027-finance-internship/",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "r9jsli",
+      "empresa": "Sanofi",
+      "puesto": "Programa de Internship Colombia 2027",
+      "descripcion": "Programa dirigido a estudiantes universitarios, con posiciones en 23 áreas (contabilidad, regulatorio, calidad, I+D, marketing, legal, etc.).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Bogotá",
+        "Colombia"
+      ],
+      "cierre": "2026-10-28",
+      "link": "https://jobs.sanofi.com/en/job/bogota/programa-de-internship-colombia-2027/2649/44373719040",
+      "alta": "2026-10-06"
+    },
+    {
+      "id": "1bptkq6",
+      "empresa": "South Summit",
+      "puesto": "South Summit Startup Competition (Brasil – Porto Alegre 2027)",
+      "descripcion": "Selecciona 50 startups finalistas en Brasil.",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Porto Alegre",
+        "Brasil"
+      ],
+      "cierre": "2026-12-13",
+      "link": "https://www.southsummit.io/startup-competition/",
+      "alta": "2026-10-06"
     }
   ]
 }
