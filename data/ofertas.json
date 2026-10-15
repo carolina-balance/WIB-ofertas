@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-06T21:09:17+00:00",
+  "generado": "2026-10-15T18:31:01+00:00",
   "origen": "Ofertas",
-  "total": 128,
+  "total": 138,
   "ofertas": [
     {
       "id": "1gme477",
@@ -1151,26 +1151,6 @@
       "alta": "2026-09-16"
     },
     {
-      "id": "cjkzrl",
-      "empresa": "L'Oréal Groupe",
-      "puesto": "SeedZ Management Trainee Programme – General Management Track",
-      "descripcion": "Programa rotacional de un año con 6 meses en cada una de dos funciones clave dentro de Marketing & Commerce, con enfoque en 'Business-Ownership', liderazgo independiente de proyectos y análisis de mercado desde el primer día, con mentoría y traspaso a un puesto permanente al finalizar.",
-      "tipo": [
-        "Programa",
-        "Empleo"
-      ],
-      "sector": [
-        "Moda & Retail"
-      ],
-      "ciudad": [
-        "Düsseldorf",
-        "Alemania"
-      ],
-      "cierre": "",
-      "link": "https://careers.loreal.com/en_US/jobs/JobDetail/SeedZ-Management-Trainee-Programm-m-w-d-Track-GENERAL-MANAGEMENT-April-2027/252080",
-      "alta": "2026-09-16"
-    },
-    {
       "id": "zl594a",
       "empresa": "Prada Group",
       "puesto": "PRADA E-Merchandising Intern",
@@ -1395,26 +1375,6 @@
       ],
       "cierre": "",
       "link": "https://www.careers.jnj.com/en/jobs/r-094829/quality-control-biotech-intern/",
-      "alta": "2026-09-16"
-    },
-    {
-      "id": "1lr5yyt",
-      "empresa": "Johnson & Johnson",
-      "puesto": "HFE Intern Raritan Spring 2027",
-      "descripcion": "Internship de Human Factors Engineering para dispositivos médicos: Support the planning, conduct, and reporting of various user research activities, including ethnography, focus groups, formative usability tests, de enero a mayo de 2027.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Ciencia & Salud"
-      ],
-      "ciudad": [
-        "Raritan",
-        "Nueva Jersey",
-        "Estados Unidos"
-      ],
-      "cierre": "2026-10-16",
-      "link": "https://www.careers.jnj.com/en/jobs/r-095577/hfe-intern-raritan-spring-2027/",
       "alta": "2026-09-16"
     },
     {
@@ -1855,26 +1815,6 @@
       "alta": "2026-09-23"
     },
     {
-      "id": "ye1tof",
-      "empresa": "AstraZeneca",
-      "puesto": "Summer 2027 Internships (Mt. Vernon, IN – Undergraduates)",
-      "descripcion": "Prácticas remuneradas de 10 semanas (17 mayo - 23 julio 2027) en la planta de fabricación biofarmacéutica de AstraZeneca en Mount Vernon, con posiciones en Project Management, Supply Chain, Quality Control, Engineering e IT.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Ciencia & Salud"
-      ],
-      "ciudad": [
-        "Mount Vernon",
-        "Indiana",
-        "Estados Unidos"
-      ],
-      "cierre": "2026-10-01",
-      "link": "https://careers.astrazeneca.com/job/mount-vernon/summer-2027-internships-in-mt-vernon-in-undergraduates/7684/100049460400",
-      "alta": "2026-09-23"
-    },
-    {
       "id": "1hz8pa6",
       "empresa": "Bayer",
       "puesto": "Quality Assurance Internship (m/f/d)",
@@ -1995,24 +1935,6 @@
       "alta": "2026-09-23"
     },
     {
-      "id": "1vnf82y",
-      "empresa": "EIT",
-      "puesto": "Student Entrepreneur Grant Scheme (SEGS)",
-      "descripcion": "Becas de hasta 6.000 euros por proyecto para estudiantes actualmente matriculados o recién graduados de programas con sello EIT de EIT Urban Mobility que quieran desarrollar una idea emprendedora.",
-      "tipo": [
-        "Beca"
-      ],
-      "sector": [
-        "Emprendimiento & Business"
-      ],
-      "ciudad": [
-        "Programas EIT Urban Mobility (varias universidades europeas)"
-      ],
-      "cierre": "2026-10-12",
-      "link": "https://www.eit.europa.eu/our-activities/opportunities/student-entrepreneur-grant-scheme-segs-open-call",
-      "alta": "2026-09-23"
-    },
-    {
       "id": "sn0vxn",
       "empresa": "Endeavor",
       "puesto": "Endeavor Entrepreneur Experience - Apply to become an Endeavor Entrepreneur",
@@ -2129,25 +2051,6 @@
       "cierre": "",
       "link": "https://www.bain.com/careers/work-with-us/internships-programs/summer-associate/#",
       "alta": "2026-10-03"
-    },
-    {
-      "id": "85ve3c",
-      "empresa": "Bank of America",
-      "puesto": "Global Markets (Sales & Trading Private Side) Rotational Programme 2027, Summer Analyst – London",
-      "descripcion": "Prácticas centradas en soluciones de financiación garantizada dentro del Global Markets Securitised Products Group.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Londres",
-        "Reino Unido"
-      ],
-      "cierre": "2026-10-11",
-      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14719/global-markets-sales-trading-private-side-rotational-programme-2027-summer-analyst-london-london-united-kingdom",
-      "alta": "2026-10-06"
     },
     {
       "id": "ydgqj1",
@@ -2465,6 +2368,288 @@
       "cierre": "2026-12-13",
       "link": "https://www.southsummit.io/startup-competition/",
       "alta": "2026-10-06"
+    },
+    {
+      "id": "9ovnth",
+      "empresa": "Bank of America",
+      "puesto": "Global Research 2027 Summer Analyst - London",
+      "descripcion": "Prácticas de verano en un equipo de cobertura de industria, país o producto dentro de Global Research (Equity, Credit, Macro Economic Research, Investment and Derivatives Strategy).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "2026-10-25",
+      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14720/global-research-2027-summer-analyst-london-london-united-kingdom",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "1i8q7ok",
+      "empresa": "Barclays",
+      "puesto": "2027 Human Resources Analyst Summer Internship Programme London",
+      "descripcion": "Prácticas de verano de 10 semanas en el área de Recursos Humanos de Barclays, con trabajo real en reclutamiento, inclusión, reward y ciclo de vida del empleado; la convocatoria podría cerrar antes por volumen de solicitudes.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres (Canary Wharf)",
+        "Reino Unido"
+      ],
+      "cierre": "2026-10-31",
+      "link": "https://search.jobs.barclays/job/london/2027-human-resources-analyst-summer-internship-programme-london/13015/100411085504",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "u5zgsk",
+      "empresa": "Citi",
+      "puesto": "Wealth - Private Bank, Summer Analyst, Singapore, 2027",
+      "descripcion": "Programa de 10 semanas con formación intensiva y colocación en un área de Wealth (Banker, Lending, Investment Solutions), incluye proyecto asignado, mentoring y networking.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Singapur"
+      ],
+      "cierre": "2026-10-30",
+      "link": "https://jobs.citi.com/job/singapore/wealth-private-bank-summer-analyst-singapore-2027/287/99664839104",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "edq2iu",
+      "empresa": "Chanel",
+      "puesto": "Stage - Chef(fe) de Projet Innovation - Horlogerie Joaillerie - Septembre/octobre 2026 - H/F/X",
+      "descripcion": "Prácticas de 4-6 meses en el departamento de Horlogerie Joaillerie; coordinación de iniciativas de innovación e IA, apoyo al 'AI app factory' definiendo casos de uso y recogiendo feedback de usuarios.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://www.jobteaser.com/en/job-offers/0dd339ff-832d-4984-8ada-f7470aea6b90-chanel-stage-chef-fe-de-projet-innovation-horlogerie-joaillerie-septembre-octobre-2026-h-f-x",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "14xkoix",
+      "empresa": "L'Oréal Groupe",
+      "puesto": "STAGE 6 MOIS - À partir de juillet 2027 - IP & Media - Master 2 ou PPI",
+      "descripcion": "Prácticas de 6 meses en el equipo legal de Propiedad Intelectual y Media: gestión de cartera de PI, investigación legal, redacción y negociación de contratos, asesoría a equipos operativos.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Clichy",
+        "Isla de Francia",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://careers.loreal.com/en/job/clichy/stage-6-mois-a-partir-de-juillet-2027-ip-and-media-master-2-ou-ppi/3456/45424994688",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "es6mei",
+      "empresa": "Amazon",
+      "puesto": "2027 Software Dev Engineer Intern - Spain",
+      "descripcion": "Internship de ingeniería de software a tiempo completo y presencial; el becario es responsable de su código desde el diseño hasta el despliegue y operación, con manager y mentor asignados.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.amazon.jobs/en/jobs/10555855/2027-software-dev-engineer-intern-spain",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "qjf0ug",
+      "empresa": "Google",
+      "puesto": "Product Deployment Engineer BS/MS, Intern - 2027 (English)",
+      "descripcion": "Internship en el equipo gTech Ads de Google; los becarios acompañan a Product Deployment Engineers en despliegues técnicos con clientes (stacks de publicidad, arquitectura de datos, scripting).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España (también Hamburgo",
+        "Ámsterdam)"
+      ],
+      "cierre": "2026-11-20",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/118991686201156294-product-deployment-engineer-bsms-intern-2027-english?location=Spain",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "twglo0",
+      "empresa": "A&O Shearman",
+      "puesto": "Summer internship 2027",
+      "descripcion": "Internship remunerado de un mes (julio-agosto) en las oficinas de Bruselas/Amberes; trabajo legal práctico en M&A, antitrust, litigios, finanzas, regulatorio financiero, real estate, digital/IP/tech, medioambiental, laboral y fiscal.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Bruselas",
+        "Bélgica"
+      ],
+      "cierre": "",
+      "link": "https://careers.aoshearman.com/en/job/brussels/summer-internship-2027/3392/42315407040",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "dl9ab7",
+      "empresa": "Perez-Llorca",
+      "puesto": "Prácticas Máster de Acceso a la Abogacía 2027",
+      "descripcion": "Prácticas del Máster de Acceso a la Abogacía",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Barcelona",
+        "Bruselas"
+      ],
+      "cierre": "",
+      "link": "https://www.perezllorca.com/es/oferta/practicas-master-acceso-a-la-abogacia-2027/",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "1714sdt",
+      "empresa": "EY-Parthenon",
+      "puesto": "Prácticas Consultoría SAP - Enero 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Barcelona",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://careers.ey.com/ey/job/Barcelona-Pr%C3%A1cticas-Consultor%C3%ADa-SAP-Enero-2027-Barcelona-08017/1439410033/",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "wll1y1",
+      "empresa": "EY-Parthenon",
+      "puesto": "Prácticas Technology Consulting - Enero 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://careers.ey.com/ey/job/Madrid-Pr%C3%A1cticas-Technology-Consulting-Enero-2027-M-28020/1437502633/",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "1f3paks",
+      "empresa": "EY-Parthenon",
+      "puesto": "Prácticas Auditoría - Valencia, Enero 2027",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Valencia"
+      ],
+      "cierre": "",
+      "link": "https://careers.ey.com/ey/job/Valencia-Pr%C3%A1cticas-Auditor%C3%ADa-Valencia-Enero-2027-46023/1444184833/",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "19l8oin",
+      "empresa": "BCG",
+      "puesto": "Descubre BCG",
+      "descripcion": "11 de Noviembre. 13:30h a 15:30h",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Oficina BCG Madrid"
+      ],
+      "cierre": "",
+      "link": "https://bcg.eightfold.ai/events/candidate/landing?plannedEventId=mQKgZ9wv1",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "mmy3a2",
+      "empresa": "Bain&Company",
+      "puesto": "Evento Future Women In Consulting",
+      "descripcion": "29 de Octubre a las 7:00pm",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.bain.com/careers/work-with-us/recruiting-events/view-event-description/?eventid=110441&utm_medium=social_advocacy&utm_source=LinkedIn-dysi&utm_content=4470b835-f179-4aab-b9bd-017f07c35c8d&utm_term=20780",
+      "alta": "2026-10-15"
+    },
+    {
+      "id": "9cwgsc",
+      "empresa": "McKinsey & Company",
+      "puesto": "Evento Women Leading the Way Event",
+      "descripcion": "26 de Noviembre de 6:00h a 8:30 pm",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "",
+      "alta": "2026-10-15"
     }
   ]
 }
