@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-15T18:31:01+00:00",
+  "generado": "2026-10-21T18:10:56+00:00",
   "origen": "Ofertas",
-  "total": 138,
+  "total": 144,
   "ofertas": [
     {
       "id": "1gme477",
@@ -2650,6 +2650,136 @@
       "cierre": "",
       "link": "",
       "alta": "2026-10-15"
+    },
+    {
+      "id": "1pogy55",
+      "empresa": "Barclays",
+      "puesto": "Banking Associate Summer Internship Program 2027 (New York)",
+      "descripcion": "Internship de 10 semanas en Investment Banking con trabajo en operaciones reales, modelado financiero, valuación, investigación sectorial y due diligence de clientes; dirigido a candidatos de MBA.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Nueva York",
+        "NY",
+        "Estados Unidos"
+      ],
+      "cierre": "",
+      "link": "https://search.jobs.barclays/en/job/new-york/banking-associate-summer-internship-program-2027-new-york/13015/100032502176",
+      "alta": "2026-10-21"
+    },
+    {
+      "id": "tjgut7",
+      "empresa": "BlackRock",
+      "puesto": "2027 Client and Product Summer Internship Program - EMEA",
+      "descripcion": "Internship de 8 semanas (junio-agosto 2027) dirigido a estudiantes en penúltimo año, con trabajo en Global Product Solutions y Client Business, discusiones con líderes senior y mentoría asignada.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido (también Abu Dabi",
+        "Ámsterdam",
+        "Copenhague",
+        "Fráncfort",
+        "Madrid",
+        "Milán",
+        "Múnich",
+        "París",
+        "Riad",
+        "Zúrich)"
+      ],
+      "cierre": "",
+      "link": "https://careers.blackrock.com/en/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+      "alta": "2026-10-21"
+    },
+    {
+      "id": "xnc2ia",
+      "empresa": "Goldman Sachs",
+      "puesto": "2027 | Americas | New York City Area | Executive Office, Global Marketing | Summer Analyst",
+      "descripcion": "Internship de verano de 9-10 semanas para estudiantes de grado o posgrado, con orientación, formación y responsabilidades reales en el área de Global Marketing del Executive Office.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Nueva York",
+        "NY",
+        "Estados Unidos"
+      ],
+      "cierre": "",
+      "link": "https://higher.gs.com/roles/170705",
+      "alta": "2026-10-21"
+    },
+    {
+      "id": "1xijik6",
+      "empresa": "UBS",
+      "puesto": "2027 Internship - Global Financial Intermediaries Europe (ZH)",
+      "descripcion": "Internship pagado de 6 meses en el negocio Global Financial Intermediaries de UBS, que da soluciones financieras a asesores independientes y multi-family offices en Europa.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Zúrich",
+        "Suiza"
+      ],
+      "cierre": "",
+      "link": "https://talendo.ch/en/unternehmen/ubs/140255-2027-internship-global-financial-intermediaries-europe-zh",
+      "alta": "2026-10-21"
+    },
+    {
+      "id": "3lzz9v",
+      "empresa": "LVMH",
+      "puesto": "Internship - Talent & HR Projects Assistant - Janvier 2027",
+      "descripcion": "Prácticas de 6 meses, jornada completa y presencial, de apoyo en proyectos de Talento y Recursos Humanos.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "París (8º distrito)",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://www.lvmh.com/join-us/our-job-offers/LVMH03148",
+      "alta": "2026-10-21"
+    },
+    {
+      "id": "xhjixw",
+      "empresa": "Johnson & Johnson",
+      "puesto": "2027 GD (U.S.) Summer Intern",
+      "descripcion": "Internship de verano 2027 en Global Development de J&J Innovative Medicine, modalidad híbrida (tres días presenciales, dos remotos).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Ciencia & Salud"
+      ],
+      "ciudad": [
+        "Titusville",
+        "NJ",
+        "Raritan",
+        "NJ",
+        "Spring House",
+        "PA",
+        "Estados Unidos"
+      ],
+      "cierre": "",
+      "link": "https://www.careers.jnj.com/en/jobs/r-102105/2027-gd-us-summer-intern/",
+      "alta": "2026-10-21"
     }
   ]
 }
