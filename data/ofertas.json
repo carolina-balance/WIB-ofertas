@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-22T10:29:18+00:00",
+  "generado": "2026-10-23T17:46:47+00:00",
   "origen": "Ofertas",
-  "total": 274,
+  "total": 266,
   "ofertas": [
     {
       "id": "1gme477",
@@ -240,24 +240,6 @@
       "cierre": "",
       "link": "https://balancephone-careers.notion.site/Customer-Care-Intern-Junior-3ca029fe70d5806892fccdc85f55103c",
       "alta": ""
-    },
-    {
-      "id": "1lv4l5o",
-      "empresa": "Bank of America",
-      "puesto": "Investment Banking 2027 Off-Cycle Analyst - Madrid",
-      "descripcion": "",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Madrid"
-      ],
-      "cierre": "2026-10-11",
-      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14663/investment-banking-2027-off-cycle-analyst-madrid-madrid-spain",
-      "alta": "2026-09-11"
     },
     {
       "id": "1gfhf2g",
@@ -995,26 +977,6 @@
       "alta": "2026-09-16"
     },
     {
-      "id": "r5ggtu",
-      "empresa": "Citi",
-      "puesto": "Investment Banking - Summer Internship Program, Tokyo - Japan, 2027",
-      "descripcion": "Internship de 8 semanas entre mediados de junio y principios de agosto de 2027 en la división de banca de inversión de Citigroup Japan, dirigido a estudiantes que se gradúan entre octubre 2027 y septiembre 2028; incluye trabajo en 'M&A transactions, equity offerings, and financing solutions'.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Chiyoda",
-        "Tokio",
-        "Japón"
-      ],
-      "cierre": "2026-10-15",
-      "link": "https://jobs.citi.com/job/chiyoda/investment-banking-summer-internship-program-tokyo-japan-2027/287/98511087696",
-      "alta": "2026-09-16"
-    },
-    {
       "id": "199zyrg",
       "empresa": "Deutsche Bank",
       "puesto": "Internship Programme",
@@ -1509,25 +1471,6 @@
       "alta": "2026-09-16"
     },
     {
-      "id": "mijdzq",
-      "empresa": "Bank of America",
-      "puesto": "Global Investment Banking 2027 Summer Analyst - London",
-      "descripcion": "Prácticas de verano dentro de la división de Investment Banking, trabajando en equipos de cobertura de sector, país y producto en proyectos con clientes relacionados con fusiones y adquisiciones, finanzas corporativas y mercados de capitales. Requiere graduación prevista entre junio 2027 y julio 2028.",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Londres",
-        "Reino Unido"
-      ],
-      "cierre": "2026-10-11",
-      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
-      "alta": "2026-09-23"
-    },
-    {
       "id": "wdshbh",
       "empresa": "Barclays",
       "puesto": "Banking Summer Internship Programme 2027 London",
@@ -1913,25 +1856,6 @@
       ],
       "cierre": "",
       "link": "https://aws.amazon.com/startups/credits/",
-      "alta": "2026-09-23"
-    },
-    {
-      "id": "1eiu1i3",
-      "empresa": "EIT",
-      "puesto": "AI Entrepreneurs Lab",
-      "descripcion": "Bootcamp intensivo de 5 días para estudiantes/graduados de máster y doctorado con ideas de IA o robótica (solos o en equipos de hasta 2), con mentoría de founders, validación de mercado y hasta cinco premios de 10.000 euros en el Demo Day.",
-      "tipo": [
-        "Beca"
-      ],
-      "sector": [
-        "Emprendimiento & Business"
-      ],
-      "ciudad": [
-        "Bootcamp presencial en tres ciudades europeas",
-        "Demo Day"
-      ],
-      "cierre": "2026-10-21",
-      "link": "https://www.eit.europa.eu/our-activities/opportunities/ai-entrepreneurs-lab",
       "alta": "2026-09-23"
     },
     {
@@ -2332,25 +2256,6 @@
       "alta": "2026-10-06"
     },
     {
-      "id": "r9jsli",
-      "empresa": "Sanofi",
-      "puesto": "Programa de Internship Colombia 2027",
-      "descripcion": "Programa dirigido a estudiantes universitarios, con posiciones en 23 áreas (contabilidad, regulatorio, calidad, I+D, marketing, legal, etc.).",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Ciencia & Salud"
-      ],
-      "ciudad": [
-        "Bogotá",
-        "Colombia"
-      ],
-      "cierre": "2026-10-28",
-      "link": "https://jobs.sanofi.com/en/job/bogota/programa-de-internship-colombia-2027/2649/44373719040",
-      "alta": "2026-10-06"
-    },
-    {
       "id": "1bptkq6",
       "empresa": "South Summit",
       "puesto": "South Summit Startup Competition (Brasil – Porto Alegre 2027)",
@@ -2368,25 +2273,6 @@
       "cierre": "2026-12-13",
       "link": "https://www.southsummit.io/startup-competition/",
       "alta": "2026-10-06"
-    },
-    {
-      "id": "9ovnth",
-      "empresa": "Bank of America",
-      "puesto": "Global Research 2027 Summer Analyst - London",
-      "descripcion": "Prácticas de verano en un equipo de cobertura de industria, país o producto dentro de Global Research (Equity, Credit, Macro Economic Research, Investment and Derivatives Strategy).",
-      "tipo": [
-        "Prácticas"
-      ],
-      "sector": [
-        "Finanzas"
-      ],
-      "ciudad": [
-        "Londres",
-        "Reino Unido"
-      ],
-      "cierre": "2026-10-25",
-      "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14720/global-research-2027-summer-analyst-london-london-united-kingdom",
-      "alta": "2026-10-15"
     },
     {
       "id": "1i8q7ok",
@@ -4632,26 +4518,6 @@
       "alta": "2026-10-22"
     },
     {
-      "id": "1d5bh2",
-      "empresa": "Sanofi",
-      "puesto": "Medical & Scientific Affairs Path - Spain Graduate Programme 2026/2027",
-      "descripcion": "Programa de graduados centrado en el análisis de datos científicos e insights médicos, dando soporte a materiales y proyectos médicos con exposición a Medical Affairs, Farmacovigilancia y Market Access.",
-      "tipo": [
-        "Programa",
-        "Empleo"
-      ],
-      "sector": [
-        "Ciencia & Salud"
-      ],
-      "ciudad": [
-        "Madrid",
-        "Barcelona"
-      ],
-      "cierre": "",
-      "link": "https://jobs.sanofi.com/en/job/madrid/medical-and-scientific-affairs-path-spain-graduate-programme-2026-2027/2649/37046569984",
-      "alta": "2026-10-22"
-    },
-    {
       "id": "su6erv",
       "empresa": "Sanofi",
       "puesto": "Marketing, Commercial & Omnichannel Path - Spain Graduate Programme 2026/2027",
@@ -4725,25 +4591,6 @@
       ],
       "cierre": "",
       "link": "https://jobs.sanofi.com/en/job/barcelona/digital-client-services-and-experience-expert-user-change-management-vie-contract/2649/45735769792",
-      "alta": "2026-10-22"
-    },
-    {
-      "id": "eyto3x",
-      "empresa": "4YFN (Mobile World Capital Barcelona)",
-      "puesto": "4YFN Awards 2027",
-      "descripcion": "Competición de 4YFN27 en la que startups presentan su proyecto ante \"the world's most active investors\"; el ganador recibe 20.000 euros en efectivo, un stand gratuito en 4YFN 2028 y 4 pases de asistente.",
-      "tipo": [
-        "Evento"
-      ],
-      "sector": [
-        "Emprendimiento & Business"
-      ],
-      "ciudad": [
-        "Barcelona",
-        "España"
-      ],
-      "cierre": "2026-10-26",
-      "link": "https://www.4yfn.com/4yfn-awards",
       "alta": "2026-10-22"
     },
     {
