@@ -1,7 +1,7 @@
 {
-  "generado": "2026-10-23T17:46:47+00:00",
+  "generado": "2026-10-29T21:39:41+00:00",
   "origen": "Ofertas",
-  "total": 266,
+  "total": 273,
   "ofertas": [
     {
       "id": "1gme477",
@@ -5144,6 +5144,144 @@
       "cierre": "",
       "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-techai-110126?loc=Madrid",
       "alta": "2026-10-22"
+    },
+    {
+      "id": "1hbn3hh",
+      "empresa": "Citi",
+      "puesto": "Banking, Investment Banking, Full Time Analyst, Madrid, Spain 2027",
+      "descripcion": "Analista a tiempo completo en Investment Banking, inicio julio 2027. El rol implica apoyar a clientes en la captación de capital y asesorar en transacciones como fusiones y adquisiciones.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://jobs.citi.com/job/madrid/banking-investment-banking-full-time-analyst-madrid-spain-2027/287/102205682912",
+      "alta": "2026-10-29"
+    },
+    {
+      "id": "195tjaw",
+      "empresa": "LVMH Beauty Iberia (Perfumes & Cosmetics)",
+      "puesto": "January 2027 Intake | Retail Operations & Digital Commerce Internships",
+      "descripcion": "Prácticas de 12 meses en áreas de e-Retail, E-Retail Merchandising global y Retail Operations, cubriendo campañas online, contenido de producto, análisis de ventas y coordinación con tiendas.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Moda & Retail"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.lvmh.com/en/join-us/our-job-offers/SSCPC02541",
+      "alta": "2026-10-29"
+    },
+    {
+      "id": "1oath33",
+      "empresa": "Freshfields",
+      "puesto": "Prácticas del Máster de Acceso a la Abogacía",
+      "descripcion": "Programa de prácticas de un mes (junio y julio) con rotación por todas las áreas, combinando formación técnica y de competencias blandas.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://freshfields.com/en/your-career/spain/legal-services/internship",
+      "alta": "2026-10-29"
+    },
+    {
+      "id": "18n73ik",
+      "empresa": "Bain & Company",
+      "puesto": "Associate Consultant",
+      "descripcion": "Los Associate Consultants se incorporan a equipos de caso integrados en organizaciones de clientes, liderando workstreams como market sizing y modelización financiera.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España (entre otras oficinas globales)"
+      ],
+      "cierre": "",
+      "link": "https://www.bain.com/careers/find-a-role/position/?jobid=10397",
+      "alta": "2026-10-29"
+    },
+    {
+      "id": "11a0ga1",
+      "empresa": "Bain & Company",
+      "puesto": "Associate Consultant Internship",
+      "descripcion": "Prácticas de verano para candidatos de grado o máster, con inmersión a tiempo completo en un equipo de caso de Bain.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España (entre otras oficinas globales)"
+      ],
+      "cierre": "",
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-techai-110127",
+      "alta": "2026-10-29"
+    },
+    {
+      "id": "12xzrli",
+      "empresa": "McKinsey & Company",
+      "puesto": "Business Analyst – Tech & AI",
+      "descripcion": "Rol de Business Analyst en la práctica de Tech & AI; el candidato ayuda a los clientes a construir soluciones de IA, modernizar infraestructura tecnológica y automatizar procesos.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Barcelona",
+        "España (puesto multi-sede)"
+      ],
+      "cierre": "",
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-techai-110127",
+      "alta": "2026-10-29"
+    },
+    {
+      "id": "1ai4zll",
+      "empresa": "McKinsey & Company",
+      "puesto": "Business Analyst – Private Capital",
+      "descripcion": "Business Analyst dentro de la práctica de Private Capital (PEPI), basado en la oficina de Madrid, dando soporte a clientes inversores y sus compañías en cartera a lo largo del ciclo de inversión.",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalyst-privatecapital-63231",
+      "alta": "2026-10-29"
     }
   ]
 }
