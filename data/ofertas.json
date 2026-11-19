@@ -1,7 +1,7 @@
 {
-  "generado": "2026-11-12T16:40:07+00:00",
+  "generado": "2026-11-19T02:23:01+00:00",
   "origen": "Ofertas",
-  "total": 261,
+  "total": 288,
   "ofertas": [
     {
       "id": "1gme477",
@@ -5043,6 +5043,520 @@
       "cierre": "",
       "link": "https://www.rolandberger.com/en/Join/All-Jobs/Consulting-Internship-January-2027-Intake-REF2469Z.html",
       "alta": "2026-11-12"
+    },
+    {
+      "id": "1smspg",
+      "empresa": "CaixaBank",
+      "puesto": "Programa Prácticas Universitarias 2027 - Red Comercial Barcelona",
+      "descripcion": "Prácticas de 6 meses (febrero-julio 2027, ampliable a septiembre-diciembre) con mínimo 480 horas, remuneradas mediante convenio universitario.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Barcelona",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://caixabankcareers.com/job/Barcelona-PROGRAMA-PR%C3%81CTICAS-UNIVERSITARIAS-2027-RED-COMERCIAL-BARCELONA-%28BARCELONA%29/1450806733/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1bkyadl",
+      "empresa": "CaixaBank",
+      "puesto": "Programa Prácticas Universitarias 2027 - Red Comercial Territorial Norte (Bilbao, Santander, Coruña, Vigo)",
+      "descripcion": "Mismas condiciones que el programa general: 6 meses remunerados, mínimo 480 horas entre el 1 de febrero y el 31 de julio de 2027.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Bilbao",
+        "Santander",
+        "A Coruña",
+        "Vigo",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://caixabankcareers.com/job/BILBAO%2C-SANTANDER%2C-CORU%C3%91A%2C-VIG-PROGRAMA-PR%C3%81CTICAS-UNIVERSITARIAS-2027-RED-COMERCIAL-TERRITORIAL-NORTE-BILBAO%2CSANTANDER%2CCORU%C3%91A%2CVIGO/1450803533/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "hn6x5j",
+      "empresa": "CaixaBank",
+      "puesto": "Programa Prácticas Universitarias 2027 - Red Comercial Baleares (Palma de Mallorca)",
+      "descripcion": "Prácticas de 6 meses en la red comercial de Baleares; permite aplicar también vía LinkedIn.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Palma de Mallorca",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://caixabankcareers.com/job/PALMA-DE-MALLORCA-PROGRAMA-PR%C3%81CTICAS-UNIVERSITARIAS-2027-RED-COMERCIAL-BALEARES-%28PALMA-DE-MALLORCA%29/1450809333/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "hl0i23",
+      "empresa": "CaixaBank",
+      "puesto": "Programa Prácticas Universitarias 2027 - Red Comercial Territorial Ebro (Zaragoza, Pamplona, Logroño)",
+      "descripcion": "Prácticas de 6 meses en la red comercial de la zona Ebro; jornada mínima 20h/semana adaptada a exámenes.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Zaragoza",
+        "Pamplona",
+        "Logroño",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://caixabankcareers.com/job/ZARAGOZA%2CPAMPLONA%2CLOGRO%C3%91O-PROGRAMA-PR%C3%81CTICAS-UNIVERSITARIAS-2027-RED-COMERCIAL-TERRITORIAL-EBRO-%28ZARAGOZA%2C-PAMPLONA%2C-LOGRO%C3%91O%29/1450849933/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1z033ju",
+      "empresa": "Santander",
+      "puesto": "Santander CIB Graduate Program",
+      "descripcion": "",
+      "tipo": [
+        "Programa",
+        "Empleo"
+      ],
+      "sector": [
+        "Finanzas"
+      ],
+      "ciudad": [
+        "Europa (incl. Espana)"
+      ],
+      "cierre": "",
+      "link": "https://www.santander.com/en/careers/where-you-want-to-create-an-impact/santander-future-talent/graduate-scib",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "qjf0ug",
+      "empresa": "Google",
+      "puesto": "Product Deployment Engineer BS/MS, Intern - 2027 (English)",
+      "descripcion": "Internship en el equipo gTech Ads de Google; los becarios acompañan a Product Deployment Engineers en despliegues técnicos con clientes (stacks de publicidad, arquitectura de datos, scripting).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España (también Hamburgo",
+        "Ámsterdam)"
+      ],
+      "cierre": "2026-11-20",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/118991686201156294-product-deployment-engineer-bsms-intern-2027-english?location=Spain",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "17o5f4p",
+      "empresa": "Minsait (Indra)",
+      "puesto": "Business & Strategy Consulting | Young Talent (BCN)",
+      "descripcion": "Puesto de Analyst dentro del programa 'Young Talent' de Minsait Business Consulting, modalidad híbrida; requiere grado universitario, inglés fluido y catalán nativo, residencia en Barcelona.",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "Barcelona",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.careers-page.com/minsait/job/QV499R58",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "zarv80",
+      "empresa": "Minsait (Indra)",
+      "puesto": "Becarios SSFF - R (Data Analyst)",
+      "descripcion": "Beca de Data Analyst en Minsait Business Consulting para estudiantes de últimos semestres de Actuaría, Economía, Matemáticas Aplicadas o Ingeniería en Sistemas; valora Python y SQL.",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Tech & IA"
+      ],
+      "ciudad": [
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.careers-page.com/minsait/job/L68V985R",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1fc0xgt",
+      "empresa": "Cuatrecasas",
+      "puesto": "Premio Manuel Olivencia a la Excelencia Universitaria (convocatoria 2027)",
+      "descripcion": "Premio de 50.000 euros brutos (con posible accésit de 15.000) para estudiantes de último año de Derecho que quieran financiar un máster, doctorado o proyecto de investigación en Derecho de los negocios durante 2027-2028.",
+      "tipo": [
+        "Beca"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "España"
+      ],
+      "cierre": "2027-01-31",
+      "link": "https://www.cuatrecasas.com/media_repository/docs/firma/esp/PMOEU_Bases_convocatoria_2027.pdf",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "fm6a8o",
+      "empresa": "Cuatrecasas",
+      "puesto": "Undergraduate Internship / Master's Degree Internship",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Espana (varias oficinas)"
+      ],
+      "cierre": "",
+      "link": "https://www.cuatrecasas.com/en/global/join-up/internship-programs",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "9q7wb1",
+      "empresa": "Freshfields",
+      "puesto": "Internship program - Spain (Madrid)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.freshfields.com/en/your-career/spain/legal-services/internship",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "11604jm",
+      "empresa": "Gómez-Acebo & Pombo",
+      "puesto": "Prácticas de verano",
+      "descripcion": "Programa de prácticas dirigido a estudiantes de grado o doble grado en Derecho en penúltimo o último año de carrera, para entrar en contacto con el mundo de la abogacía; el candidato elige hasta tres oficinas de preferencia.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid",
+        "Barcelona",
+        "Bilbao",
+        "Valencia",
+        "Vigo",
+        "España (entre otras oficinas)"
+      ],
+      "cierre": "",
+      "link": "https://www.ga-p.com/empleo/practicas-de-verano/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "t2ct3d",
+      "empresa": "Linklaters",
+      "puesto": "Vacation Scheme 2027 (Spring y Summer)",
+      "descripcion": "Tres convocatorias disponibles (Spring, Summer 1, Summer 2), con trabajo en casos reales, mentoría de un Principal.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Londres",
+        "Reino Unido"
+      ],
+      "cierre": "2026-12-03",
+      "link": "https://apply.candidats.io/a86431a3-aace-43aa-b2e6-9a0e35ce8539",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1jlccnd",
+      "empresa": "White & Case",
+      "puesto": "Master of Lawyering Internships - Madrid",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Derecho & Política"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.whitecase.com/careers/locations/spain",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "8uoons",
+      "empresa": "International Monetary Fund (IMF)",
+      "puesto": "2027 Fund Internship Program (FIP) – Economists",
+      "descripcion": "Prácticas remuneradas de 10-12 semanas para estudiantes de doctorado en macroeconomía o campos afines.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Washington D.C.",
+        "Estados Unidos"
+      ],
+      "cierre": "",
+      "link": "https://imf.wd5.myworkdayjobs.com/IMF/job/USA-Washington-DC/XMLNAME-2027-Fund-Internship-Program--FIP----Economists_26-R9863",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "57cjip",
+      "empresa": "OCDE (OECD)",
+      "puesto": "OECD Internship Programme",
+      "descripcion": "La OCDE recluta becarios de forma continua durante todo el año, sin rondas fijas; la oferta activa en el portal (Internship Programme, Paris) permite inscribirse ya. Perfil habitual: estudiantes de máster o doctorado en economía, ciencias políticas o relaciones internacionales.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "París",
+        "Francia"
+      ],
+      "cierre": "",
+      "link": "https://careers.smartrecruiters.com/OECD/internships---en",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1fcf47f",
+      "empresa": "OSCE",
+      "puesto": "Internship – Cross-Dimensional Work Areas",
+      "descripcion": "Prácticas de 2-6 meses en áreas transversales; requiere ser nacional de un Estado participante de la OSCE, menor de 30 años.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Secretaría OSCE",
+        "Viena (",
+        "Praga)"
+      ],
+      "cierre": "2026-12-31",
+      "link": "https://vacancies.osce.org/jobs/internship-–-cross-dimensional-work-areas-4823",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "whlxft",
+      "empresa": "United Nations (ONU)",
+      "puesto": "UN Internship Programme (Secretariado)",
+      "descripcion": "",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Relaciones Internacionales"
+      ],
+      "ciudad": [
+        "Nueva York",
+        "Varias sedes"
+      ],
+      "cierre": "",
+      "link": "https://www.un.org/en/academic-impact/page/internships",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "pznwgi",
+      "empresa": "AWS Startups",
+      "puesto": "AWS Activate Credits",
+      "descripcion": "AWS ofrece créditos promocionales a startups más acompañamiento de un AWS Startup Advisor.",
+      "tipo": [
+        "Otro"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Global (online)"
+      ],
+      "cierre": "",
+      "link": "https://startups.aws.com/lp/aws-activate",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "i5js9s",
+      "empresa": "Endeavor",
+      "puesto": "Aplicacion a la red Endeavor Espana",
+      "descripcion": "",
+      "tipo": [
+        "Red de mentoria/scale-up"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://spain.endeavor.org/emprendedores/quiero-ser-emprendedor-endeavor/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "fn3uw0",
+      "empresa": "Lanzadera",
+      "puesto": "Convocatoria Lanzadera (proxima cohorte, inicio marzo)",
+      "descripcion": "",
+      "tipo": [
+        "Aceleracion"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Valencia",
+        "Espana"
+      ],
+      "cierre": "",
+      "link": "https://lanzadera.es/inscripcion/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "kwyt68",
+      "empresa": "South Summit",
+      "puesto": "South Summit Startup Competition 2027",
+      "descripcion": "100 startups seleccionadas presentan un pitch de 3 minutos ante inversores en Madrid; participación gratuita, con reuniones 1:1 con inversores. El evento se celebra del 2 al 4 de junio de 2027.",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Emprendimiento & Business"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "2027-01-31",
+      "link": "https://www.southsummit.io/es/startup-competition/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "11tuqmm",
+      "empresa": "Bain & Company",
+      "puesto": "Summer Associate (para estudiantes de MBA)",
+      "descripcion": "Prácticas de verano remuneradas de 10 semanas para estudiantes de MBA, trabajando en equipos de casos reales de clientes.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid",
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.bain.com/es/careers/work-with-us/internships-programs/summer-associate/",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1lw0eum",
+      "empresa": "KPMG España",
+      "puesto": "Women at the Top – sesión Consulting Financial Services",
+      "descripcion": "Evento dirigido a estudiantes universitarias en el que mujeres líderes y jóvenes profesionales de KPMG comparten cómo han desarrollado su carrera. Próximas sesiones: KPMG Abogados 26/11/2026, Deal Advisory 21/01/2027, Consulting Financial Services 17/02/2027, STEM 11/03/2027, Auditoría 08/04/2027.",
+      "tipo": [
+        "Evento"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid (Torre de Cristal)",
+        "Online"
+      ],
+      "cierre": "2027-02-17",
+      "link": "https://kpmg.com/es/es/carreras/estudiantes-recien-graduados/women-at-the-top.html",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "18ubkt9",
+      "empresa": "McKinsey & Company",
+      "puesto": "Business Analyst Intern - Private Capital",
+      "descripcion": "\"You will work in teams and directly with our clients.\" Dirigido a estudiantes en su penúltimo año de estudios (grado o máster).",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-privatecapital-111999?loc=Madrid",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "13q5ns0",
+      "empresa": "McKinsey & Company",
+      "puesto": "Data Scientist Intern - QuantumBlack, AI by McKinsey",
+      "descripcion": "Internship de seis semanas a tiempo completo en el que el estudiante apoya a un equipo de ciencia de datos en tareas analíticas y de IA bien definidas bajo supervisión cercana. Dirigido a estudiantes de penúltimo año que se graduarán en 2027.",
+      "tipo": [
+        "Prácticas"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "Madrid"
+      ],
+      "cierre": "",
+      "link": "https://www.mckinsey.com/careers/search-jobs/jobs/datascientistintern-quantumblackaibymckinsey-111767?loc=Madrid",
+      "alta": "2026-11-19"
+    },
+    {
+      "id": "1we5hg1",
+      "empresa": "Minsait (Indra)",
+      "puesto": "Programa Consulting Mentoring – Minsait Business Consulting | Nae (Curso 2025/2026)",
+      "descripcion": "Programa de mentoría de 6 meses para estudiantes de penúltimo curso interesados en consultoría de negocio, operaciones y estrategia; 15 plazas.",
+      "tipo": [
+        "Otro"
+      ],
+      "sector": [
+        "Consultoría"
+      ],
+      "ciudad": [
+        "España"
+      ],
+      "cierre": "",
+      "link": "https://www.careers-page.com/minsait/job/V666WWR6",
+      "alta": "2026-11-19"
     }
   ]
 }
